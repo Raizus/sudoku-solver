@@ -1,200 +1,101 @@
 {
-    "puzzleInfo": {
-        "title": "\u00c0 \u00c9.",
-        "authors": [
-            "Philipp Blume",
-            "aka glum_hippo"
-        ],
-        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negators:** The grid contains 9 negators (numbers multipled by -1), one in each row column and box. Each digit appears as a negator exactly once.\n\n**Negators Killer Cage:** Digits in cages do not include repeat digits, and must sum to the given total in the top left (if one exists). A digit in a negator cell must be subtracted rather than added to achieve the given cage total.\n\n**Negators Little Killer Sum:** Digits along indicated diagonals must add to the indicated total. Repeats are permitted along such diagonals. A digit in a negator cell must be subtracted rather than added to achieve the given diagonal total.",
-        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/mq9fhhbHFq",
-        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FiWWRYRKG4Y"
-    },
-    "nRows": 9,
-    "nCols": 9,
-    "grid": [
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {
-                "value": 2,
-                "given": true
-            }
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {
-                "value": 7,
-                "given": true
-            },
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ]
+  "puzzleInfo": {
+    "title": "\u00c0 \u00c9.",
+    "authors": ["Philipp Blume", "aka glum_hippo"],
+    "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negators:** The grid contains 9 negators (numbers multipled by -1), one in each row column and box. Each digit appears as a negator exactly once.\n\n**Negators Killer Cage:** Digits in cages do not include repeat digits, and must sum to the given total in the top left (if one exists). A digit in a negator cell must be subtracted rather than added to achieve the given cage total.\n\n**Negators Little Killer Sum:** Digits along indicated diagonals must add to the indicated total. Repeats are permitted along such diagonals. A digit in a negator cell must be subtracted rather than added to achieve the given diagonal total.",
+    "ctcUrl": "https://app.crackingthecryptic.com/sudoku/mq9fhhbHFq",
+    "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FiWWRYRKG4Y"
+  },
+  "nRows": 9,
+  "nCols": 9,
+  "grid": [
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "value": 2,
+        "given": true
+      }
     ],
-    "bool_constraints": {
-        "Negators": true
-    },
-    "local_constraints": {
-        "Negators Killer Cage": [
-            {
-                "cells": [
-                    "R3C2",
-                    "R4C2"
-                ],
-                "value": "5"
-            },
-            {
-                "cells": [
-                    "R3C3",
-                    "R3C4",
-                    "R4C3"
-                ],
-                "value": "0"
-            },
-            {
-                "cells": [
-                    "R6C2",
-                    "R7C2"
-                ],
-                "value": "5"
-            },
-            {
-                "cells": [
-                    "R6C3",
-                    "R7C3",
-                    "R7C4"
-                ],
-                "value": "0"
-            },
-            {
-                "cells": [
-                    "R5C6",
-                    "R5C7",
-                    "R5C8"
-                ],
-                "value": "5"
-            },
-            {
-                "cells": [
-                    "R6C6",
-                    "R6C7",
-                    "R6C8",
-                    "R7C6",
-                    "R7C7",
-                    "R7C8",
-                    "R8C6"
-                ],
-                "value": "0"
-            }
-        ],
-        "Negators Little Killer Sum": [
-            {
-                "cell": "R0C1",
-                "direction": "SE",
-                "value": "40"
-            },
-            {
-                "cell": "R0C3",
-                "direction": "SE",
-                "value": "20"
-            },
-            {
-                "cell": "R5C10",
-                "direction": "SW",
-                "value": "20"
-            },
-            {
-                "cell": "R6C10",
-                "direction": "SW",
-                "value": "10"
-            }
-        ]
-    }
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [
+      {},
+      {},
+      {},
+      {},
+      {
+        "value": 7,
+        "given": true
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}]
+  ],
+  "bool_constraints": {
+    "Negators": true
+  },
+  "local_constraints": {
+    "Negators Killer Cage": [
+      {
+        "cells": ["R3C2", "R4C2"],
+        "value": "5"
+      },
+      {
+        "cells": ["R3C3", "R3C4", "R4C3"],
+        "value": "0"
+      },
+      {
+        "cells": ["R6C2", "R7C2"],
+        "value": "5"
+      },
+      {
+        "cells": ["R6C3", "R7C3", "R7C4"],
+        "value": "0"
+      },
+      {
+        "cells": ["R5C6", "R5C7", "R5C8"],
+        "value": "5"
+      },
+      {
+        "cells": ["R6C6", "R6C7", "R6C8", "R7C6", "R7C7", "R7C8", "R8C6"],
+        "value": "0"
+      }
+    ],
+    "Negators Little Killer Sum": [
+      {
+        "cell": "R0C1",
+        "direction": "SE",
+        "value": "40"
+      },
+      {
+        "cell": "R0C3",
+        "direction": "SE",
+        "value": "20"
+      },
+      {
+        "cell": "R5C10",
+        "direction": "SW",
+        "value": "20"
+      },
+      {
+        "cell": "R6C10",
+        "direction": "SW",
+        "value": "10"
+      }
+    ]
+  }
 }
