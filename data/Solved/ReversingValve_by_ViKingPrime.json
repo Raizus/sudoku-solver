@@ -1,0 +1,275 @@
+{
+    "puzzleInfo": {
+        "title": "Reversing Valve",
+        "authors": [
+            "ViKingPrime"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Hot Cells:** There are 9 Hot cells contained within the grid comprised of a set of the digits 1-to-9. Each row, column and box contains exactly one Hot cell. Hot cells increase the value of the contained digit by 1.\n\n**Cold Cells:** There are 9 Cold cells contained within the grid comprised of a set of the digits 1-to-9. Each row, column and box contains exactly one Cold cell. Cold cells decrease the value of the contained digit by 1.\n\n**Cell Cannot Be Both Hot And Cold:** A cell cannot be a hot and a cold cell at the same time.\n\n**Hot Cold Killer Cage:** Digits in cages do not include repeat digits, and must sum to the given total in the top left (if one exists). For cages values, Hot cells increase the value of the contained digit by 1; and Cold cells decrease the value of the contained digit by 1.\n\n**Hot Cold Thermometer:** Numbers along a thermometer must increase from the bulb end. For thermometer values, Hot cells increase the value of the contained digit by 1; and Cold cells decrease the value of the contained digit by 1.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9pdTNMfMPF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=I7Gfw6-Fct0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Hot Cells": true,
+        "Cold Cells": true,
+        "Cell Cannot Be Both Hot And Cold": true
+    },
+    "local_constraints": {
+        "Hot Cold Thermometer": [
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C4",
+                    "R5C4",
+                    "R4C4",
+                    "R3C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R6C5",
+                    "R5C5",
+                    "R4C5",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R6C6",
+                    "R5C6",
+                    "R4C6",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C1"
+                ]
+            }
+        ],
+        "Hot Cold Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "17"
+            }
+        ]
+    }
+}

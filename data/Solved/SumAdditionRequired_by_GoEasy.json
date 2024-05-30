@@ -1,0 +1,329 @@
+{
+    "puzzleInfo": {
+        "title": "Sum Addition Required",
+        "authors": [
+            "Go Easy!"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages may repeat and must add up to one of the given totals in the top-left and bottom-right corners of each cage. Digits along marked diagonals must not repeat and must add up to the given total. Digits along a grey arrow must add up to the number in its attached circle. Digits along thermometers increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hLNfTNNMr9",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=9QQxjYMh0E8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C1",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C3",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R4C8",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R6C8",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6",
+                    "R9C5",
+                    "R9C4"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R3C3",
+                        "R3C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R7C3",
+                        "R7C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Sum Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "14, 19"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3",
+                    "R7C1",
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "69, 79"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "13, 23"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "15, 35"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C7",
+                    "R2C8",
+                    "R2C9",
+                    "R3C7",
+                    "R3C8",
+                    "R3C9",
+                    "R4C7",
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": "50, 60"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R6C9",
+                    "R7C7",
+                    "R7C8",
+                    "R7C9",
+                    "R8C7",
+                    "R8C8",
+                    "R8C9",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "68, 78"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C6",
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "24, 34"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R6C5"
+                ],
+                "value": "17, 27"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": "29"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "SW",
+                "value": "21"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "NW",
+                "value": "17"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": "15"
+            }
+        ]
+    }
+}

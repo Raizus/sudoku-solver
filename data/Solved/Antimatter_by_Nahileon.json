@@ -1,0 +1,250 @@
+{
+    "puzzleInfo": {
+        "title": "Antimatter",
+        "authors": [
+            "Nahileon"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Positive Diagonal:** Numbers must not repeat on the positive diagonal.\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**Adjacent Difference Of At Least X Or Sum Of At Most X:** Adjacent cells on a green line have a difference of at least 5 or a sum of at most 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TF7PptMHnJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Us0MYYM_cbs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C9",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C9",
+                    "R9C8",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C2",
+                    "R9C1",
+                    "R8C1",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C5",
+                    "R9C4"
+                ]
+            }
+        ],
+        "Adjacent Difference Is At Least X or Adjacent Sum Is At Most X Line": [
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C6",
+                    "R3C7",
+                    "R4C8",
+                    "R3C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4",
+                    "R4C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C6",
+                    "R7C5",
+                    "R6C5",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R6C2",
+                    "R7C3",
+                    "R8C4",
+                    "R8C3"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

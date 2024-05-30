@@ -1,0 +1,199 @@
+{
+    "puzzleInfo": {
+        "title": "Swirl",
+        "authors": [
+            "zetamath"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All V's Given:** All V's are given.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/n9ngLR9pg2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FHtlA-R3PgE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All V's Given": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C7",
+                    "R4C6",
+                    "R3C5",
+                    "R4C4",
+                    "R5C3",
+                    "R6C4",
+                    "R7C5",
+                    "R7C6",
+                    "R6C7",
+                    "R5C8",
+                    "R4C7",
+                    "R3C6",
+                    "R2C6"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

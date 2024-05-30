@@ -1,0 +1,325 @@
+{
+    "puzzleInfo": {
+        "title": "Loop Sum",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Center Cells Loop:** Draw a single closed loop that travels orthogonally through the centres of some cells. The loop does not use any cell more than once. The loop is not allowed to branch, intersect or cross itself.\n\n**Loop Enter And Exits Every Region Exactly Once.**\n\n**Unknown Regions:** The grid must be divided into 9 regions. Each region must be determined and each is a set of nine orthogonally connected cells.\n\n**Region Loop Sum Cell:** A small clue in the top left corner of a cell indicates the sum of the digits in all cells visited by the loop in that cell's region.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/ML8NMNhdGH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=aG2qk0fROjk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null,
+                "value": 9,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+      "Unknown Regions": true,
+      "Center Cells Loop": true,
+      "Loop Enter And Exits Every Region Exactly Once": true
+    },
+    "local_constraints": {
+      "Region Loop Sum Cell": [
+        {
+          "cell": "R1C1",
+          "value": "43"
+        },
+        {
+          "cell": "R1C2",
+          "value": "1"
+        },
+        {
+          "cell": "R2C4",
+          "value": "23"
+        },
+        {
+          "cell": "R2C8",
+          "value": "21"
+        },
+        {
+          "cell": "R3C1",
+          "value": "1"
+        },
+        {
+          "cell": "R5C2",
+          "value": "2"
+        },
+        {
+          "cell": "R5C8",
+          "value": "31"
+        },
+        {
+          "cell": "R6C7",
+          "value": "29"
+        },
+        {
+          "cell": "R7C1",
+          "value": "6"
+        }
+      ]
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "puzzleInfo": {
+        "title": "The Ring of Cupidity",
+        "authors": [
+            "Pallando"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the number in the attached circle, or pill. Digits marked in circles must appear in the surrounding four cells.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rTD6GNDFqN",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=6Im6GFrgxM0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "2,5,8,9"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "1,4,6,9"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "3,5,6,7"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "4,5,7,8"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C3",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6"
+                ],
+                "lines": [
+                    [
+                        "R1C6",
+                        "R2C6",
+                        "R3C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R2C9",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R6C8",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R4C7",
+                        "R4C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R5C5",
+                        "R4C5",
+                        "R3C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R7C4",
+                        "R6C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R3C3",
+                        "R4C3",
+                        "R5C3",
+                        "R6C3",
+                        "R7C3",
+                        "R7C4",
+                        "R7C5",
+                        "R7C6",
+                        "R7C7",
+                        "R6C7",
+                        "R5C7",
+                        "R4C7",
+                        "R3C7",
+                        "R3C6",
+                        "R3C5",
+                        "R3C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

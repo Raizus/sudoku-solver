@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "The Wings Of Pentagon",
+        "authors": [
+            "Niverio"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists)..",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9mgQ9LgnDj",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oLaXCAeinzA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C3",
+                    "R3C3"
+                ],
+                "value": "23"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C6",
+                    "R6C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C3",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "30"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": "19"
+            }
+        ]
+    }
+}

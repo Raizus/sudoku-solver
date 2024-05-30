@@ -1,0 +1,256 @@
+{
+    "puzzleInfo": {
+        "title": "Duplexity",
+        "authors": [
+            "James Kopp"
+        ],
+        "ruleset": "Normal sudoku rules apply. The purple/blue lines are 'equal sum lines'. ie The sum of the digits on a line within a particular 3x3 box must be the same for all the boxes the line passes through. Different lines may have different sums. eg r9c1 + r9c2 + r9c3 = r9c4 + r8c4 + r7c4 = r6c4 + r5c4. Digits along each line are also a set of non-repeating consecutive numbers (which can appear in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/pRpLjmp6j8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=qB0F3NJTkGc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9",
+                    "R3C9",
+                    "R4C8",
+                    "R4C7",
+                    "R4C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C2",
+                    "R4C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C1",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R8C4",
+                    "R7C4",
+                    "R6C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C7",
+                    "R6C7"
+                ]
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9",
+                    "R3C9",
+                    "R4C8",
+                    "R4C7",
+                    "R4C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C2",
+                    "R4C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C1",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R8C4",
+                    "R7C4",
+                    "R6C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "puzzleInfo": {
+        "title": "Unique Arrow Sudoku",
+        "authors": [
+            "Serhii Tyshchenko"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the number in the 'pill', reading left-to-right - all numbers in pills are unique 2-digit numbers. Along thermometers, digits must increase from the bulb end. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/93Q9HD7tp8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=1dMEVGXHKAM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C6",
+                    "R2C6",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R6C8",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C2",
+                    "R6C1"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R3C3",
+                        "R2C3",
+                        "R1C3",
+                        "R1C2",
+                        "R1C1",
+                        "R2C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5"
+                ],
+                "lines": [
+                    [
+                        "R3C5",
+                        "R3C6",
+                        "R2C6",
+                        "R1C6",
+                        "R1C5",
+                        "R1C4",
+                        "R2C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "lines": [
+                    [
+                        "R3C8",
+                        "R3C9",
+                        "R2C9",
+                        "R2C8",
+                        "R2C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "lines": [
+                    [
+                        "R4C8",
+                        "R4C9",
+                        "R5C9",
+                        "R6C9",
+                        "R6C8",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "lines": [
+                    [
+                        "R5C2",
+                        "R5C3",
+                        "R6C3",
+                        "R6C2",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R9C1",
+                        "R8C1",
+                        "R7C1",
+                        "R7C2",
+                        "R7C3",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R8C7",
+                        "R9C7",
+                        "R9C8",
+                        "R9C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "lines": [
+                    [
+                        "R4C5",
+                        "R4C6",
+                        "R5C6",
+                        "R6C6",
+                        "R6C5",
+                        "R6C4",
+                        "R5C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6"
+                ],
+                "lines": [
+                    [
+                        "R7C5",
+                        "R7C4",
+                        "R8C4",
+                        "R9C4",
+                        "R9C5",
+                        "R9C6",
+                        "R8C6"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

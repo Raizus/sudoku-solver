@@ -1,0 +1,298 @@
+{
+    "puzzleInfo": {
+        "title": "Sudo-Cube",
+        "authors": [
+            "XeonRisq"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits on a grey line must be between the digits on that line's circled ends. Digits on a purple line must be consecutive (in any order). Adjacent digits on a green line must have a difference of 5 or more. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits can repeat along such a diagonal if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7gbg37R9fj",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=TuqzLD0EKTc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C8"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6",
+                    "R5C6"
+                ]
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R4C6",
+                    "R5C6",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C7",
+                    "R8C6",
+                    "R8C5",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C3",
+                    "R8C4"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C6",
+                "direction": "SW",
+                "value": "22"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "SW",
+                "value": "22"
+            }
+        ]
+    }
+}

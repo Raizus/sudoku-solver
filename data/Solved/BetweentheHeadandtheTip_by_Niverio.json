@@ -1,0 +1,303 @@
+{
+    "puzzleInfo": {
+        "title": "Between the Head and the Tip",
+        "authors": [
+            "Niverio"
+        ],
+        "ruleset": "- Normal Sudoku rules apply.\n\n- Normal Between Lines rules apply. Digits on a line connecting two circled cells must be between the digits in those circles (i.e. the digit in one circle is greater than all digits on the line, while the digit in the other circle is smaller than all digits on the line).\n\n- In addition, every single between line also has the properties of an arrow. One circle of every single between line is the sum of the other digits along the line, including the other circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QCEY0B3GGAOwAI0ALGSgCRgEMATS5892%2BgFQgAOIVMwCutAPYAnBCAByEAG4wpECcJBTROMEVkBaSpTnSAtsyyUAyqNYSA1qMpadHAQKwBPAHQAdcv6GJlLmloQkZFQAMhDkMGDO2vFuHj6UACIQAOaYCRJUzJRYsfQAxvlxpRjkWdTEEpSlEFKlOOylMFhYCaaiYGiUAEb0wxEU1HSUrNm5lLETErqNza3JABQQ3jDeE/TTOQPz%2BWUrOHMJWVIsaCoTnBxdUzNoeVQ8RSXIlMQ0EGfv%2B0wczekwkPCkyxaZwgCTAoRwENo9wslkBL0o%2BV2HziAEodv5ApQAJIFVjTDD5L4wZRSTyUSA1M6jUjjYpxB5gBo0ZgJd4CKQSAQqDDJCQAMw4BSkAuIOwA8uymlD6OLKNSVHSGVkmUQWVQ2fQYViwKJTBiJe8wXQIWiEhZ8rV3gavrFWrZYo7QeDIatvBpLhBWAgANrB0A5ZTkAAKFCaWAAsswpPYwAhyNosABfZDhpQUGPkOOJ5Op%2BDprrZ3ORgtFpMptMZysgCP52N/Yv1suNnPNvPRtsJuul8tZnst/uF9tDhsVsd9mtTksz0dV1uTwdLruz1cT2ubkeZgC6yDDverA47w%2B7O4XG87B7n5/Xl%2BXTfHt5fW5XZ7Xe/v15/XdF3/bdAI/acvzfecLwgh8bxg/dG2PU93wQkDv1Q59YIAzC/yvUDcOA/CMOgrDEII0i8NfR9fyI6j4LI9CoKfKjIOQhjWLgsC0OI5jaLvXiaKAgT6O4xjBI4ujIKE8DyJIlipK4wiRLYk9JJUpTKMUnCtI0nSFL0iiDM/TTjOwoz%2BJM/TLPM%2BSbLko81LEzjrOEqyLLc2y%2BM8hyZJ40TlPcuyfKYvzxIC3SgsclDIq8sKXI82TQvUqL4u0xL/OklK4uy3zcqY9jnPS4KkokorDJKzLTPs5LytS/KysCnK6q8wqmrylqOva2rusa2Kuv6nrBr6syBtGgrjxAZlIgNENQANUtQxAAAlABmABhVaNGWgAWTbtr2gAmA71oARhAQ9DybBaQ2DFaAFYzu2gA2J7UGW17jve16tsu66SkWu61relbDpB5bTvWr6Vsh36rp7G74CW4Hnu2jaAHZtrBzH3shzG/oRgHbpWjaAA40fWxAscp7bIapgn5qJpGgbBnbqfu6nUYZkBEeR9Goe20mBfexABe53mgdF8n3qF6WVqFnGVv5/H4cZuJAfl9a2Zl9aOZ1rnVZ5pnkdevWHt1k6OfF42gdexXlseuWHZp76aet9XieW/mza9rWXr9v7JumMBmEGNosAkHJShDSa0C0GBSk4aZWGYG5OQEClyEWq6gA%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=zbeJdFutCF8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Superfuzzy Arrow": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9",
+                    "R2C9",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R5C9",
+                    "R5C8",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7",
+                    "R8C8",
+                    "R9C8"
+                ]
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C2",
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7",
+                    "R8C8",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C8",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9",
+                    "R3C9",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C5",
+                    "R2C4"
+                ]
+            }
+        ]
+    }
+}

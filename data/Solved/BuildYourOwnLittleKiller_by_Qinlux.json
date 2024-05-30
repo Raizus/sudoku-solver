@@ -1,0 +1,209 @@
+{
+    "puzzleInfo": {
+        "title": "Build Your Own Little Killer",
+        "authors": [
+            "Qinlux"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Cage As A Number:** The contents of each cage in the grid are either a single digit number or form a two-digit number, read left to right or downwards.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/83RBg4Qh4m",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=wszx7_3cDwc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Cage As A Number": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "A"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": "B"
+            },
+            {
+                "cells": [
+                    "R9C7"
+                ],
+                "value": "C"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "D"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "E"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "F"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "G"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R2C0",
+                "direction": "SE",
+                "value": "A"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SE",
+                "value": "B"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SE",
+                "value": "C"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "D"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "SW",
+                "value": "E"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "SW",
+                "value": "F"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "D"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": "G"
+            }
+        ]
+    }
+}

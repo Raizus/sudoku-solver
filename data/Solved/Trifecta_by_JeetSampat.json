@@ -1,0 +1,251 @@
+{
+    "puzzleInfo": {
+        "title": "Trifecta",
+        "authors": [
+            "Jeet Sampat"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Additionally, orthogonally adjacent cells must not contain consecutive digits.\n\nIn cages, digits cannot repeat.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUAnCAMxgGM0BDEVKgVzQAsB7QhEAKRhjQAIAylQC2AByppaIQvRxheHAHJthVLIPoATFgGt6fGXL5VRorAE8AdHwCCmzZggsAdmovI%2BbZiwDmLt%2BbGmgBWVOQwzvzhWFhgfML0YPzOLFEu1BDOfOQu8uSMEABuMHwOPphglgA6zjUAklnkVD4wYB5lFdlUzin8hDCiMBKWUj7EmggA2pPAAL7Icwvzi6CFavS4AOyo5cXOCGgyMMsnS0sAusgzpyvLIGtYGwgAjDtFEQdHN9%2BX12e3%2F2%2BFyuANBQNuvzBC3u61wAFY3ntPhs7g8nvAAByIj7wQ4owGAyHg4mEkEwx64ADM2P2uK%2BBKhYKJDJJELJaNwKBAuxxeOOLIFEMuIBSzhyzjyBWKyJgqB0EBiMEITRaU1A0ViUxAACVngBhZ5SXV6gBMRv1lPNeoALEaTQa7abHbbUNrKQ7Xe6zec7hqwFrtfbLZ69cGddaPeGna6I2HtXDI%2FHQ0aAGyJtOWn3Qv0BhNm11p%2FM6zbR4vJ10YxOVovaytxxCl7UNzO%2BmAxf3wSZll1luFGkubft6jFGys92t6vsVvUp0d6weuhuzrPqtuazs6hMj10JxCpvV710lw86yvb08Ho0Nhc6hvnpuXlcgHMb7UR8cRqdR2c7mf78dpl%2B2ppj%2BOppjewHDiAT4vl2xqgYGf4huO7pAe6CHuhB7r3hGEEJoOMFrh2cH6hB%2Br3vqJ6IRB9r3vaVHulREY4Y%2Bsw%2BkAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=3WQS4Db4e9g"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R2C1",
+                    "R2C2",
+                    "R2C4",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C7",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9",
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C8",
+                    "R8C9",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C7",
+                    "R7C8",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R7C3",
+                    "R8C1",
+                    "R8C2",
+                    "R8C3",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C6",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6",
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8",
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R5C1",
+                    "R5C3",
+                    "R6C1",
+                    "R6C3"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

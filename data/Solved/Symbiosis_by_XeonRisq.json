@@ -1,0 +1,183 @@
+{
+    "puzzleInfo": {
+        "title": "Symbiosis",
+        "authors": [
+            "XeonRisq"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits must not repeat in a cage. The numbers in a cage must sum to the given total in the top left corner. Numbers along an indicated diagonal must sum to the given total.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GjJn7rQMd4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=k84azF06Ql8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "20"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C2",
+                "direction": "SE",
+                "value": "60"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": "18"
+            },
+            {
+                "cell": "R2C10",
+                "direction": "SW",
+                "value": "18"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "16"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "27"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "SE",
+                "value": "25"
+            }
+        ]
+    }
+}

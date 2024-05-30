@@ -1,0 +1,263 @@
+{
+    "puzzleInfo": {
+        "title": "Six Pack",
+        "authors": [
+            "James Sinclair"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. The grey lines are palindromes which contain the same sequence of digits forwards and backwards. Digits in cells separated by a white dot are consecutive.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TjdNrDhjd8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=PcapJtj_NFA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C2",
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C5",
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R3C8",
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R6C8",
+                    "R7C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C5",
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C2",
+                    "R7C1",
+                    "R8C1"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C7",
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C1",
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "26"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C7",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "20"
+            }
+        ]
+    }
+}

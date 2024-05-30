@@ -1,0 +1,209 @@
+{
+    "puzzleInfo": {
+        "title": "Kashmir",
+        "authors": [
+            "lerroyy"
+        ],
+        "ruleset": "Normal sudoku rules apply.\nDigits may not repeat in cages and must sum to the number in the top left corner.\nDigits may not repeat along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGkBDMACwFsIAnEVQgVzRIHtq8dLKmBPLmkSujjAw0CEADkWZQlgAEYOgBMmAazqyBQ2YQAOOrFwB0AHQB2AEQgBzTGFnSus00zQaYOmIVcRTsgMaEVjB2hKaK9nRgrgpksmhMcSQwTnRkAEYwlLI%2BicnxOrI4AGaufiymmSYW1rb2hI7OrpTunq4yTKZWudlhEAFoMOGKEIEdMoZ8VpQQiggA2nPAAL7Iy6sra5sb2%2BsAusiLO1vrJ8fL%2B4enR9dXF2c393sHjy%2FXdw8ft8%2Bfr0%2BXv693ldgYD9iBhqNTDIANQINACGCoFQQLDsAJBeagPwwVFgeYgABKADYAMIAJj4BIA7CSAIyUmkU1AEgAcdJAYIAbjI6LgQGSAKwgDYgbG4%2FGskkAZkpbIALJTEOTFdKOahuVheWJBcLVqKcVg8fA5oTaSSqZSzSzKWSSUSbea1SANVq8DqRWLDRLbYhKVKSdbmf7fcy5QGnS6%2Be69Z6jSaCQKSULmYn7czSUKuTy%2BbSAAy6rEGuOEtkhwlKwPlkm%2BrOaqMUj1FiX%2BmVBkkK0Oq2uu%2FkNmNN42m9sOhXdnP5xviwcE230tv0sdiWkyyde6eki3p8OLvC%2B1fF4l2hlHncgPe7JZAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=uTCdfNxGdRA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C8",
+                    "R3C9",
+                    "R4C8"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R6C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C1",
+                    "R7C2",
+                    "R8C1"
+                ],
+                "value": "25"
+            }
+        ]
+    }
+}

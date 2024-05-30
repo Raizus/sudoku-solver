@@ -1,0 +1,229 @@
+{
+    "puzzleInfo": {
+        "title": "The Devil's Cage",
+        "authors": [
+            "TinkerTroy"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/m6hH43dbjr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=-76vUs93I5Y"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R8C3"
+                ],
+                "lines": [
+                    [
+                        "R8C3",
+                        "R8C2",
+                        "R9C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R8C8",
+                        "R9C9"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "34"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "33"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "34"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "32"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C8"
+                ],
+                "value": "31"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "32"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "31"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "31"
+            }
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "puzzleInfo": {
+        "title": "Squarrows",
+        "authors": [
+            "Walking Writer"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Square Number Border All Different:** Perfect square numbers on green cages are all different.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Square Number Border:** Cells in green cages are a square number read left to right or top to bottom.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3dn76m4hfp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=lWqgkTAJI_I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Edge Square Number All Different": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Edge Square Number": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "lines": [
+                    [
+                        "R2C1",
+                        "R3C1",
+                        "R2C2",
+                        "R1C3",
+                        "R1C4",
+                        "R2C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R9C7",
+                        "R8C8",
+                        "R7C9",
+                        "R6C9",
+                        "R7C8",
+                        "R8C7",
+                        "R9C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R7C4",
+                        "R7C5",
+                        "R7C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "lines": [
+                    [
+                        "R2C9",
+                        "R3C9",
+                        "R2C8",
+                        "R1C7",
+                        "R1C6",
+                        "R2C7",
+                        "R3C8",
+                        "R4C9",
+                        "R5C9",
+                        "R4C8",
+                        "R3C7",
+                        "R2C6",
+                        "R1C5",
+                        "R2C5",
+                        "R3C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C6",
+                        "R4C7",
+                        "R5C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R3C4",
+                        "R4C3",
+                        "R5C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R9C3",
+                        "R8C2",
+                        "R7C1",
+                        "R6C1",
+                        "R7C2",
+                        "R8C3",
+                        "R9C4",
+                        "R9C5",
+                        "R8C4",
+                        "R7C3",
+                        "R6C2",
+                        "R5C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

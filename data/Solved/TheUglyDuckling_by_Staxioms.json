@@ -1,0 +1,280 @@
+{
+    "puzzleInfo": {
+        "title": "The Ugly Duckling",
+        "authors": [
+            "Staxioms"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages cannot repeat. All cages sum to the same total. Digits cannot repeat along the diagonal line. Numbers in circles must appear within the four surrounding cells. A white dot separates two consecutive digits. Not all dots are shown.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/D2hGJbfh3J",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mS7nvRaeD5w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3",
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "1,2"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "1,2"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "1,2"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "1,2"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "1,2"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R3C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C1"
+                ],
+                "value": "X"
+            }
+        ]
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "puzzleInfo": {
+        "title": "Equal Sum Lines 2",
+        "authors": [
+            "Maxim Li (28degrees)"
+        ],
+        "ruleset": "Normal sudoku rules apply. For each line, it has an equal sum in each box it passes through. Eg for the line that starts in r4c3: r2c5+r3c4 = r2c3 + r3c3 = r4c3.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Ht8GBQBp9d",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gLi5C-KdeKU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C3",
+                    "R2C3",
+                    "R3C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8",
+                    "R9C7",
+                    "R9C6",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R6C4",
+                    "R7C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5",
+                    "R7C6",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C3",
+                    "R7C3",
+                    "R6C3",
+                    "R5C3",
+                    "R5C4",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R2C7",
+                    "R2C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R4C8",
+                    "R5C7",
+                    "R5C6",
+                    "R4C5"
+                ]
+            }
+        ]
+    }
+}

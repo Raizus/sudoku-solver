@@ -1,0 +1,221 @@
+{
+    "puzzleInfo": {
+        "title": "Pile of 20",
+        "authors": [
+            "Cane_Puzzles"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MGGnprtGJn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=qHxbjarO_eU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 8,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R2C4",
+                    "R3C3"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C4",
+                    "R3C5",
+                    "R4C4"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4",
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3",
+                    "R6C3",
+                    "R7C3"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": "20"
+            }
+        ]
+    }
+}

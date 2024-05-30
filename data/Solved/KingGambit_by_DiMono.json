@@ -1,0 +1,154 @@
+{
+    "puzzleInfo": {
+        "title": "King Gambit",
+        "authors": [
+            "DiMono"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a king's move (in chess) cannot contain the same digit. Cells with circles contain the sum of all diagonally adjacent digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/PTD4mDNqnJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=_GxfP1jYIJw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiking": true
+    },
+    "local_constraints": {
+        "Diagonally Adjacent Sum": [
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R3C3"
+            },
+            {
+                "cell": "R4C8"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R6C8"
+            },
+            {
+                "cell": "R6C6"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C4"
+            }
+        ]
+    }
+}

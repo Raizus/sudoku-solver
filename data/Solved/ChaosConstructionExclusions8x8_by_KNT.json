@@ -1,0 +1,274 @@
+{
+    "puzzleInfo": {
+        "title": "Chaos Construction: Exclusions (8x8)",
+        "authors": [
+            "KNT"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Unknown Regions:** Divide the grid into 8 regions, each consisting of 8 orthogonally connected cells. Numbers do not repeat in each region.\n\n**Count Cells Not In The Same Region Arrows:** A cell with an arrow (or arrows) indicates how many cells in the indicated directions combined that do not belong to the same region as that cell.",
+        "ctcUrl": "https://sudokupad.app/3rr7h8xl3w",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Zv6w8Y3UTQY"
+    },
+    "nRows": 8,
+    "nCols": 8,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+      "Unknown Regions": true
+    },
+    "local_constraints": {
+      "Count Cells Not In The Same Region Arrows": [
+        {
+          "cell": "R1C4",
+          "arrows": ["SE"]
+        },
+        {
+          "cell": "R2C3",
+          "arrows": ["W", "SW", "S", "SE"]
+        },
+        {
+          "cell": "R2C8",
+          "arrows": ["S"]
+        },
+        {
+          "cell": "R3C1",
+          "arrows": ["NE", "SE"]
+        },
+        {
+          "cell": "R4C4",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R4C8",
+          "arrows": ["N"]
+        },
+        {
+          "cell": "R5C4",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R5C8",
+          "arrows": ["N"]
+        },
+        {
+          "cell": "R6C2",
+          "arrows": ["W", "E"]
+        },
+        {
+          "cell": "R6C4",
+          "arrows": ["W", "E"]
+        },
+        {
+          "cell": "R6C7",
+          "arrows": ["NW", "S"]
+        }
+      ]
+    }
+}

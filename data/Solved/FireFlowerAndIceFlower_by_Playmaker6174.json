@@ -1,0 +1,255 @@
+{
+    "puzzleInfo": {
+        "title": "Fire Flower And Ice Flower",
+        "authors": [
+            "Playmaker6174"
+        ],
+        "ruleset": "Normal sudoku rules apply. The digit in the red cell (r1c1) is high [6,7,8 or 9]. The digit in the blue cell (r9c9) is low [1,2,3 or 4]. Digits along a purple line form a set of non-repeating consecutive digits (which can be in any order). Adjacent digits along a green line must have a difference of at least 5. A digit in a yellow cell must be greater than all of the orthogonally adjacent cells. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RQQjRj3RPG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=PahnkQJhcbM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Maximum": [
+            {
+                "cell": "R5C3"
+            },
+            {
+                "cell": "R5C7"
+            }
+        ],
+        "Low Digit": [
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "High Digit": [
+            {
+                "cell": "R1C1"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C2"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C3",
+                    "R1C2",
+                    "R2C1",
+                    "R3C1",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9",
+                    "R3C9",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5",
+                    "R4C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C9",
+                    "R9C8",
+                    "R9C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "puzzleInfo": {
+        "title": "Doubling Lines",
+        "authors": [
+            "jovi_al"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along lines must appear exactly twice along the line. In cages, digits must sum to the small clue in the top left corner of the cage (if given). Digits cannot repeat within a cage.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/jrdBR9H43F",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Midwp36q7Js"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Repeated Digits Line": [
+            {
+                "cells": [
+                    "R4C1",
+                    "R3C2",
+                    "R2C3",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C6",
+                    "R2C7",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C8",
+                    "R4C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C8",
+                    "R8C7",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C4",
+                    "R8C3",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C2",
+                    "R6C2",
+                    "R5C1"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

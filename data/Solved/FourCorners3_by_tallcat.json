@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "Four Corners 3",
+        "authors": [
+            "tallcat"
+        ],
+        "ruleset": "Normal sudoku rules apply. Each main diagonal (marked in blue) cannot contain a repeated digit. Digits along an arrow must sum to the digit in that arrow's circle. Adjacent digits on green lines must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qjQqPpPPQ7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=OLAIDFLI1VM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C7",
+                    "R4C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C5",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C7",
+                    "R6C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C2"
+                ],
+                "value": "5"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R1C2",
+                        "R1C3",
+                        "R2C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C9",
+                        "R3C9",
+                        "R3C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C9",
+                        "R9C8",
+                        "R9C7",
+                        "R8C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1"
+                ],
+                "lines": [
+                    [
+                        "R9C1",
+                        "R8C1",
+                        "R7C1",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

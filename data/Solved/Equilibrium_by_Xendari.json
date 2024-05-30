@@ -1,0 +1,276 @@
+{
+    "puzzleInfo": {
+        "title": "Equilibrium",
+        "authors": [
+            "Xendari"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Edge Inequality:** The inequality sign points to the lower of the two digits.\n\n**Odd:** Cells with grey circles must contain odd numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/m4bG6rrtFH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=MI0-oqX10Gw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R5C9"
+            }
+        ],
+        "Edge Inequality": [
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "<"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R4C5"
+                ],
+                "lines": [
+                    [
+                        "R4C5",
+                        "R3C4",
+                        "R2C4"
+                    ],
+                    [
+                        "R4C5",
+                        "R3C6",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R7C4",
+                        "R8C4"
+                    ],
+                    [
+                        "R6C5",
+                        "R7C6",
+                        "R8C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7"
+                ],
+                "lines": [
+                    [
+                        "R4C7",
+                        "R4C8",
+                        "R3C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C8",
+                        "R5C7"
+                    ],
+                    [
+                        "R6C9",
+                        "R7C8",
+                        "R8C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C6"
+                ],
+                "lines": [
+                    [
+                        "R9C6",
+                        "R8C7",
+                        "R7C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3"
+                ],
+                "lines": [
+                    [
+                        "R6C3",
+                        "R6C2",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1"
+                ],
+                "lines": [
+                    [
+                        "R4C1",
+                        "R5C2",
+                        "R5C3"
+                    ],
+                    [
+                        "R4C1",
+                        "R3C2",
+                        "R2C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R1C8",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R2C3",
+                        "R3C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

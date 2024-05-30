@@ -1,0 +1,246 @@
+{
+    "puzzleInfo": {
+        "title": "Read Between the Lines",
+        "authors": [
+            "James Kopp"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Ratio:** Cells separated by a black dot have a 1:4 ratio.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/23rLgH2f6b",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=a6JtlKc9cvM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "4"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C2",
+                    "R3C1",
+                    "R4C2",
+                    "R3C3",
+                    "R2C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R1C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C5",
+                    "R4C6",
+                    "R5C7",
+                    "R4C8",
+                    "R3C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R6C2",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C6",
+                    "R8C5",
+                    "R9C6",
+                    "R8C7",
+                    "R7C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R6C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C7",
+                    "R3C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C2",
+                    "R8C3",
+                    "R9C4"
+                ]
+            }
+        ]
+    }
+}

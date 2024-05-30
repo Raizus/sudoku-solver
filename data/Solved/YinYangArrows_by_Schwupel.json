@@ -1,0 +1,277 @@
+{
+    "puzzleInfo": {
+        "title": "Yin Yang Arrows",
+        "authors": [
+            "Schwupel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Yin Yang Arrow:** Digits on an arrow sum to the digit in that arrow's circle. The digit in the arrow circle is equal to the sum of all shaded cells in the direction of the arrow tip (beginning from the next cell after the arrow tip).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/JJdp66fnQ7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ZqHffWwJoQI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Yin Yang": true
+    },
+    "local_constraints": {
+        "Yin Yang Arrow": [
+            {
+                "cells": [
+                    "R1C8"
+                ],
+                "lines": [
+                    [
+                        "R1C8",
+                        "R1C7",
+                        "R1C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C2"
+                ],
+                "lines": [
+                    [
+                        "R4C2",
+                        "R3C1",
+                        "R2C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R3C5",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R4C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R2C8",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C9",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R8C9",
+                        "R8C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5"
+                ],
+                "lines": [
+                    [
+                        "R9C5",
+                        "R8C4",
+                        "R7C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R9C3",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1"
+                ],
+                "lines": [
+                    [
+                        "R9C1",
+                        "R8C1",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R6C4",
+                        "R5C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4"
+                ],
+                "lines": [
+                    [
+                        "R5C4",
+                        "R4C3",
+                        "R5C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

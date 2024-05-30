@@ -1,0 +1,329 @@
+{
+    "puzzleInfo": {
+        "title": "Winged Thermarrow",
+        "authors": [
+            "Jonathan Bost"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow increase from the tip and sum to the number in the circle. The cage shows Jonathan's age.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/br8fBj3d3p",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=BemhDRPqhOU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C4"
+                ],
+                "lines": [
+                    [
+                        "R2C4",
+                        "R1C4",
+                        "R2C3"
+                    ],
+                    [
+                        "R2C4",
+                        "R1C5",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C9",
+                        "R1C8"
+                    ],
+                    [
+                        "R1C9",
+                        "R2C8",
+                        "R1C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R5C9",
+                        "R5C8"
+                    ],
+                    [
+                        "R4C9",
+                        "R4C8",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7"
+                ],
+                "lines": [
+                    [
+                        "R5C7",
+                        "R5C6",
+                        "R6C5"
+                    ],
+                    [
+                        "R5C7",
+                        "R4C6",
+                        "R3C7",
+                        "R3C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6"
+                ],
+                "lines": [
+                    [
+                        "R7C6",
+                        "R6C7",
+                        "R7C7"
+                    ],
+                    [
+                        "R7C6",
+                        "R8C6",
+                        "R9C6",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R9C7",
+                        "R9C6"
+                    ],
+                    [
+                        "R9C8",
+                        "R8C8",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4"
+                ],
+                "lines": [
+                    [
+                        "R7C4",
+                        "R8C4",
+                        "R9C4",
+                        "R8C5"
+                    ],
+                    [
+                        "R7C4",
+                        "R6C4",
+                        "R5C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C3",
+                        "R7C3"
+                    ],
+                    [
+                        "R9C3",
+                        "R9C2",
+                        "R8C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R8C1",
+                        "R8C2"
+                    ],
+                    [
+                        "R7C2",
+                        "R6C3",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1"
+                ],
+                "lines": [
+                    [
+                        "R5C1",
+                        "R5C2",
+                        "R4C2"
+                    ],
+                    [
+                        "R5C1",
+                        "R6C1",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R4C5",
+                        "R5C4"
+                    ],
+                    [
+                        "R4C4",
+                        "R3C3",
+                        "R4C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "AGE"
+            }
+        ]
+    }
+}

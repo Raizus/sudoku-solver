@@ -1,0 +1,222 @@
+{
+    "puzzleInfo": {
+        "title": "Sum Line Sudoku #2",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Fuzzy Sum Line Group Of Three:** For every triple of adjacent digits on a line, one of the digits has to be the sum of the other two, e.g. 2-5-7, 6-9-3, and 8-4-4 are valid adjacent digits along a line.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4hnrd6BrqT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=UVXyMBCsv7Q"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "N-Consecutive Sum Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C2",
+                    "R3C1",
+                    "R2C2",
+                    "R3C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R2C4",
+                    "R2C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R2C5",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C5",
+                    "R2C6",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C9",
+                    "R4C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C5",
+                    "R6C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R7C6",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7",
+                    "R9C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C1",
+                    "R8C2",
+                    "R7C2",
+                    "R6C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R6C2",
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "3"
+            }
+        ]
+    }
+}

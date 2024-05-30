@@ -1,0 +1,206 @@
+{
+    "puzzleInfo": {
+        "title": "Thermo Dynamics",
+        "authors": [
+            "Walking Writer"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along thermometers must increase from the bulb end. Digits connected by a black dot have a 2 to 1 ratio. Digits connected by a white dot are consecutive. Not all black and white dots are shown. Any two cells separated by a chess knight's move cannot contain the same digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rm4H3mggT7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Zhf6DTdiKdM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2",
+                    "R9C3"
+                ]
+            }
+        ]
+    }
+}

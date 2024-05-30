@@ -1,0 +1,716 @@
+{
+    "puzzleInfo": {
+        "title": "Twisted Knights Whispering",
+        "authors": [
+            "FinnishGuy"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/g6NdNgMLBn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=VSyMjcbaG04"
+    },
+    "nRows": 11,
+    "nCols": 11,
+    "valid_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "grid": [
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9",
+                    "R10C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C11",
+                    "R6C10"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R10C6",
+                    "R11C7"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C4",
+                    "R2C5",
+                    "R3C6",
+                    "R4C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C11",
+                    "R3C10",
+                    "R4C11",
+                    "R5C11"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C10",
+                    "R8C10"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C10",
+                    "R7C10"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C6",
+                    "R10C7",
+                    "R11C8",
+                    "R11C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R10C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R10C5",
+                    "R10C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R8C1",
+                    "R7C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6",
+                    "R6C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Cosmetic Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R3C3",
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R2C8",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R3C10",
+                    "R3C11",
+                    "R4C9",
+                    "R4C10",
+                    "R4C11",
+                    "R5C9",
+                    "R5C10",
+                    "R5C11"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R6C10",
+                    "R7C8",
+                    "R7C9",
+                    "R7C10",
+                    "R8C8",
+                    "R8C9",
+                    "R8C10"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C5",
+                    "R6C6",
+                    "R6C7",
+                    "R7C5",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3",
+                    "R4C4",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4",
+                    "R6C2",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R8C1",
+                    "R8C2",
+                    "R8C3",
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R10C4",
+                    "R10C5",
+                    "R10C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8",
+                    "R9C9",
+                    "R10C7",
+                    "R10C8",
+                    "R10C9",
+                    "R11C7",
+                    "R11C8",
+                    "R11C9"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

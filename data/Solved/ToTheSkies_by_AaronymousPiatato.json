@@ -1,0 +1,198 @@
+{
+    "puzzleInfo": {
+        "title": "To The Skies",
+        "authors": [
+            "Aaronymous",
+            "Piatato"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a knight's move (in chess) cannot contain the same digit. Adjacent digits on a green line must have a difference of at least 5. Along the thermometer, digits must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/JgtqHpb2F6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=9vDe5TUBWgM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C2",
+                    "R1C3"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C8",
+                    "R5C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C5",
+                    "R4C4",
+                    "R5C3",
+                    "R6C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R7C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C6",
+                    "R9C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C4"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

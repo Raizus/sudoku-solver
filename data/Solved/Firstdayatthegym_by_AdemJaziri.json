@@ -1,0 +1,213 @@
+{
+    "puzzleInfo": {
+        "title": "First day at the gym",
+        "authors": [
+            "Adem Jaziri"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bbRJNPMh6h",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=_3JXieJJgdE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R6C4",
+                    "R5C3",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C6",
+                    "R5C7",
+                    "R6C8"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C3"
+                ],
+                "lines": [
+                    [
+                        "R1C3",
+                        "R1C2",
+                        "R1C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R2C4",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4"
+                ],
+                "lines": [
+                    [
+                        "R3C4",
+                        "R4C5",
+                        "R5C6",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R3C8",
+                        "R4C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3"
+                ],
+                "lines": [
+                    [
+                        "R4C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

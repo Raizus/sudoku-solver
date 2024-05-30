@@ -1,0 +1,211 @@
+{
+    "puzzleInfo": {
+        "title": "X-Sums & Sandwiches",
+        "authors": [
+            "Emre Kolotoglu"
+        ],
+        "ruleset": "Normal sudoku rules apply. Clues outside the grid represent any positive integers and they show the sum of the first X digits from that direction where X is the first digit and they also show the sum of the digits sandwiched between the 1 and the 9 in that row/column. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/M82nrpghDB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=k0fngu2aML4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Sandwich Sum": [
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": ""
+            }
+        ],
+        "X-Sum": [
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": ""
+            }
+        ]
+    }
+}

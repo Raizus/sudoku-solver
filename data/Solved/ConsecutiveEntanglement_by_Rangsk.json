@@ -1,0 +1,236 @@
+{
+    "puzzleInfo": {
+        "title": "Consecutive Entanglement",
+        "authors": [
+            "Rangsk"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Consecutive Entanglement:** A digit must share a row, column, or box with exactly two instances of each digit that it is consecutive with.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DbQMHDMhQP",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=YI9Cb6qZQCU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Consecutive Entanglement": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R2C2",
+                        "R3C2",
+                        "R4C1",
+                        "R5C1",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4"
+                ],
+                "lines": [
+                    [
+                        "R2C4",
+                        "R1C3",
+                        "R1C2"
+                    ],
+                    [
+                        "R2C4",
+                        "R2C5",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C5",
+                        "R1C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C8",
+                        "R3C8",
+                        "R4C9",
+                        "R5C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7"
+                ],
+                "lines": [
+                    [
+                        "R6C7",
+                        "R5C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R8C8",
+                        "R8C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C2",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R4C5",
+                        "R5C5",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

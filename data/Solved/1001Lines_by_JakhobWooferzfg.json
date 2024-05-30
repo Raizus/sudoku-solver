@@ -1,0 +1,253 @@
+{
+    "puzzleInfo": {
+        "title": "1001 Lines",
+        "authors": [
+            "Jakhob",
+            "Wooferzfg"
+        ],
+        "ruleset": "1-9 appear in each row, column, and marked region. Neighboring digits on a green line must differ by at least 5. Each purple line contains a set of consecutive and non-repeating digits, in any order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FqmjrbhHf4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ELuBEk4K10I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            }
+        ],
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R2C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R2C2",
+                    "R3C2",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R4C2",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C4",
+                    "R4C4",
+                    "R4C5",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ]
+            }
+        ]
+    }
+}

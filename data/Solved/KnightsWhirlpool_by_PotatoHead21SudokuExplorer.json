@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "Knight's Whirlpool",
+        "authors": [
+            "PotatoHead21",
+            "SudokuExplorer"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a knight's move (in chess) cannot contain the same digit. Digits along an arrow must sum to the digit in that arrow's circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9mP4DBM4MB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=DLAwwoNWd_c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C5",
+                        "R1C6"
+                    ],
+                    [
+                        "R1C4",
+                        "R2C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1"
+                ],
+                "lines": [
+                    [
+                        "R3C1",
+                        "R2C1",
+                        "R1C2"
+                    ],
+                    [
+                        "R3C1",
+                        "R4C2",
+                        "R5C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3"
+                ],
+                "lines": [
+                    [
+                        "R6C3",
+                        "R6C2",
+                        "R6C1"
+                    ],
+                    [
+                        "R6C3",
+                        "R5C4",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C5",
+                        "R2C4"
+                    ],
+                    [
+                        "R4C6",
+                        "R5C6",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R7C9",
+                        "R8C8",
+                        "R9C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R9C4",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R2C8",
+                        "R2C9"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

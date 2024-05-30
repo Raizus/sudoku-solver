@@ -1,0 +1,225 @@
+{
+    "puzzleInfo": {
+        "title": "The Scrabblebag Equilibrium",
+        "authors": [
+            "olima"
+        ],
+        "ruleset": "Normal Sudoku rules apply.\nDigits in cages do not repeat and sum to the (given) total.\nSquares indicate even digits.\nAdjacent digits on a green line differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAAgGUBjAJwEMAjOnOmgcxIFEBHAVwiwjpUI3ALYhUNbmkIB7KghAz%2BImuJBVuOMDDQKAcnJVZy3ACYyA1txIatJGgAcHWAJ4A6EgB0AdgBEILJhgJBDeJBSsMMHmJN4yaDYwDjA0CTTepiRgoiRoMrnEJAAUgQBuMN4AlLnxNFgePmQ8NFRRIRkQEWikMOVhpgFBDd4AgqYAVjQUFQkDgWjBMmE0JCytFST83qQDAGa7MFQkdC72CTg0YAkArG5qaxCmCADaz8AAvsgfX5%2Fff78An4AXWQb0B%2Fx%2BkIhHxBYKh4IR8Nh0MRKOBoLRmIRyNRuKRGLxWPRcKJWJx8IpZJBIF6FReoGmWCwCgASgA2ADCACYQL8QIzmXgWQAODnC3lffkwJmsxAcgDMEoZ0sFIBF3KVUplQoA7By2ZqBayACz6w0qk0cnXm7Vq03XG2qllcjkOvlGoUunnui1CgCMGve1IA7oQIGBklQwPSQFsoi9nmrrmbUOyrWoWXrranRQbU3K82q5dmi2KM3LEBnRZXU3rxanOfWkxzK0CgXy49H4K81fKOX6M6aeank8O1ZyB7X%2ByA2x3QvHu4nMxzjRnOauRwqZ%2B3JZ2E3at5vFbPd%2FOuz3l2PlwOT6A94u1XqN4%2FDy%2BebfY2f9yy%2B8%2Bf6%2BWVNY922pCw%2BBwKgIhYXA3i1LBzzVAM%2FxdP9f0HadUyHdDFUwlcZ1QUo6m4XAQC5cUfSZBDlz%2FUU%2FzlVdqUIrBiIULlVwo%2BCXmbB1N0LFlkxLfiy03Gtx1dNcUzEps01bINUDjGN7wvZM%2BM5QSsyrSSWQLct03zYTS1E9UjLrCTpOTVtqRkKQ4w5BQAGI2R1AAxAAGJy1GDR5pAQVy3HlVBdioGQRA5JYrloUJdDwAB1MMI0OaM522c8lz7ScDyvUcJIy69t1QazsHnOy8Eclz3JLLzTB8%2BA%2FICkAgpCsLvAimgooUOLw0jJLTxS78nwkv9k2AgqbOKhynLcjzUCqmq6sC4LQvCtBIu8aKQE6hKo01JSlyAjNhvyxQxu2EqQDKqbKu8whfP8hamuW1b1s27qdq%2FB9LwzPUbysk6YDOi6Ks867bvqxqlpala2rWjr4te5KFwvAapxwt8jsK2yJvK6aQFmm7aruhrFua1r2tiuHErevqPrQ1M%2B1RwCtzbUaitOrHLuB6r8fmomHshp7Ya6ym5PAJQpAgJYXi5ZBjWQa5kDZZA%2FWQHVkBQYVkAClBFdV%2BWNYC2XpeV5WAo16XZe1uWVZl62AuVxWzbVq35eVlBZdV6WAod5BHcVrWrdV5XZf96WNfl2XldVnWfaVp2vatw2FYT62jZjrX2yAA%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Q5tfzfGelAo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R4C7"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R8C2"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R6C2"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R5C2",
+                    "R6C1",
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R7C4",
+                    "R6C4",
+                    "R5C3",
+                    "R4C3",
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C7",
+                    "R7C7",
+                    "R8C6",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9",
+                    "R8C9",
+                    "R7C8",
+                    "R6C8",
+                    "R5C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4",
+                    "R3C4",
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "28"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9",
+                    "R6C5",
+                    "R6C6",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "24"
+            }
+        ]
+    }
+}

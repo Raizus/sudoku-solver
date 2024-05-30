@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "2D Wave Particles",
+        "authors": [
+            "zetamath"
+        ],
+        "ruleset": "Normal sudoku rules apply. No two cells in the same position within a box can contain the same digits. (Eg r1c4 and r7c7 must be different as both occupy the first cell of their boxes). The cells separated by the black dot have a ratio of 2:1. (Not all possible dots are given). Digits on a purple line must be between the circled digits at the line's ends. The upper right vertical line is an arrow. The digit in that circle is the sum of the digits along the arrow.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/F3NGgR7RnB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=toRVKc3uty4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Disjoint Groups": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": ""
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C4",
+                    "R2C3",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C5",
+                    "R3C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3",
+                    "R8C4",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R7C5",
+                    "R6C5",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C7",
+                    "R8C6",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R2C7",
+                    "R2C8"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R3C8",
+                        "R4C8",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

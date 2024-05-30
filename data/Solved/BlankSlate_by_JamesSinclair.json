@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Blank Slate",
+        "authors": [
+            "James Sinclair"
+        ],
+        "ruleset": "Normal sudoku rules apply. For each pair of arrows outside the grid, the digits along the two indicated diagonals have equal sums. Digits can repeat along these diagonals if allowed by other rules. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/T24NfjGNNf",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=YaMKLc8OBD4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Little Killer Sum": [
+            {
+                "cell": "R0C6",
+                "direction": "SW",
+                "value": ""
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SE",
+                "value": ""
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": ""
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SW",
+                "value": ""
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": ""
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SE",
+                "value": ""
+            },
+            {
+                "cell": "R3C10",
+                "direction": "SW",
+                "value": ""
+            },
+            {
+                "cell": "R3C10",
+                "direction": "NW",
+                "value": ""
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": ""
+            },
+            {
+                "cell": "R5C10",
+                "direction": "NW",
+                "value": ""
+            },
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": ""
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": ""
+            },
+            {
+                "cell": "R8C0",
+                "direction": "NE",
+                "value": ""
+            },
+            {
+                "cell": "R8C0",
+                "direction": "SE",
+                "value": ""
+            }
+        ]
+    }
+}

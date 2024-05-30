@@ -1,0 +1,279 @@
+{
+    "puzzleInfo": {
+        "title": "Incremental",
+        "authors": [
+            "James Sinclair"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits cannot repeat within a cage. The difference between the sums of the digits in any two orthogonally adjacent cages is exactly 1. Digits in cells separated by a white dot are consecutive.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QEkA7AYwCcYBbGQtAQyxFVoFc0ALAe1IRAClaqYAAQBlCCSy0I3VKWY4wMNDwByXCvSFhmAEw4BrZkLkKhtAA7msATwB0QgCIQA5pmHFahQhzTGY5mFpfAHdMNnEzIQ9nGHsAFTYYIR0IADNUmHISJIAjJWCYaiF2JO0KYQ5U4sTklzchCM9rYuCOIS52DmcOQnobMx0AK1pial9omGEIYRgADxHsZoBGeydXNCnCKJgsLGFFc1pSIJgdIRzm2iFg8LQkvV8jpOIexWJWCAA3WMYQZ1IIDoEABtYHAAC%2ByAhUMh0LhsIRMIAusgwYj4TDMRiISi0Vj0QT8bjsYSScjUWTKQTiaTaUSKXSqeS8UyqTT8Ry2SiQPoILtMhMQaBRrswCCQAAlJYAYSWvyl0oATPKZQBmEBI2EgEV7cUSxVK%2BUG9WoCWq6XqzVQ7U7XXwYGSmUAFhV0oArBqtTqxfbJQaXaaDR7TeaXVbhbafQ6FQA2V0AdldAA5XYgjdK0%2BGbaK9Qa44HpYmCyms969eai5LzSWvZHyxn5U6G6W676zbLGx2Wzm226O6a%2B8ru3bo32TZK%2BwGJ%2B75X389PE8Oo9OUwPm7We9GYw3TfH19ay22kzvJYhpavT%2FuI5vJcf5xLj4uNyPJXupw%2Fpe%2Bz1%2BZ6az3Glz1Pdxw%2FECz0tZ9lwlPc5VNY9YMvOVALbbdlV3Q1NW5YhpGIHAhWzF8JSbSsiPPDVUByWhFGlHgAGIADFGKY34OFYLBxBgGi8FogAGPj%2BN%2BVIejQLiQF4%2Fi%2BN%2BUIdHYBAeNsRU3VQRIXDYZR4HkxTwU1IA%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=i9aCxaCKJoo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Adjacent Cages Have Consecutive Totals": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R3C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

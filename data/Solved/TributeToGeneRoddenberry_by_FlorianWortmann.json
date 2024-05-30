@@ -1,0 +1,244 @@
+{
+    "puzzleInfo": {
+        "title": "Tribute To Gene Roddenberry",
+        "authors": [
+            "Florian Wortmann"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists)..\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Sandwich Sum:** A number outside the grid gives the sum of the digits sandwiched between the 1 and 9 in that row/column.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TrFhNFqBLT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bKUhZKtv9q4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C6",
+                    "R3C6",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C4",
+                    "R3C4",
+                    "R4C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R7C2",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3",
+                    "R8C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C7",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C8",
+                    "R7C8",
+                    "R6C7",
+                    "R5C7"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C8",
+                    "R5C9",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "21"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "21"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": "19"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "NE",
+                "value": "8"
+            }
+        ]
+    }
+}

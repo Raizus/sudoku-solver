@@ -1,0 +1,180 @@
+{
+    "puzzleInfo": {
+        "title": "Cut In Half",
+        "authors": [
+            "Adem Jaziri"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Positive Diagonal:** Numbers must not repeat on the positive diagonal.\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4P97DPpdQ4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hkIqKX9hcBs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Palindrome": [
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C2",
+                    "R6C2",
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R3C5",
+                    "R2C6",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C4",
+                    "R7C5",
+                    "R7C6",
+                    "R6C7",
+                    "R5C8",
+                    "R4C8",
+                    "R3C8",
+                    "R4C9"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "SE",
+                "value": "16"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "30"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "SW",
+                "value": "11"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "NW",
+                "value": "24"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": "20"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "NE",
+                "value": "10"
+            }
+        ]
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "puzzleInfo": {
+        "title": "Arrow-Ace Sudoku",
+        "authors": [
+            "Jack Lance"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**At Least One Ace Rule:** Each region obeys at least one 'Ace' rule within it: either no two orthogonal neighbours can have a difference of 1, OR no two orthogonal neighbours can have a sum of 11.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/22BGJMtRm4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y4z3XPJI1NY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "At Least One Ace Rule": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R1C5",
+                        "R2C4",
+                        "R3C3",
+                        "R4C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7"
+                ],
+                "lines": [
+                    [
+                        "R7C7",
+                        "R7C8",
+                        "R6C9",
+                        "R5C9",
+                        "R4C8",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1"
+                ],
+                "lines": [
+                    [
+                        "R5C1",
+                        "R6C1",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R7C4",
+                        "R6C4",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R9C4",
+                        "R9C5",
+                        "R9C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7"
+                ],
+                "lines": [
+                    [
+                        "R9C7",
+                        "R8C6",
+                        "R7C6",
+                        "R6C6"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

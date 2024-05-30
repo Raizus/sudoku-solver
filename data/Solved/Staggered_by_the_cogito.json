@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "Staggered",
+        "authors": [
+            "the_cogito"
+        ],
+        "ruleset": "Normal sudoku rules apply. Red cells in columns 1, 5 and 9 index (ie give) the column in which the digits 1,5 and 9 respectively appear in their respective row. All possible red cells in columns 1,5 and 9 are given. The digits on each purple line must be a consecutive set of digits (which can be in any order). Adjacent digits on a green line must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/86gH3brJJq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=EnRl8s35GDA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Indexing Column In Used Columns Given": true
+    },
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R8C9"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R1C5",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C5",
+                    "R9C4"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R5C1",
+                    "R6C2",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9",
+                    "R4C8",
+                    "R5C9",
+                    "R6C8",
+                    "R7C9",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C6",
+                    "R6C5",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R4C5",
+                    "R5C6",
+                    "R6C5"
+                ]
+            }
+        ]
+    }
+}

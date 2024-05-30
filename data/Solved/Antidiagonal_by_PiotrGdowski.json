@@ -1,0 +1,173 @@
+{
+    "puzzleInfo": {
+        "title": "Antidiagonal",
+        "authors": [
+            "Piotr Gdowski"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Positive Antidiagonal:** The positive diagonal containts only 3 different numbers.\n\n**Negative Antidiagonal:** The negative diagonal containts only 3 different numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Br3nfTMfbJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=LLJTYuTsC18"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Antidiagonal": true,
+        "Negative Antidiagonal": true
+    },
+    "local_constraints": {}
+}

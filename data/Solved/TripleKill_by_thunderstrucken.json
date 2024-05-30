@@ -1,0 +1,253 @@
+{
+    "puzzleInfo": {
+        "title": "Triple Kill",
+        "authors": [
+            "thunderstrucken"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in case sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits may repeat on these diagonals if allowed by other rules. A black dot represents cells in a one to two ratio; not all black dots are necessarily given. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUAnCABxwAIBpCLLEVAQwFc0ALAe0IXVaYDsAJjEJg0hJgGMA1jD70Q4nGBhpuAOU4BbBlnJgmA9lKblFMMOQYkyATwB05ACIQA5pgsQ%2B5CQ2V6mmuRo7EGsMHratN5YTOGeoeHBJOQ4AGZo3px8wuTsqQneDC4wDs5uaBY%2BfHzsGYQwJDAMGQDumKzxDIXFDgDCMea5LJBCBS7EAuRuAG6JYf6BeQUCru6WWOx8LgWeKz5oMJMrRZs6pasV5No2pg1NGZsJfscup1ge%2BTobLYfkAEY3WphQimJhKBwAQX%2BWAY0nIhjqDXqyj4lwkMFoHi8XU2iRCaBaIUIzQg7AA3OQahkvtDYVJ4bULAx6pSYOiwGBmTQbjNZA55OMIAIEABtEXAAC%2ByEl0qlMvlcsVsoAushxUqFbKtfKQNMdLEECgQLy5PAxLFFar1dqNbabVbNY67QqHc63fa1U6bd6XZ73V7fdbQHqBobUCaEOaYP63a6fTGVaqQFIaDhCD5iqLQOjMaKQAAlACMvUL8nzACYSyAkyGDXgAGwgOUgHPvPP5gAsVdQnd65erqFruBAjebrbA7YAzL0O2Wu7Oa%2Frh6PpS2MW34CKC8XJ2XiwvB0vuCvs%2BuJ5uC4hegAOMtXxAD3VHhtN1fj9vX3qNntXxuL0MvmOZ7tvWX5lqBADsj5Dser6nrmF75qBD49hBvQPv%2BdYjnBa4IVu%2BbTihBZdhhh4ASAD5AXh25gT2xZQZhw6UW%2BwGIaBpaoVWjHcMx8EbvhV67j%2BM7Qc%2BFE4e%2BbG9EJBagbOnEHk%2B5GFv2EpJlgmDYDAKa0MI%2BiaFmuF0HgSElgADPIkn4QArOhc43mW05QT2lbfjR1mPis9QSBgmzcAAqgAMvIMF4JOFlUcZBZmbRRnnvh9FlpWt49oRnkQN5vmmiAjj5iFYmFrekXcKZFmoFZBZoRxBafv2wm7kmXlsll3C5flylFSxtAlTFdVxe2O5JSJqW9B5PZdm5%2Ba2c5skOZxpEgE1PmktlbVkVhk67sVJmFjF8n9YhV5jTVsX5mhM2mSlBa2QtS0tXg%2Fl5etw7llBamoMSvmGRVpnHWdo3VmpEpAA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=5Xl1xvrHJp0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "9"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C2",
+                "direction": "SE",
+                "value": "33"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SE",
+                "value": "18"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "NW",
+                "value": "30"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "NE",
+                "value": "27"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": "18"
+            }
+        ]
+    }
+}

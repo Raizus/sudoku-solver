@@ -1,0 +1,246 @@
+{
+    "puzzleInfo": {
+        "title": "Clowns and Jokers",
+        "authors": [
+            "Die Hard"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Odd:** Cells with grey circles must contain odd numbers.\n\n**Indexing Column:** Numbers in red cells are indexing columns: Any number X appearing in the Yth column of a row indicates the column X where the number Y appears in that row.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Tt9Mt697pd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=6dEauzpAwGo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R2C7"
+            }
+        ],
+        "Indexing Column": [
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C4"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C2"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C2"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R1C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C2"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "6"
+            }
+        ]
+    }
+}

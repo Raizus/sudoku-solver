@@ -1,0 +1,352 @@
+{
+    "puzzleInfo": {
+        "title": "Irregular Whirlpool",
+        "authors": [
+            "Jojo81"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/494Mp9mjR6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=WNyRxt1Aqek"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null
+            },
+            {
+                "region": 2
+            },
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": 1,
+                "value": 1,
+                "given": true
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3,
+                "value": 4,
+                "given": true
+            }
+        ],
+        [
+            {
+                "region": 4
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 5
+            }
+        ],
+        [
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {
+                "region": null
+            },
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": null
+            },
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C4"
+                ],
+                "lines": [
+                    [
+                        "R3C4",
+                        "R2C5",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5"
+                ],
+                "lines": [
+                    [
+                        "R4C5",
+                        "R5C6",
+                        "R6C5",
+                        "R5C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7"
+                ],
+                "lines": [
+                    [
+                        "R3C7",
+                        "R4C8",
+                        "R5C8",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6"
+                ],
+                "lines": [
+                    [
+                        "R7C6",
+                        "R8C5",
+                        "R8C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6"
+                ],
+                "lines": [
+                    [
+                        "R8C6",
+                        "R7C5",
+                        "R7C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "lines": [
+                    [
+                        "R7C3",
+                        "R6C2",
+                        "R5C2",
+                        "R4C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C7"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "12"
+            }
+        ]
+    }
+}

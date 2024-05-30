@@ -1,0 +1,277 @@
+{
+    "puzzleInfo": {
+        "title": "Pairs Party",
+        "authors": [
+            "Qodec"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a black dot contain digits in the ratio of 1:2. Cells separated by a white dot contain consecutive digits. Cells separated by an X contain digits summing to 10. Cells separated by a V contain digits summing to 5. Not all possible dots or X/V clues are necessarily given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/r3qFHRhTbh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oBFAw_fhKOA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "V"
+            }
+        ]
+    }
+}

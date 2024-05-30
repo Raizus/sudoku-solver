@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Rising Streak",
+        "authors": [
+            "3Good5You"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Rising Streak:** A number outside the grid indicates there is a streak of AT LEAST that many increasing, consecutive digits in the row or column in that direction (e.g. a number above the grid indicates a downward streak in that column). For instance, the row '214678935' has a maximal streak of 4 digits to the right (6789) and 2 digits to the left (21).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/mrPNd4M4bq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=240rmFpSFWk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Rising Streak": [
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "7"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "2"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "2"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "3"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "2"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "3"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "3"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "2"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "4"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "6"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "5"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "4"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "2"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "2"
+            }
+        ]
+    }
+}

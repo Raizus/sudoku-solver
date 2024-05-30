@@ -1,0 +1,255 @@
+{
+    "puzzleInfo": {
+        "title": "Sauron's Demise",
+        "authors": [
+            "XeonRisq"
+        ],
+        "ruleset": "Normal sudoku rules apply.\nNumbers along an arrow must sum to the number shown in the circled cells.\nNumbers along the indicated diagonal must sum to the given total.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGUBDAVwCcB7AOwHIwACAERgFsIw5US0ALc0hEAA0YVAEpsAjiFSliOdmgEA5Ps0JY6YYgBNyAa2J1Z8uoQAOZrAE8AdAB1KS4swBGMUvXVUA5qcqnSCgB3OmZiMDRNZzo0chjuGDpKZzdSTV4g%2Fwh%2FHkSAYwhSPJxtOjyYLCwwe0cU908sH3jE7O0IPMI0GFK2wm8qdVDwyK1mGLjcum8IADcYHPI0dRtpEG9SCG0EAG1t0Gm5ygAFeYKsAFlCUj0wBGTKgF9kfdn5k8ozy%2Bvb%2BHusJ5eh3enyuNzucn%2BzzWr2OpwgF1BPz%2BAOhQLhCO%2B4MeUIOb3RXzBvwhKNxsI%2B8IJSOJOJhwIpiKxkMBePJGMJyIAusg9qiWSDMUTscyyfz2dThXS2VShbyRfSBciaWjWZTGSTafiGYKmbLJarterlaLpTrSXqtZzuRLNQrxbqbWKZWaHSbDXz5Y7TRqVRa7c6fband7jWqle6paHrQHPQ8uTz%2FSGDWG5RGk1HE4r0x7XcnzYGvUbs5H7dGc1nU5mSxniXHy%2FrKwmi2mq02G8HW372xXO4Xu0He%2FWe%2BHB%2F3h77HrWW32C2P826UyOZwvx0u8zHcy7i43p%2FO12Wp4vY1aDyvd5vm9vDxvS1uu1e66fr9XR8u50%2BOxPj5fHw%2B37%2F1%2F%2B%2B7fn%2BJ4gcBAGgRB4GupO0G3gOP6QUBd6IXBF4oWBGFQVhyEIXOHJciAWCYNgMB6PCOAeM4OygOUlQCKIAAMADCAAcqx0VUOwgKIACMzEAOyrKIABMzEAGzCQAzMxACswkACzMQpwmycxUnCeJzEicJAnMbxICEW0pAwHkGBUAIDAADKrDM6jELgIBSUJKKcQxWmMRxFRcfA2w8WpBmoKISk6UFMkaUFYkqUF%2FHyUZhSmeZlACAAqqItn2Y5ImICAR4gFcwQ0UR2QwD8uw8WJoU8eF0nKbVcWEZxZUVdphkosRlClTsfmiWxtU5UFSkDf5zE5QRqBNdxvXsRy7UlWVPV6VVohaRFI1rcF6mGY13nNaIS1tVCHVdb5PWsYJwmIBJl1yTdKnjSAk2%2BTx51CbNR3zd1PFXcNojnexQV6QDPF6W9O2VHtP2HaAx0LdV12RRdMV9Q9T09TJknvTDn2nd9W1Bedy3nQZqO7VNV0aVjxWdXDohXUJBMIyDTMrRdpMQ%2BTbNzTTX2bcDohqQzI2SYNt3sz5PVKTNeVtGAhAuCUjTTHkOyEWgsimYQlBtNonSleQZhJWVs1AA%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ieOaya1Vt9A"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R3C3",
+                        "R3C4",
+                        "R3C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R2C7",
+                        "R1C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R3C9",
+                        "R4C9",
+                        "R5C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8"
+                ],
+                "lines": [
+                    [
+                        "R4C8",
+                        "R5C7",
+                        "R5C6",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R6C3",
+                        "R5C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C2",
+                        "R8C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R9C6",
+                        "R9C5",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7"
+                ],
+                "lines": [
+                    [
+                        "R9C7",
+                        "R8C6",
+                        "R7C6",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C9",
+                        "R8C8",
+                        "R7C8",
+                        "R7C7"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": "37"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": "29"
+            }
+        ]
+    }
+}

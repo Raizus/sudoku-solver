@@ -1,0 +1,291 @@
+{
+    "puzzleInfo": {
+        "title": "London 0 - Hull 4",
+        "authors": [
+            "Krangune"
+        ],
+        "ruleset": "1-9 appear in each row, column and marked region. Cages show their sums. All instances of neighbouring cells with a difference of 4 are shown.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/L42H3q38P8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=MgsfUn-8txs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 2
+            },
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 2
+            },
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {
+                "region": 5
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Differences Given": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": "4"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": "20"
+            }
+        ]
+    }
+}

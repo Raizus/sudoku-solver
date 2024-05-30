@@ -1,0 +1,357 @@
+{
+    "puzzleInfo": {
+        "title": "Everything is Broken",
+        "authors": [
+            "Tanadien Whiteowl"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits joined by an X sum to 10, and by a V to 5. Digits along an arrow sum to the number in the attached circle. A clue outside the grid shows the sum of the indicated diagonal, which may include repeat digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qM96Q9qQ96",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ACjV-SbllXE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "X"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R1C8",
+                        "R2C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8"
+                ],
+                "lines": [
+                    [
+                        "R4C8",
+                        "R3C9",
+                        "R2C9"
+                    ],
+                    [
+                        "R4C8",
+                        "R3C7",
+                        "R3C8"
+                    ],
+                    [
+                        "R4C8",
+                        "R5C9",
+                        "R6C9"
+                    ],
+                    [
+                        "R4C8",
+                        "R4C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R5C4",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R7C5",
+                        "R6C6",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7"
+                ],
+                "lines": [
+                    [
+                        "R7C7",
+                        "R6C8",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1"
+                ],
+                "lines": [
+                    [
+                        "R9C1",
+                        "R8C2",
+                        "R7C2",
+                        "R8C3"
+                    ],
+                    [
+                        "R9C1",
+                        "R9C2",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3"
+                ],
+                "lines": [
+                    [
+                        "R3C3",
+                        "R4C2",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2"
+                ],
+                "lines": [
+                    [
+                        "R6C2",
+                        "R5C1",
+                        "R5C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C0",
+                "direction": "SE",
+                "value": "45"
+            },
+            {
+                "cell": "R10C0",
+                "direction": "NE",
+                "value": "45"
+            }
+        ]
+    }
+}

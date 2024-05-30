@@ -1,0 +1,232 @@
+{
+    "puzzleInfo": {
+        "title": "Splatter",
+        "authors": [
+            "Randall"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages cannot repeat, and sum to the total in the top left corner. Digits in red cells are the column index of the red cell's column in that row, e.g. the digit in r7c2 is the column index of the 2 in row 7, so a 6 in r7c2 means 2 is in r7c6. Not all red cells are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TRHPbJDpp3",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ady2RX1NiDo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R3C8"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R4C7"
+            },
+            {
+                "cell": "R5C8"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R5C2"
+            },
+            {
+                "cell": "R6C6"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R2C2",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9",
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "27"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "28"
+            }
+        ]
+    }
+}

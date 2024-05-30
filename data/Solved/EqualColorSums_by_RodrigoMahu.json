@@ -1,0 +1,232 @@
+{
+    "puzzleInfo": {
+        "title": "Equal Color Sums",
+        "authors": [
+            "Rodrigo Mahu"
+        ],
+        "ruleset": "Normal sudoku rules apply. Each continuous line segment of the same color contained in a box adds to the same value. A sum value per color. For example R4C6 = R2C7 + R2C8 + R1C9 = R3C7 + R3C8 = R8C7 + R9C8.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QFEBHAVwEMsACAYQHssaAnCgZWIFswRVTi0ALRghAAlGgBMGEAOY0KAWVJ9iXEA2I4wMNEIByjNuQphiYmgGtiFNRoqkADnawBPAHQV8pAMZ8KnmgDsMf2IaYjAKLAh%2FGCMYKTYYQIoaADMKfhiwUgTfOkZcwNIomDEKKNsKACMaAA9bMTFwtFkMo2yYgDdyYhg3AEEjdgourB6KOxgmP3oGNwAxfJga7McY4QAWKgA2CgBeCmEAJioAdgoAagPjgA4Lg4BGKkQ9g4BmU7vhd9v94WuPy7CRBUa4uFRSSRiBAAbWhwAAvsgEUjEci0aiMSiALrIOGY9EowkEhE4vFE%2FEU8mk4mUmnY3F0xkU6m01lUhlspn0slcpks8kCvk4kCRaIw0CimCceCwkSPRAqI4gxXHE4q7aK95bRWbbWoDanHXK%2FXvNUm5VY4WhbDFKhCADEfSdfTmcxUAHcIGJ%2BAgAAwuQ4AVlRIuK0tlX2NImOCvNsZEm3jwkDT0VKeuacN%2BpTepEKcDRoL5qL0aoJeEj3Lj1zFazcqjtYVltQ1sldrwjpdcydHq9Pvg%2FqDIcl4ehpdeisehxAzZArdtDtdzr6ve9fD9AeDSND0VHIn%2BZpEJwb%2FybVt4bcX3edq%2F7g63ErDMLHSvumqo0%2F1xwns%2Fn0XbICdkuK6oJ6a4bkO24js%2B%2B6pvqwJJsCGa%2FheC4dk6wG3uuA6bsOT4yi%2BSGKgeM7nja%2F4OsurpYRBD47lKMG1p%2B9Zvl%2BVBvih5EwABnYYW6oF9th954bujHAusxFUBJ%2BrHtJIhbFJioKRO%2BoKcxwgKaxR4fpJHFkZeHbAT2AngThkGPqJBGwVpfw6fBVA%2FvpaGAVR%2FEgGBd64VB%2BERsCKmwf5wjHo5LaoRR6FdsZ7mCbR8JYvCQA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Y_4RI7QhViw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8",
+                    "R2C7",
+                    "R2C6",
+                    "R3C6",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C8"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C3"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C2"
+                ],
+                "value": "y"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R7C8",
+                    "R8C7"
+                ],
+                "value": "y"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C2",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3",
+                    "R6C4",
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "y"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R2C1"
+                ],
+                "value": "z"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R1C8",
+                    "R1C7",
+                    "R1C6",
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R4C5",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9",
+                    "R4C9",
+                    "R3C9",
+                    "R2C9",
+                    "R3C8"
+                ],
+                "value": "z"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "z"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9",
+                    "R8C9"
+                ],
+                "value": "z"
+            }
+        ]
+    }
+}

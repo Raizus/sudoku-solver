@@ -1,0 +1,194 @@
+{
+    "puzzleInfo": {
+        "title": "Long Distance Relationship",
+        "authors": [
+            "RSP"
+        ],
+        "ruleset": "Normal sudoku rules apply. And that's it!",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GGQQBpHgHm",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Sha4sDbHF8w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {}
+}

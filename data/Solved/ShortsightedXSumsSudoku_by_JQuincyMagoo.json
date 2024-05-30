@@ -1,0 +1,188 @@
+{
+    "puzzleInfo": {
+        "title": "Shortsighted X-Sums Sudoku",
+        "authors": [
+            "J. Quincy Magoo"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Shortsighted X-Sums:** A clue outside the grid gives the sum of the nearest X or (X-1) numbers, where X is the number in the first cell from that direction.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGUALAewCc1IBzQtGAEwAIANAWnwFcBbMBju4gNbsQqAIbs0JUghAApAHQMAiuwgA7AMYBPBgFlRlYsREhS7HGBhoZAYSyiwkDQzDt+QhmYsNRAB19YWooA8hKQdDAMGljsMDxgJADuDJKRrpwMxABmKYSRajCipHFozJmkDAAUrACMAJQMalwARjCkYMgMiXnFZRA8qY0tbQzquZFZEO2lGjBYWAxZpMQZkqKldFMwGhjEavImlKQQdAgA2mfAAL7I17c3d48Pz/cAusiXL0/3P9/X759fl9gUCAX8viAAG6iGK4FAgSgQSEwNQINBmGAgp5grG40EfR5QmGxBAAdlQiORqPg6NieL+RNhCAAbBSkSi0RjnjigbzwW8CfShTz+aLue9wKI1HREhANIR0udQLN5jIAEoABhszJM0KZeBqAGYQA8QCqsOqtQAOXXE3AgGo203m9U1Gw1DW2/UO43OuYWvBqw3uz2oPUkg0m25m/3qgCsIa9EZApKjytjgdJibDdpkNTjaZjqsDiGzjOT+cLLsDbtD5fthoATFWMyAgzY6+H7QW/cW2wnO7m8E7o9W21nB97K1cJbQAB7WeCXItYMDnNulz0SrsyAAsdayezQNhkAGINRfLyZILAEBr5FaZ6gwMQYrtqWcUyZECYaiYbagzaoAWqA6qgxqoLuJhQcB/4mGBIAQQ6JhAV+qA/oBJhIQhGFoSAMEgCBIAAchoFwZhsHoVh0G/iYqbgbRkF0eRIA4SYRGobh9GETRqB/hRiHwSxHHMXxQlUagJEEUh/H4dRAlESR3G4QhJFsQxTGoNxsmoQWrxXEAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GA81BlyWqxs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Shortsighted X-Sum": [
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "13"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "18"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": "13"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "1"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "5"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "32"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "8"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "15"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "15"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "15"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "40"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "7"
+            }
+        ]
+    }
+}

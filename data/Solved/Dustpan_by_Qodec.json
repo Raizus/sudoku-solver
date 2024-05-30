@@ -1,0 +1,171 @@
+{
+    "puzzleInfo": {
+        "title": "Dustpan",
+        "authors": [
+            "Qodec"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Disjoint Groups:** Cells that appear in the same position relative to their default regions must not contain the same number.\n\n**Count Same Parity Neighbour Cells:** Cells marked with a circle show the number of digits with the same parity as that circled digit in that cell's 3x3 neighbourhood (including the digit in the cell itself). (Eg if r1c1 is a 1, all 3 cells surrounding it must be even.)",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/H2qm8BLDHh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=xB14BGlR0iM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Disjoint Groups": true
+    },
+    "local_constraints": {
+        "Count Same Parity Neighbour Cells": [
+            {
+                "cell": "R1C1",
+                "value": ""
+            },
+            {
+                "cell": "R2C2",
+                "value": ""
+            },
+            {
+                "cell": "R1C4",
+                "value": ""
+            },
+            {
+                "cell": "R1C7",
+                "value": ""
+            },
+            {
+                "cell": "R4C7",
+                "value": ""
+            },
+            {
+                "cell": "R4C4",
+                "value": ""
+            },
+            {
+                "cell": "R5C5",
+                "value": ""
+            },
+            {
+                "cell": "R4C1",
+                "value": ""
+            },
+            {
+                "cell": "R7C1",
+                "value": ""
+            },
+            {
+                "cell": "R7C4",
+                "value": ""
+            },
+            {
+                "cell": "R7C7",
+                "value": ""
+            }
+        ]
+    }
+}

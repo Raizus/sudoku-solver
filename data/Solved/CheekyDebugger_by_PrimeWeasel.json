@@ -1,0 +1,198 @@
+{
+    "puzzleInfo": {
+        "title": "Cheeky Debugger",
+        "authors": [
+            "PrimeWeasel"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Circles are odd, squares are even. For every digit X in a cell in box Y, there is a digit Y in the same position in box X.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/N87266GQRD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=YOgn13zVNK0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Global Indexing Disjoint Groups": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R3C8"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R6C8"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R8C7"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R9C2"
+            },
+            {
+                "cell": "R6C2"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R5C3"
+            },
+            {
+                "cell": "R5C4"
+            },
+            {
+                "cell": "R6C5"
+            }
+        ],
+        "Even": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R4C2"
+            },
+            {
+                "cell": "R4C4"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R7C7"
+            }
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "puzzleInfo": {
+        "title": "Campfire",
+        "authors": [
+            "Nahileon"
+        ],
+        "ruleset": "Normal sudoku rules apply. For each line, digits on that line have an equal sum within each box the line passes through. Cells separated by a white dot contain consecutive digits. Cells separated by a black dot contain digits in a 1:2 ratio.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/n4LPm2h3fD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=iUL6Q1Eu7x4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R5C3",
+                    "R4C3",
+                    "R3C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R4C7",
+                    "R5C7",
+                    "R5C8",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C8",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C3",
+                    "R8C4",
+                    "R7C5",
+                    "R8C6",
+                    "R8C7",
+                    "R9C8"
+                ]
+            }
+        ]
+    }
+}

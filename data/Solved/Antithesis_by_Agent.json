@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "Antithesis",
+        "authors": [
+            "Agent"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Yin Yang Antithesis Killer Cage:** Digits in cages cannot repeat and must sum to the small clue in the top left corner of the cage. However, shaded cells are treated as negative. In other words, the cage total is the sum of unshaded cells minus the sum of shaded cells.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bm7dTjjBRb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=vTmjvRqa1uo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Yin Yang": true
+    },
+    "local_constraints": {
+        "Yin Yang Antithesis Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R2C2",
+                    "R3C1"
+                ],
+                "value": "-34"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R3C6"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "-8"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "0"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "-20"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "-15"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R7C3",
+                    "R7C4",
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "-23"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4",
+                    "R6C4"
+                ],
+                "value": "-4"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "-10"
+            }
+        ]
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "puzzleInfo": {
+        "title": "Left Right Left",
+        "authors": [
+            "clover"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a white dot must contain consecutive digits. Not all white dots are necessarily given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3D4p249g4g",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GnUEAapUSjI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

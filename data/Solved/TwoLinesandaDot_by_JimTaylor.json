@@ -1,0 +1,182 @@
+{
+    "puzzleInfo": {
+        "title": "Two Lines and a Dot",
+        "authors": [
+            "Jim Taylor"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Unique Values Line:** Along a grey line there are no repeated digits.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f7hr9rq96H",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=1cMEktl2nrY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C4",
+                    "R9C5",
+                    "R8C6"
+                ],
+                "value": "5"
+            }
+        ],
+        "Unique Values Line": [
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C4",
+                    "R9C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ]
+            }
+        ]
+    }
+}

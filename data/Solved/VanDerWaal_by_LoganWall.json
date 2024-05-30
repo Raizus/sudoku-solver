@@ -1,0 +1,116 @@
+{
+    "puzzleInfo": {
+        "title": "VanDerWaal",
+        "authors": [
+            "Logan Wall"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/39GDNpTT9J",
+        "ctcYoutubeUrl": ""
+    },
+    "nRows": 6,
+    "nCols": 6,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C3",
+                    "R3C3",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C4",
+                    "R5C4",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6",
+                    "R6C5"
+                ]
+            }
+        ]
+    }
+}

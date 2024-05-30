@@ -1,0 +1,181 @@
+{
+    "puzzleInfo": {
+        "title": "Canadian Whispers",
+        "authors": [
+            "Joe Mo\u00ebd"
+        ],
+        "ruleset": "Normal sudoku rules apply. The one 'Maple Leaf' is a German Whisper line (adjacent digits must have a difference of at least 5). The two 'Hockey Sticks' are Thermometers (digits must increase from the bulb). The three 'Hockey Pucks' must be odd digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Pm2tG7mN8D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=SNf4SzMVNZs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R3C3"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R3C7"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C1",
+                    "R7C1",
+                    "R6C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C9",
+                    "R7C9",
+                    "R6C9"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C5",
+                    "R7C5",
+                    "R7C4",
+                    "R7C3",
+                    "R7C2",
+                    "R6C3",
+                    "R5C2",
+                    "R4C1",
+                    "R4C2",
+                    "R3C2",
+                    "R4C3",
+                    "R3C4",
+                    "R2C4",
+                    "R1C4",
+                    "R2C5",
+                    "R1C6",
+                    "R2C6",
+                    "R3C6",
+                    "R4C7",
+                    "R3C8",
+                    "R4C8",
+                    "R4C9",
+                    "R5C8",
+                    "R6C7",
+                    "R7C8",
+                    "R7C7",
+                    "R7C6"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

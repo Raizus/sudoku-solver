@@ -1,0 +1,179 @@
+{
+    "puzzleInfo": {
+        "title": "Four Flashes of Enlightenment",
+        "authors": [
+            "Mile Lemaic"
+        ],
+        "ruleset": "Normal sudoku rules apply. Identical digits cannot be a (chess) knight's move apart. Digits on an arrow must sum to the number in the circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rJqFpfNPFq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bSFzEh0V_m8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C5"
+                ],
+                "lines": [
+                    [
+                        "R2C5",
+                        "R3C4",
+                        "R2C3",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R4C7",
+                        "R5C6",
+                        "R6C7",
+                        "R7C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5"
+                ],
+                "lines": [
+                    [
+                        "R8C5",
+                        "R7C4",
+                        "R6C4",
+                        "R5C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R7C2",
+                        "R6C2",
+                        "R5C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

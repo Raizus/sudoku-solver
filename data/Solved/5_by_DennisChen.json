@@ -1,0 +1,196 @@
+{
+    "puzzleInfo": {
+        "title": "5",
+        "authors": [
+            "Dennis Chen"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hHGhhtR2TT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=pvHAxxplxm4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "X"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C6",
+                    "R1C5",
+                    "R1C4",
+                    "R1C3",
+                    "R2C3",
+                    "R3C3",
+                    "R4C3",
+                    "R5C3",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C7",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7",
+                    "R9C6",
+                    "R9C5",
+                    "R9C4",
+                    "R9C3"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

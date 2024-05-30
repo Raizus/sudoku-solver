@@ -1,0 +1,172 @@
+{
+    "puzzleInfo": {
+        "title": "Sandwich Counts",
+        "authors": [
+            "RockyRoer"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Sandwich Row Column Count:** A number in a circled cell indicates the total number of cells sandwiched between the 1's and the 9's in the row and column containing the circle. If a cell is simultaneously in a row sandwich and column sandwich, it is only counted once.\n\n**Sandwich Sum:** A number outside the grid gives the sum of the digits sandwiched between the 1 and 9 in that row/column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RP7HfFgQdt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=uxC8NBwRS-I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Sandwich Row Column Count": [
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R2C3"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R5C2"
+            },
+            {
+                "cell": "R7C3"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R8C6"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "21"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "30"
+            }
+        ]
+    }
+}

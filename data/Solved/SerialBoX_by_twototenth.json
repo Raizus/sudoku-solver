@@ -1,0 +1,265 @@
+{
+    "puzzleInfo": {
+        "title": "Serial BoX",
+        "authors": [
+            "twototenth"
+        ],
+        "ruleset": "Normal sudoku rules apply. Purple lines must contain a set of consecutive, non-repeating digits. Cells separated by an X must contain digits summing to 10; not all possible Xs are given. The clue outside the grid gives the sum of the digits along the indicated diagonal; these digits may repeat if allowed by other rules. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/HMBLdFQ7FT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=eVIQfh3bLiI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "X"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C3",
+                    "R8C4",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "48"
+            }
+        ]
+    }
+}

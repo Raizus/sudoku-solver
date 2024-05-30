@@ -1,0 +1,163 @@
+{
+    "puzzleInfo": {
+        "title": "Friends\u00b2",
+        "authors": [
+            "JoWovrin"
+        ],
+        "ruleset": "Normal sudoku rules apply. Green cells are \"friendly\" cells ie They contain their row/column/box number; eg r5c9 could be 5(row), 9(column) or 6(box). There are EXACTLY 2 friendly cells in every row/column/box of the grid.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/LLDprBq3FH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=f62e-iA_Mro"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Exactly Two Friendly Cells In Every Row Col Box": true
+    },
+    "local_constraints": {
+        "Friendly Cell": [
+            {
+                "cell": "R1C6"
+            },
+            {
+                "cell": "R4C4"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R3C3"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R7C7"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R8C2"
+            },
+            {
+                "cell": "R6C1"
+            }
+        ]
+    }
+}

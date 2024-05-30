@@ -1,0 +1,264 @@
+{
+    "puzzleInfo": {
+        "title": "Boston Marathon",
+        "authors": [
+            "FigoHarr"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**N Repeated Digits Line:** Each digit on the red line must appear N times on the line (default N = 2).\n\n**Odd:** Cells with grey circles must contain odd numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bbJb3DpG8M",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=nt2PSwYKVzY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": "X"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2",
+                    "R8C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R5C3",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R4C6",
+                    "R3C6",
+                    "R2C6",
+                    "R1C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C6"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7",
+                    "R6C6",
+                    "R7C5",
+                    "R8C4",
+                    "R9C3"
+                ]
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C5",
+                    "R4C6",
+                    "R3C7",
+                    "R2C8",
+                    "R1C9"
+                ]
+            }
+        ],
+        "N-Repeated Digits Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C6",
+                    "R6C7",
+                    "R7C8",
+                    "R8C8",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "2"
+            }
+        ]
+    }
+}

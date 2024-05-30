@@ -1,0 +1,265 @@
+{
+    "puzzleInfo": {
+        "title": "159 Bullseye",
+        "authors": [
+            "Luda3"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Indexing Column:** Numbers in red cells are indexing columns: Any number X appearing in the Yth column of a row indicates the column X where the number Y appears in that row.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**X-Sum:** A clue outside the grid gives the sum of the first X digits from that direction, where X is the first of those digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/nrGFdm38Mb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=nyCSDPaSIOc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C8",
+                    "R6C7",
+                    "R7C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2",
+                    "R8C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C2",
+                    "R4C3"
+                ]
+            }
+        ],
+        "X-Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "18"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "20"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "19"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "30"
+            }
+        ]
+    }
+}

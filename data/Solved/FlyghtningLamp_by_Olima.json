@@ -1,0 +1,199 @@
+{
+    "puzzleInfo": {
+        "title": "Flyghtning Lamp",
+        "authors": [
+            "Olima"
+        ],
+        "ruleset": "Rules: Normal Sudoku rules apply. Digits cannot repeat along the marked diagonals. Digits along a thermometer must increase from the bulb. Neighbouring digits along a green line have a difference of at least 5. Digits along a purple line form a consecutive sequence, not necessarily in order. Digits joined by a black dot have a ratio of 1:2. Not all dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/r2TmnnnmGR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=VbM_SO2eEi4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": ""
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C4",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R3C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C8",
+                    "R9C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C3",
+                    "R6C4",
+                    "R5C4",
+                    "R6C5",
+                    "R6C6",
+                    "R5C6",
+                    "R4C5",
+                    "R4C6",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C4"
+                ]
+            }
+        ]
+    }
+}

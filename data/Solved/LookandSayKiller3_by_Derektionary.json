@@ -1,0 +1,299 @@
+{
+    "puzzleInfo": {
+        "title": "Look-and-Say Killer 3",
+        "authors": [
+            "Derektionary"
+        ],
+        "ruleset": "Normal sudoku rules apply. Diagonals and cages are NOT standard. Digits MAY repeat in cages and along indicated diagonals. The numbers should be read as a 'look-and-say number'. Each number says which digits are in the respective cage or on the respective diagonal. For example, if a cage clue is 1221, this means there is 1 two and 2 ones in the cage. If a diagonal says 33, then there are 3 threes along the diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6PfGMdqN2G",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Mx9CYuYRwFg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage Look And Say": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R3C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "26"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "14"
+            }
+        ],
+        "Little Killer Look And Say": [
+            {
+                "cell": "R0C0",
+                "direction": "SE",
+                "value": "23"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "SE",
+                "value": "38"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SW",
+                "value": "12"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SW",
+                "value": "24"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "24"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "SE",
+                "value": "37"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "SE",
+                "value": "14"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "SE",
+                "value": "27"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "15"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "SW",
+                "value": "15"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "SW",
+                "value": "25"
+            }
+        ]
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "puzzleInfo": {
+        "title": "Inclusion",
+        "authors": [
+            "apetersen"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits joined by a white dot are consecutive. Digits joined by a black dot have a ratio of 1:2. Digits cannot repeat in each letter shape. Digits along a purple line are a consecutive set, not necessarily in order. Along the orange line, digits alternately increase or decrease.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hMtN6tTmT6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y77dQhonXhA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C8",
+                    "R7C8",
+                    "R6C8",
+                    "R5C8",
+                    "R5C7",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R6C5",
+                    "R5C5"
+                ]
+            }
+        ]
+    }
+}

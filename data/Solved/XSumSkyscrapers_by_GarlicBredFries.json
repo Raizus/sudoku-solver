@@ -1,0 +1,223 @@
+{
+    "puzzleInfo": {
+        "title": "X-Sum Skyscrapers",
+        "authors": [
+            "GarlicBredFries"
+        ],
+        "ruleset": "Normal sudoku rules apply. Numbers along a line have a value in between the two circles. Digits outside the grid are X-sum Skyscraper clues. This means that the number is the sum of first X cells where X would be the skyscraper clue outside the grid in that position.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9LGpLH299Q",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=MaZiUQsE428"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Between Line": [
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C4",
+                    "R4C5",
+                    "R3C6",
+                    "R4C6",
+                    "R5C6",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6",
+                    "R8C6",
+                    "R9C6",
+                    "R8C5",
+                    "R7C4",
+                    "R6C3"
+                ]
+            }
+        ],
+        "X-Sum Skyscrapers": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "9"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "14"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "10"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "18"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "18"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "22"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "25"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "14"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "17"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "22"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "N",
+                "value": "12"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "N",
+                "value": "19"
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": "11"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "28"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "29"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "29"
+            }
+        ]
+    }
+}

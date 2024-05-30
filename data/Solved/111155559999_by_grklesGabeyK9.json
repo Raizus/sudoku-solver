@@ -1,0 +1,285 @@
+{
+    "puzzleInfo": {
+        "title": "111155559999",
+        "authors": [
+            "grkles",
+            "GabeyK9"
+        ],
+        "ruleset": "Normal sudoku rules apply.\n\nQuadruple: Digits in a circle must appear at least once in the four cells touched by the circle.\n\nA digit in column 1 indicates the column in which the digit 1 appears in that row. Columns 5 and 9 have the same rule for digits 5 and 9 respectively. (For example, an 8 in R7C1 tells you there's a 1 in R7C8. A 3 in R2C5 tells you there's a 5 in R2C3.)",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DjFj3DThQg",
+        "ctcYoutubeUrl": "",
+        "author": "grkles & GabeyK9"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "2,3,4"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "1,4"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "1,5,9"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "2,3,5,6"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "1,2,8,9"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": "5,6,7,8"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "1,5,9"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "2,3,7"
+            }
+        ]
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "puzzleInfo": {
+        "title": "3 Snakes",
+        "authors": [
+            "Jeet Sampat"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a knight's move (in chess) cannot contain the same digit. Digits cannot repeat on the main (marked) diagonals. Digits cannot repeat within a cage. Adjacent digits on the green line must differ by at least 5. Cells separated by a black dot contain digits in a 2:1 ratio. Not all such dots are given. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NFmh8mPGjG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=EIhBncZoWo4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C6",
+                    "R3C5",
+                    "R3C4",
+                    "R3C3",
+                    "R4C3",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C7",
+                    "R5C7",
+                    "R4C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R4C3",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7",
+                    "R6C7",
+                    "R7C3",
+                    "R7C4",
+                    "R7C5",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

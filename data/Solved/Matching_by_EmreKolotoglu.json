@@ -1,0 +1,233 @@
+{
+    "puzzleInfo": {
+        "title": "Matching",
+        "authors": [
+            "Emre Kolotoglu"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Cells separated by a knight's move (in chess) cannot contain the same digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qgnrth64HH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mSLqlKozYrs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "10"
+            }
+        ]
+    }
+}

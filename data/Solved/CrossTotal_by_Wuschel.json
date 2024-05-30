@@ -1,0 +1,287 @@
+{
+    "puzzleInfo": {
+        "title": "Cross Total",
+        "authors": [
+            "Wuschel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow must sum to the digit in that arrow's circle. Arrows (without the circle) are palindromes - they read the same forwards and backwards. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f382RtF2Rd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oBTw_8hhoJw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Palindrome": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C7",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R7C7",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4",
+                    "R8C5"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C2"
+                ],
+                "lines": [
+                    [
+                        "R1C2",
+                        "R2C2",
+                        "R3C2",
+                        "R4C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C3"
+                ],
+                "lines": [
+                    [
+                        "R1C3",
+                        "R2C3",
+                        "R3C3",
+                        "R4C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R3C8",
+                        "R3C7",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8"
+                ],
+                "lines": [
+                    [
+                        "R5C8",
+                        "R5C7",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R8C8",
+                        "R7C8",
+                        "R6C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7"
+                ],
+                "lines": [
+                    [
+                        "R9C7",
+                        "R8C7",
+                        "R7C7",
+                        "R6C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R9C3",
+                        "R9C4",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1"
+                ],
+                "lines": [
+                    [
+                        "R7C1",
+                        "R7C2",
+                        "R7C3",
+                        "R6C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "puzzleInfo": {
+        "title": "Relax, You're Two Tents",
+        "authors": [
+            "Jessica (subtitle) Shaham"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along gray thermometers must increase from the bulb to the tip. Neighboring digits along green lines must differ by at least 5. Digits connected by a black dot must have a ratio of 1:2. Digits connected by a white dot must be consecutive. Not all dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MM3mMQGJn2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=16HqAuwB8a4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C6",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C4",
+                    "R3C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C6",
+                    "R4C5",
+                    "R4C4",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C7",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R6C3",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C5",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C7",
+                    "R5C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

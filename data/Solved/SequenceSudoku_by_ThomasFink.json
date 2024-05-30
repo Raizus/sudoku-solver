@@ -1,0 +1,208 @@
+{
+    "puzzleInfo": {
+        "title": "Sequence Sudoku",
+        "authors": [
+            "Thomas Fink"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a grey line must increase by the same amount, in the same direction.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f9h3FHGDBn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=HkOh1ddxAGA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arithmetic Sequence Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C2",
+                    "R2C3",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C1",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ]
+            }
+        ]
+    }
+}

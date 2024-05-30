@@ -1,0 +1,164 @@
+{
+    "puzzleInfo": {
+        "title": "Full Rank Sudoku",
+        "authors": [
+            "Gliperal"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Row Or Column Rank:** Considering all rows and columns as 9-digit numbers read from the direction of the clue and ranked from lowest (1) to highest (36), a clue represents where in the ranking that row/column lies.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Qd8gJRm7Fh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ROwjAFvZxZo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Row Or Column Rank": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "33"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "30"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "26"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "24"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "13"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "1"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "17"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "36"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "35"
+            }
+        ]
+    }
+}

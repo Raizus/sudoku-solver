@@ -1,0 +1,307 @@
+{
+    "puzzleInfo": {
+        "title": "Code 62 (Hi-Five)",
+        "authors": [
+            "Sumanta Mukherjee"
+        ],
+        "ruleset": "Normal sudoku rules apply. Each purple line contains a set of consecutive digits. Along a thermometer, digits must increase from the bulb end. Digits along an arrow sum to the digit in that arrow's circle. Clues outside the grid give the sum of the digits along the indicated diagonal. Cells separated by an X contain digits summing to 10.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/m4MQ4pTN8b",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=k-Lqhng2K9c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "X"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C9"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R2C6",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R2C9",
+                        "R2C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C9",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C6"
+                ],
+                "lines": [
+                    [
+                        "R9C6",
+                        "R8C6",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C3",
+                        "R8C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3"
+                ],
+                "lines": [
+                    [
+                        "R6C3",
+                        "R5C3",
+                        "R5C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "26"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "SE",
+                "value": "19"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "NW",
+                "value": "62"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "NE",
+                "value": "8"
+            }
+        ]
+    }
+}

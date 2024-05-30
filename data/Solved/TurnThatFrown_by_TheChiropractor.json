@@ -1,0 +1,303 @@
+{
+    "puzzleInfo": {
+        "title": "Turn That Frown...",
+        "authors": [
+            "The Chiropractor"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits placed in cages sum to the small given total. Digits may not repeat in a cage. Digits placed on arrows sum to the digit placed in the attached circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUBXAJwDsACfACwEM1yAxYgewHdSA6LkVGwtKs2IICVGOQDCVCCwAOxGgGM0QniGKEcYGGhEA5IQFsaWcmEIATZgGtC5DVvI1ZsrAE8O5ACIQA5pjByVyUYC3IICkUaXxhA80NyFUSxM2MsU38ANxgKFTQTTx9%2FNEDjN3JSZnpiGFkYOnCKGnIomMK%2FAKCsELDmJuIWVjjCBKSBcQsO%2BmDFUMbk8Tp8xTEwxRlFHE81X2IICwQAbUPgAF9kM4vzy5vru6uAXWQT%2B9ur97ezp5eP15BMkyEXAAJlQWRyCDQGhgr1h30%2BsN%2Bv3hfwBWCBCAAzGCINlSJDoYibv9AbgUCBwfj4FCgXDngikQyvvSidcSejcAB2HF4gm0xl3FEC4W3IVM1mPJ4gawQdIwYitXAnECzdJgI4gABKABYJMC1DqJJiDQBWPUGgBs5qlaIxeGBxrZqqw6vghy1uu1pokXtQmqtxr9Vq9NtJImBAAYQE6YGqNYaLQbdZzvYmgxJE6GOeGAIzRi4q2Mu%2BO6gAc3vL6ZT6fLWbtIBziZjcbdWtLEhNBsQHZAddwDc7zeLrc1OYkiANwPHBsx0774f1Q9d7tHEjzfqn661s7z8%2Fti4LzuXbYzBvbKb3DajS%2Fj3bTWu71YfElrqFt%2FZz18PRePmvbgZPEM3zDPAc0db8WxXbt9T9bsAM1bsgPZescwnU4pRoAY2COUAsAiWIjhXK0YK1Tk1zPcjYPIh4pSPeNiN7Nk8NIAi3SIl8DTIic%2FXbbjnwnGjUDokcrVrJj8OXFddXvTVZ07Dcez9MdO0EwtII9U8HnEljJI0vjZI4hTa1on8SznbTWOObdzQUkjV31VThJXWcHIs3SDJkqcn1XYyhNMkdZ0zdDTiAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=OagC8VOlw24"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R2C2",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C5",
+                        "R2C5",
+                        "R1C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R2C7",
+                        "R1C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R3C8",
+                        "R2C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R7C9",
+                        "R8C9",
+                        "R9C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2"
+                ],
+                "lines": [
+                    [
+                        "R6C2",
+                        "R7C1",
+                        "R8C1",
+                        "R9C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3",
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": "23"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "13"
+            }
+        ]
+    }
+}

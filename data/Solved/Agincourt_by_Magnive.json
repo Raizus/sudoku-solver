@@ -1,0 +1,235 @@
+{
+    "puzzleInfo": {
+        "title": "Agincourt",
+        "authors": [
+            "Magnive"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow must sum to the digit in that arrow's circle. Even digits must see at least one identical digit by a knight's move (in chess).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DLFMNqR3H9",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=tpuEnpFeCGs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Evens Must See Identical Digit By Knights Move": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R2C1",
+                        "R3C1",
+                        "R4C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C3"
+                ],
+                "lines": [
+                    [
+                        "R1C3",
+                        "R2C3",
+                        "R3C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R2C7",
+                        "R1C7",
+                        "R1C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C9"
+                ],
+                "lines": [
+                    [
+                        "R2C9",
+                        "R3C8",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C9",
+                        "R4C8",
+                        "R4C7",
+                        "R5C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C9",
+                        "R8C9",
+                        "R7C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1"
+                ],
+                "lines": [
+                    [
+                        "R9C1",
+                        "R9C2",
+                        "R9C3",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1"
+                ],
+                "lines": [
+                    [
+                        "R5C1",
+                        "R6C1",
+                        "R6C2",
+                        "R5C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

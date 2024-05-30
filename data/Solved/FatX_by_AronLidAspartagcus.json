@@ -1,0 +1,149 @@
+{
+    "puzzleInfo": {
+        "title": "Fat X",
+        "authors": [
+            "Aron Lid\u00e9 (Aspartagcus)"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2j4Bdt62rR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=cKE0jwdzWkU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Little Killer Sum": [
+            {
+                "cell": "R1C0",
+                "direction": "SE",
+                "value": "35"
+            },
+            {
+                "cell": "R0C0",
+                "direction": "SE",
+                "value": "35"
+            },
+            {
+                "cell": "R0C1",
+                "direction": "SE",
+                "value": "27"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "SW",
+                "value": "12"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "39"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "SW",
+                "value": "69"
+            }
+        ]
+    }
+}

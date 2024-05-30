@@ -1,0 +1,289 @@
+{
+    "puzzleInfo": {
+        "title": "Swivel",
+        "authors": [
+            "Tallcat"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TBdjr7BB4J",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=kEH-puCDZ_M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {
+                "region": 4
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            }
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5,
+                "value": 2,
+                "given": true
+            },
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4,
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            }
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 8
+            },
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C4",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C2",
+                    "R4C3",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C8",
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C5",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R6C3"
+                ]
+            }
+        ]
+    }
+}

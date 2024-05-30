@@ -1,0 +1,199 @@
+{
+    "puzzleInfo": {
+        "title": "Trickling Down",
+        "authors": [
+            "Mr. Menace"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits on a line must fall 'outside' the range of their yellow endpoints (eg endpoints of 1 and 8 only allow 9 on the line connecting them.) Each endpoint value must differ by at least 4 from other directly connected endpoints. Digits on a line may repeat if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rGF3gpgnmM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=RUCIA8Ot9T0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Lockout Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R2C5"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C9"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4",
+                    "R4C5"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R4C9"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R8C7",
+                    "R8C8",
+                    "R9C9"
+                ],
+                "value": "4"
+            }
+        ]
+    }
+}

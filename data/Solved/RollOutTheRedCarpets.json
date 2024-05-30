@@ -1,0 +1,312 @@
+{
+    "puzzleInfo": {
+        "title": "Roll Out The Red Carpets",
+        "authors": [
+            "Arlo Lipof"
+        ],
+        "ruleset": "Normal sudoku rules apply. \n\nDigits along a red line must repeat in the same order when the carpet is 'rolled out' starting from the bulbed end (e.g. the digits along the line in box 7 will unroll up column 3, duplicating eg R8C2 in R1C3).\n\nDigits in cells joined by a V sum to 5; and digits joined by an X sum to 10. Not all Xs and Vs are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7L6tHTrdBq",
+        "ctcYoutubeUrl": ""
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "X"
+            }
+        ],
+        "Red Carpet": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R2C3",
+                    "R1C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C3",
+                    "R7C3",
+                    "R7C2",
+                    "R7C1",
+                    "R8C1",
+                    "R9C1",
+                    "R9C2",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R3C8",
+                    "R3C9",
+                    "R2C9",
+                    "R1C9",
+                    "R1C8",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R7C8",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9",
+                    "R8C9",
+                    "R8C8"
+                ]
+            }
+        ]
+    }
+}

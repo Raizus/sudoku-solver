@@ -1,0 +1,237 @@
+{
+    "puzzleInfo": {
+        "title": "X Gon' Give It 2 Ya",
+        "authors": [
+            "DadJokes"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages must not repeat and sum to the given total in the top left. Digits do not repeat along the diagonals.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Mt2dQDL2BQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=llnDzZpt4CU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C8"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8"
+                ],
+                "value": "8"
+            }
+        ]
+    }
+}

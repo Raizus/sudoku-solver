@@ -1,0 +1,229 @@
+{
+    "puzzleInfo": {
+        "title": "QR Code",
+        "authors": [
+            "Ore"
+        ],
+        "ruleset": "Each row, column and region contains digits 1-9 exactly once.\nDigits within a cage sum to the small number in top left corner.\nDigits may not repeat along either long diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QEUAlAAgGEB7AEzlQEMBXNAC3ICcEQB5VmkV+nGBhoOAUVoBjJsVbkA7smITyWegFsAdsVobKMmAHMI5Lco1paEDWGKUIRtDYCMAWkTEYAD0nYAnsRMJGAA6AB0NABF7TBs5TCYrbSVaAxhiMHViNHIspjSwNVosLGINdQAjGFZiROyAB2IcADM0JTYNKrDI6MdiQv8NclaeOphaVqKTAw94qsap2wgUkyLgkFQDVghKBABtXeAAX2Qjk75DYw0EJ2PTu9vzoxNr29eAXWQD15Pv+5//o4fA6PS4IADMvwePCeV3gAAZfiDnvAAEyQs7Q0HwACshyBf1AmORCIBiKJsLRpPx6IJNLxnwJSNhADY6RiLsiAByQ/FM8E0vnwVkAwXc0nsmEIXHU8W02X0r4i8kIADsbMJHNhaqpHxAdmWGiKAGoEGh+DBUPqDCssC5TebUABrCDFKoSFK4YFBYpgPYgQgAFlIiHW/uxwdDhGZEd1ADcivRcCAnCiQA9vVhffBdv7OaQnJHEPmQHGE0mnGC02cM1mc4Q86nUIQi6nS6py5X0zAfX7CE5i03+43/SiByPSK3UPH2xwUdiq6Aa73+5zI/2Q23ExwnAGFyAl9nx6um6ON1Oy9vU12e4fCOHd03ow//dH55ukyHr5ne0H502g8ykbhoB77biqe4HnWKqkOBTZ5uBoF4E4BZfrW/rQceuakKuiHJihbyHEAA=",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=E2ZJZ9jTBUI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "9"
+            }
+        ]
+    }
+}

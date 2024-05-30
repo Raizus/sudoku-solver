@@ -1,0 +1,323 @@
+{
+    "puzzleInfo": {
+        "title": "Multi-Rule QAS",
+        "authors": [
+            "Daniel Grimes"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits increase from the bulb. Digits along an arrow sum to the number in the circle. Digits on the purple line are consecutive digits in any order. A white dot joins two consecutive digits; a black dot joins digits with a 1:2 ratio; an X joins two digits that sum to 10. Cages show their totals. A clue outside the grid shows the sum of the indicated diagonal. Not all markings are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gjrqn4bQHm",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Llz_yOdVnYU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "X"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R3C3",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C5"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C6"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R2C1",
+                        "R3C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R1C8",
+                        "R1C9"
+                    ],
+                    [
+                        "R1C7",
+                        "R2C8",
+                        "R2C9",
+                        "R3C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R4C8",
+                        "R4C7"
+                    ],
+                    [
+                        "R4C9",
+                        "R5C9",
+                        "R6C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7"
+                ],
+                "lines": [
+                    [
+                        "R7C7",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1"
+                ],
+                "lines": [
+                    [
+                        "R7C1",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3"
+                ],
+                "lines": [
+                    [
+                        "R6C3",
+                        "R7C3",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R9C2",
+                        "R9C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7",
+                    "R7C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "15"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R7C10",
+                "direction": "SW",
+                "value": "14"
+            }
+        ]
+    }
+}

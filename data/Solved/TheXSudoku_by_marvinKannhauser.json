@@ -1,0 +1,316 @@
+{
+    "puzzleInfo": {
+        "title": "The X Sudoku",
+        "authors": [
+            "marvin Kannhauser"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits increase from the bulb. Purple lines are palindromes, which read the same both ways. A number in a circle must appear in at least one of the four surrounding cells.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/R9p6tLN9Q9",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=t3sqlGZwM5I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "3"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C9",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C1",
+                    "R9C1"
+                ]
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8",
+                    "R3C7",
+                    "R4C6",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R7C3",
+                    "R6C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8",
+                    "R8C9"
+                ]
+            }
+        ]
+    }
+}

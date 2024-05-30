@@ -1,0 +1,326 @@
+{
+    "puzzleInfo": {
+        "title": "Par 9",
+        "authors": [
+            "Dragonoidrules",
+            "Tyrgannus"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cages are \u2018putteria' cages. Each cage of size N has to have the number N contained in it. Putteria numbers (Ns) cannot repeat in a cage, and cannot orthogonally neighbour other putteria numbers. Other numbers may repeat in cages.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9LmpFnQr2F",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=v1AJw1ZE1-U"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Putteria Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R2C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C4",
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C7",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C9",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5",
+                    "R7C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R6C2",
+                    "R7C1",
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C3",
+                    "R5C4",
+                    "R6C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C1",
+                    "R3C2",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R4C7",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6",
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

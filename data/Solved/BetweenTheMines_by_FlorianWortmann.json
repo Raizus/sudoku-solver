@@ -1,0 +1,245 @@
+{
+    "puzzleInfo": {
+        "title": "Between The Mines",
+        "authors": [
+            "Florian Wortmann"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Between Line:** Digits on a green line must be numerically in between the two circled cells at the line's ends.\n\n**Yin Yang Minesweeper:** Circles act as 'minesweeper' clues. Cells containing a circle are always unshaded, and their value is the number of shaded cells in the surrounding 3x3 area (i.e. the up to eight cells that touch the circle either orthogonally or diagonally).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bt33LL43h7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mC6NTr-9fgU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Yin Yang": true
+    },
+    "local_constraints": {
+        "Yin Yang Minesweeper": [
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R2C3"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R6C2"
+            },
+            {
+                "cell": "R7C4"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R9C1"
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C2",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C2",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R5C4",
+                    "R4C5",
+                    "R4C6",
+                    "R3C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C4",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C5",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C3",
+                    "R8C2",
+                    "R9C1"
+                ]
+            }
+        ]
+    }
+}

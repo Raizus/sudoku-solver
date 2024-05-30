@@ -1,0 +1,171 @@
+{
+    "puzzleInfo": {
+        "title": "Square Dance",
+        "authors": [
+            "Cris Moore"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Multipliers:** The grid contains 9 multipliers, one in each row column and box. Each digit appears as a multiplier exactly once.\n\n**Edge Inequality:** The inequality sign points to the lower of the two digits.\n\n**Multipliers Cage:** Cage totals are shown in the upper left corner of the cage. If a multiplier appears in a cage, then it multiplies the sum of the other digits in the cage to produce the cage total. For instance, if a cage contains 3, 4, 5, 6 and 3 is the multiplier, the cage total would be 3*(4+5+6)=45. A multiplier which is not in a cage has no effect.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/F2LtPfMmLQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=dw5JT7f2Kdg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+      "Multipliers": true
+    },
+    "local_constraints": {
+      "Edge Inequality": [
+        {
+          "cells": ["R5C6", "R6C6"],
+          "value": "<"
+        },
+        {
+          "cells": ["R4C1", "R4C2"],
+          "value": "<"
+        },
+        {
+          "cells": ["R7C8", "R7C9"],
+          "value": "<"
+        }
+      ],
+      "Multipliers Killer Cage": [
+        {
+          "cells": ["R1C2", "R1C3", "R2C2", "R2C3"],
+          "value": "16"
+        },
+        {
+          "cells": ["R1C5", "R1C6", "R2C5", "R2C6"],
+          "value": "25"
+        },
+        {
+          "cells": ["R2C8", "R2C9", "R3C8", "R3C9"],
+          "value": "36"
+        },
+        {
+          "cells": ["R5C7", "R5C8", "R6C7", "R6C8"],
+          "value": "16"
+        },
+        {
+          "cells": ["R5C4", "R5C5", "R6C4", "R6C5"],
+          "value": "9"
+        },
+        {
+          "cells": ["R4C1", "R4C2", "R5C1", "R5C2"],
+          "value": "49"
+        },
+        {
+          "cells": ["R8C1", "R8C2", "R9C1", "R9C2"],
+          "value": "64"
+        },
+        {
+          "cells": ["R8C4", "R8C5", "R9C4", "R9C5"],
+          "value": "81"
+        },
+        {
+          "cells": ["R7C8", "R7C9", "R8C8", "R8C9"],
+          "value": "64"
+        }
+      ]
+    }
+}

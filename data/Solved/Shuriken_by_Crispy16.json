@@ -1,0 +1,243 @@
+{
+    "puzzleInfo": {
+        "title": "Shuriken",
+        "authors": [
+            "Crispy16"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Palindrome:** Gray and orange lines are palindromes, reading the same when reversed.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GpfBbHBhPM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=UIiLL39o7U8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Palindrome": [
+            {
+                "cells": [
+                    "R8C4",
+                    "R7C5",
+                    "R6C6",
+                    "R6C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C3",
+                    "R6C4",
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C5",
+                    "R4C4",
+                    "R4C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R4C6",
+                    "R5C7",
+                    "R6C8"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C4",
+                    "R2C3",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C2",
+                    "R8C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6",
+                    "R8C7",
+                    "R7C8",
+                    "R6C8",
+                    "R5C8",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R4C9",
+                    "R3C8",
+                    "R2C7",
+                    "R2C6",
+                    "R2C5",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2"
+                ]
+            }
+        ]
+    }
+}

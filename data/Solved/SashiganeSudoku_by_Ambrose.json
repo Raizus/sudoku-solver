@@ -1,0 +1,207 @@
+{
+    "puzzleInfo": {
+        "title": "Sashigane Sudoku",
+        "authors": [
+            "Ambrose"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**L-Shaped Regions:** Divide the grid into 1-cell wide L-shaped regions. Digits may not repeat in a region.\n\n**L-Shaped Region Bend Count:** A circle in a cell means that cell is the bend in a region, and also the number in that cell is how many cells are in that region (this rule does not apply to regions without a circle).\n\n**L-Shaped Region Arrow Points To Bend :** An arrow in a cell means that cell is an end of a region, the arrow points to the bend, and also the value in the cell counts the number of cells in that leg of the region, including the bend cell (this rule does not apply to end-cells without arrows).\n\n**L-Shaped Region Sum:** A small clue in the top left corner of a cell gives the sum of the cells in that cell's region. Corner clues do not need to be in the top left cell of a region.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3n92Hf2fGQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ikMsx9EPWZE&t=3025s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "L-Shaped Regions": true
+    },
+    "local_constraints": {
+        "L-Shaped Region Bend Count": [
+            {
+                "cell": "R2C7"
+            },
+            {
+                "cell": "R4C8"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R5C6"
+            }
+        ],
+        "L-Shaped Region Sum": [
+            {
+                "cell": "R3C2",
+                "value": "15"
+            },
+            {
+                "cell": "R5C1",
+                "value": "19"
+            },
+            {
+                "cell": "R6C2",
+                "value": "17"
+            },
+            {
+                "cell": "R6C8",
+                "value": "28"
+            },
+            {
+                "cell": "R8C9",
+                "value": "22"
+            },
+            {
+                "cell": "R8C5",
+                "value": "15"
+            },
+            {
+                "cell": "R9C4",
+                "value": "25"
+            },
+            {
+                "cell": "R9C1",
+                "value": "13"
+            }
+        ],
+        "L-Shaped Region Arrow Points To Bend": [
+            {
+                "cell": "R5C3",
+                "arrow": "N"
+            },
+            {
+                "cell": "R7C1",
+                "arrow": "N"
+            },
+            {
+                "cell": "R2C1",
+                "arrow": "E"
+            },
+            {
+                "cell": "R2C5",
+                "arrow": "W"
+            },
+            {
+                "cell": "R4C5",
+                "arrow": "E"
+            },
+            {
+                "cell": "R6C5",
+                "arrow": "W"
+            },
+            {
+                "cell": "R7C3",
+                "arrow": "E"
+            },
+            {
+                "cell": "R9C6",
+                "arrow": "W"
+            }
+        ]
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "puzzleInfo": {
+        "title": "[\\]",
+        "authors": [
+            "Sotek"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/P7j2jrgNNJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=lBwi5xckpGE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R5C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C5"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

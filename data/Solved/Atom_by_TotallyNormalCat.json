@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "Atom",
+        "authors": [
+            "TotallyNormalCat"
+        ],
+        "ruleset": "Normal sudoku rules apply (ie place the digits 1-9 once each in every row, column & 3x3 box). Digits on a grey line must be between the digits in the circles at either end of the line.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/T2D67FnRDM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=5p51R3kOovQ",
+        "author": "TotallyNormalCat"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Between Line": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C5",
+                    "R3C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C4",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C4",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C6",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C8",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C6",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C4",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R4C2",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R2C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C8",
+                    "R5C8"
+                ]
+            }
+        ]
+    }
+}

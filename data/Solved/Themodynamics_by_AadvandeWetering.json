@@ -1,0 +1,182 @@
+{
+    "puzzleInfo": {
+        "title": "Themodynamics",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Positive Diagonal:** Numbers must not repeat on the positive diagonal.\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Lm4PT4Ht99",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gLLnwa2Z_Pg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R2C4",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C6",
+                    "R3C7",
+                    "R2C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C7",
+                    "R4C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C9"
+                ]
+            }
+        ]
+    }
+}

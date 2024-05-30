@@ -1,0 +1,245 @@
+{
+    "puzzleInfo": {
+        "title": "Chameleon",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along arrows sum to the number in the attached circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/H8fbgF24Fn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=McNmBk4wrh0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C5"
+                ],
+                "lines": [
+                    [
+                        "R3C5",
+                        "R2C6",
+                        "R1C6"
+                    ],
+                    [
+                        "R3C5",
+                        "R2C4",
+                        "R1C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8"
+                ],
+                "lines": [
+                    [
+                        "R3C8",
+                        "R2C7",
+                        "R1C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R2C3",
+                        "R1C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C2"
+                ],
+                "lines": [
+                    [
+                        "R4C2",
+                        "R5C3",
+                        "R5C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6"
+                ],
+                "lines": [
+                    [
+                        "R5C6",
+                        "R5C7",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8"
+                ],
+                "lines": [
+                    [
+                        "R7C8",
+                        "R8C7",
+                        "R9C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5"
+                ],
+                "lines": [
+                    [
+                        "R7C5",
+                        "R8C6",
+                        "R9C6"
+                    ],
+                    [
+                        "R7C5",
+                        "R8C4",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R8C3",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

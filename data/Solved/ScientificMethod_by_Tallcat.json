@@ -1,0 +1,229 @@
+{
+    "puzzleInfo": {
+        "title": "Scientific Method",
+        "authors": [
+            "Tallcat"
+        ],
+        "ruleset": "Normal Sudoku rules apply\n\nKiller: Digits in cages must sum to the total in the top left corner. Digits may not repeat in cages.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGUBjCGAOwwDMJCACAWRjQAsB7AExFQEMBXZlgE4IQAFS5YshLmk4gBPHGEbCAcoIC24mvh5sWAax415imlwAO5rAE8AOqXsBpCBJgD4NACIQA5pjA0EKQ0Uj4wAeo8YGg0YDzqNGgsiUwwiSxoWkEpaUnmNDgUMYSCpG4AdF6%2B%2FjSa1jSkGcYw5jDSgcGh4eWyPgIQHPAA2kOgfgBuZAAKZMRYdFwC%2BmAIpApYAL7IYxCTpDOkcwtLK%2FBrEls7ewdHi8ur65cgE9OzLsf3Z4%2Fbz7uvh%2B87qdzpsfi99m95kCHhcwX8IQCoScYaCrv9bsivrC0QiMZ8QRsALrIUa%2Fa6Qj7A744m6AzEEuHkxGUlFPcG0pH46lk9F0rnYnm4vlUgXsinQrGowUclmStnwmUSgnE0li5lK7lqvEiqVa4Wsxm8zk6%2BVM7UGmni%2BmahVW%2Fm623q62ix3muUqy1O%2B2mo2yhmet3%2B6V2k2GoXGi3Br2hgP6uVhxXOh1muPKkmxiPxjN%2Bm0pzNBvX53O%2BjUuvM5sslpM%2B8MV5NV70eqOB4u10v1tvVhMhyOFus1xPe7vR3uu1Otwcmpt99sDntZ5vjyudofZ2fDlvLyej8vrtfV6djotb%2BcFo%2F9jdLjvbhczrv71eL4%2FX0%2BPQ%2B7%2B9Pi8PmNfvd%2Fz870fIDfxAncGynYkQH0FwcAELoEFJQgYAkU4hhAAAlAAmABhABWWRsJwgA2QjcIAdhAKDxnEHhcBAABGABmEAnmQ1DEMwhicIAFkI7iCNQDDuNIoTcJYsTeKo1AaKwOjhAYgAOVifnYrA0MwnicMQQi8O0wjiJw5ShMMnShPIozpJAWT5LwBjKLYlD1M4jCmMsoStOMzC9OU6jaPohi%2BMcjjhi49ywrMzDcJ0vy5ICgAGFTQDUjTXJIwi3MojycMo2LbMYrCkpAFKXL0iTMMM8qMIsqqLL48z8KsmyAoI4LnNCjDDNEiqcsIizSLylqipKjq3PqzScKqrS%2BMGhTSLa1KtMEibuowvTlrW9LZrwLCGOGpzUsQRqhKO1ajtymT%2FIUhzVIOlzDL2hrHswxScL27bGPm26QvQtLnowrT3suuKFL2olUDYCAwC4AAjHA2CwFg%2FEITiSnIAQuEhwgMBYUgVigtB5BgKRSEhthpHCFhzBxvHEMJDYgA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ShHzi6izpGQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C8",
+                    "R6C9",
+                    "R7C8"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R7C3",
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "17"
+            }
+        ]
+    }
+}

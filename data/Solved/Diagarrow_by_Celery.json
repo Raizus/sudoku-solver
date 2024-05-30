@@ -1,0 +1,221 @@
+{
+    "puzzleInfo": {
+        "title": "Diagarrow",
+        "authors": [
+            "Celery"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3Qtfj9fJPP",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=t6T_MA1wF-Y"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C5"
+                ],
+                "lines": [
+                    [
+                        "R2C5",
+                        "R3C6",
+                        "R2C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R4C9",
+                        "R5C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7"
+                ],
+                "lines": [
+                    [
+                        "R5C7",
+                        "R6C8",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R7C5",
+                        "R8C6",
+                        "R9C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C1"
+                ],
+                "lines": [
+                    [
+                        "R8C1",
+                        "R8C2",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R4C2",
+                        "R5C3",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R3C0",
+                "direction": "SE",
+                "value": "26"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "NE",
+                "value": "24"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "NW",
+                "value": "19"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "SW",
+                "value": "21"
+            }
+        ]
+    }
+}

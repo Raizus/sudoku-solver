@@ -1,0 +1,238 @@
+{
+    "puzzleInfo": {
+        "title": "Discombobulated",
+        "authors": [
+            "Kennet's Dad"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the digit in the circle. Digits in a cage sum to the given total. A purple line contains a series of consecutive digits in any order. Identical digits cannot appear in the same position within any two 3x3 boxes.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QG9PRqnJg2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=t6wcAS4QE1M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Disjoint Groups": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9",
+                    "R9C8"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R2C1",
+                        "R1C1",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R3C7",
+                        "R2C6",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R4C5",
+                        "R4C4",
+                        "R5C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R8C7",
+                        "R7C7",
+                        "R7C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R9C3",
+                        "R8C2",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C7"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "9"
+            }
+        ]
+    }
+}

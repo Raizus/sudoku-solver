@@ -1,0 +1,287 @@
+{
+    "puzzleInfo": {
+        "title": "Renbanage",
+        "authors": [
+            "Celery"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/R9JdLhd3p8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=z7ikqv1GoMw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C5",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R6C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C5",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C2",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "12"
+            }
+        ]
+    }
+}

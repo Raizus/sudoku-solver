@@ -1,0 +1,231 @@
+{
+    "puzzleInfo": {
+        "title": "23 Renban",
+        "authors": [
+            "Florian Wortmann"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/jPN8QBBnHr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=wwpwW84Qn20"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C4",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C3",
+                    "R2C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R4C8",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7",
+                    "R6C7",
+                    "R7C8",
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R8C4",
+                    "R9C5",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R8C3",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R6C3",
+                    "R5C4",
+                    "R4C5",
+                    "R4C6"
+                ]
+            }
+        ]
+    }
+}

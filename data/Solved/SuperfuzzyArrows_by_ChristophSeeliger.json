@@ -1,0 +1,209 @@
+{
+    "puzzleInfo": {
+        "title": "Superfuzzy Arrows",
+        "authors": [
+            "Christoph Seeliger"
+        ],
+        "ruleset": "Normal sudoku rules apply. Draw a circle in one of the cells of each line. The digit in the circle gives the sum of the digits towards (each of) the remaining end(s) of the line.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/q8R69ndLt4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bK0YhNGZUvg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Superfuzzy Arrow": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C9",
+                    "R3C9",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6",
+                    "R6C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R7C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R7C9",
+                    "R6C9"
+                ]
+            }
+        ]
+    }
+}

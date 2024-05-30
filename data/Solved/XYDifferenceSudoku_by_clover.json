@@ -1,0 +1,172 @@
+{
+    "puzzleInfo": {
+        "title": "XY Difference Sudoku",
+        "authors": [
+            "clover!"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All XY Differences Given:** If two cells are separated by a diamond, the digits must exhibit a difference equal to the leftmost or topmost digit sharing a row or column with them. For example, the difference between R9C34 = R9C1, and the difference between R23C1 = R1C1. Not all possible diamonds are necessarily given. All XY differences are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/L8t8jQ7Ljn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=_aUd1pyHmNA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {
+                "given": true
+            },
+            {
+                "given": true
+            },
+            {
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All XY Differences Given": true
+    },
+    "local_constraints": {}
+}

@@ -1,0 +1,195 @@
+{
+    "puzzleInfo": {
+        "title": "Lion",
+        "authors": [
+            "Qodec"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. Cells separated by a king's move (in chess) cannot contain the same digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/dbhMgB9dmT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=0HBp8V2C6rM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiking": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9",
+                    "R4C8"
+                ],
+                "value": "23"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "23"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C1",
+                    "R6C2",
+                    "R7C1"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": "24"
+            }
+        ]
+    }
+}

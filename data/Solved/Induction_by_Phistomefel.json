@@ -1,0 +1,193 @@
+{
+    "puzzleInfo": {
+        "title": "Induction",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Adjacent digits along a green line must have a difference of at least 5. Orthogonally adjacent cells may not contain consecutive digits. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Rt7qnrqPTB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=nmVNgQX_4No"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C2",
+                    "R2C3",
+                    "R1C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7",
+                    "R3C8",
+                    "R2C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R4C8",
+                    "R5C9",
+                    "R6C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C2",
+                    "R5C1",
+                    "R6C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C4",
+                    "R9C3",
+                    "R8C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

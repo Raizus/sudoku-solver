@@ -1,0 +1,178 @@
+{
+    "puzzleInfo": {
+        "title": "Killer Convergence",
+        "authors": [
+            "Riffclown"
+        ],
+        "ruleset": "Normal sudoku rules apply. Clues outside the grid are sandwich clues and little killer clues in both directions. On each diagonal from the number, the digits must sum to the number provided. Digits can repeat along these diagonals. In the rows/columns with given sandwich clues, the number given is the sum of the digits sandwiched between the 1 and the 9.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fRrnrqL873",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=zxT9wi6z8nc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Sandwich Sum": [
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "13"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "13"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "16"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "13"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "NE",
+                "value": "13"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SE",
+                "value": "13"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SW",
+                "value": "13"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "SW",
+                "value": "16"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "NW",
+                "value": "16"
+            }
+        ]
+    }
+}

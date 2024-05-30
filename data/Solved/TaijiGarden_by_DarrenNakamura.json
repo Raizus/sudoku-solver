@@ -1,0 +1,212 @@
+{
+    "puzzleInfo": {
+        "title": "Taiji Garden",
+        "authors": [
+            "Darren Nakamura"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Yin Yang Same Color Adjacent Count:** Numbers in cells with yellow diamonds indicate how many of that cell's (up to four) orthogonal neighbours share the same shading as the cell.\n\n**Yin Yang Sum Of Shaded:** Numbers outside the grid indicate the sum of the digits in shaded cells in the corresponding row/column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Rjr2tMDbrQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FQdIT1B97HQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Yin Yang": true
+    },
+    "local_constraints": {
+        "Yin Yang Same Color Adjacent Count": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R4C4"
+            },
+            {
+                "cell": "R5C8"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R6C4"
+            },
+            {
+                "cell": "R7C3"
+            },
+            {
+                "cell": "R8C2"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R6C1"
+            }
+        ],
+        "Outside Edge Yin Yang Sum Of Shaded": [
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "20"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "17"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "24"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "20"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "20"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "25"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "22"
+            }
+        ]
+    }
+}

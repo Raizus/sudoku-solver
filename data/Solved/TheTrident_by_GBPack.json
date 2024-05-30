@@ -1,0 +1,251 @@
+{
+    "puzzleInfo": {
+        "title": "The Trident",
+        "authors": [
+            "GBPack"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits cannot repeat within the cage. Digits along an arrow sum to the digit in that arrow's circle. White dots separate cells containing consecutive digits. Not all possible dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NBPBDTP64f",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=sOSrJCXdSCQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C2"
+                ],
+                "lines": [
+                    [
+                        "R1C2",
+                        "R2C3",
+                        "R3C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R2C5",
+                        "R3C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8"
+                ],
+                "lines": [
+                    [
+                        "R4C8",
+                        "R3C7",
+                        "R2C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R6C7",
+                        "R7C7",
+                        "R8C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6"
+                ],
+                "lines": [
+                    [
+                        "R8C6",
+                        "R8C5",
+                        "R7C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C3",
+                        "R7C3",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1"
+                ],
+                "lines": [
+                    [
+                        "R4C1",
+                        "R5C2",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C5",
+                    "R4C7",
+                    "R5C3",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C5"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

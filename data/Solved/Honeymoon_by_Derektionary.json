@@ -1,0 +1,210 @@
+{
+    "puzzleInfo": {
+        "title": "Honeymoon",
+        "authors": [
+            "Derektionary"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along the thermometer, digits increase from the bulb. Digits next to each other along a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9m49Nhhbff",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=yh0M6Xkp__I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R6C4",
+                    "R6C5",
+                    "R5C6"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C8",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R2C7",
+                    "R3C6",
+                    "R4C6",
+                    "R5C7",
+                    "R6C7",
+                    "R7C8",
+                    "R7C7",
+                    "R8C7",
+                    "R9C6",
+                    "R9C5",
+                    "R8C6",
+                    "R7C6",
+                    "R6C6",
+                    "R5C5",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C3"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

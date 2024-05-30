@@ -1,0 +1,224 @@
+{
+    "puzzleInfo": {
+        "title": "Yo Banana Boy!",
+        "authors": [
+            "Danny Mecler"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Diagonals contain the digits 1-9 once. Each line is a palindrome, consisting of only 2 digits (ie: ABABA, ABBA). ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/dmQ8MHm29g",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=PI3U9vqM030"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true,
+        "Palindromes Only Have Two Digits": true
+    },
+    "local_constraints": {
+        "Palindrome": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1",
+                    "R3C2",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R3C4",
+                    "R4C5",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R3C7",
+                    "R3C8",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C7",
+                    "R7C7",
+                    "R7C8",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R7C3",
+                    "R7C4",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C3",
+                    "R8C4",
+                    "R9C5"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "9"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": "26"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SE",
+                "value": "15"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "SW",
+                "value": "31"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": "20"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "19"
+            }
+        ]
+    }
+}

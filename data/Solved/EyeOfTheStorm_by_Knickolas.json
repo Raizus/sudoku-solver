@@ -1,0 +1,269 @@
+{
+    "puzzleInfo": {
+        "title": "Eye Of The Storm",
+        "authors": [
+            "Knickolas"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the digit in that arrow's circle. Along thermometers, digits must increase from the bulb end. Cells separated by an X must contain digits summing to 10; not all possible Xs are necessarily given. On either main diagonal (marked in blue) digits cannot repeat.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Qtb3r7Mgt8",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=h54qbSfGG7U"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "X"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C3"
+                ],
+                "lines": [
+                    [
+                        "R2C3",
+                        "R3C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7"
+                ],
+                "lines": [
+                    [
+                        "R2C7",
+                        "R1C6",
+                        "R1C5",
+                        "R1C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8"
+                ],
+                "lines": [
+                    [
+                        "R3C8",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8"
+                ],
+                "lines": [
+                    [
+                        "R7C8",
+                        "R6C9",
+                        "R5C9",
+                        "R4C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R7C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3"
+                ],
+                "lines": [
+                    [
+                        "R8C3",
+                        "R9C4",
+                        "R9C5",
+                        "R9C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R4C1",
+                        "R5C1",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "puzzleInfo": {
+        "title": "Nadir",
+        "authors": [
+            "Barrels"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end. One cell in the grid is the nadir. Cells must increase in value as they move away from the nadir in every straight-line direction (ie vertically, horizontally and diagonally) until they reach the edge of the grid. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/JqQHr2HJjg",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=dDozFKP2Bpo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Single Nadir": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C7",
+                    "R1C6",
+                    "R1C5",
+                    "R1C4",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C7",
+                    "R4C7",
+                    "R4C6"
+                ]
+            }
+        ]
+    }
+}

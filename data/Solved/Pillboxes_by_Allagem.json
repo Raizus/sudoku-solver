@@ -1,0 +1,197 @@
+{
+    "puzzleInfo": {
+        "title": "Pillboxes",
+        "authors": [
+            "Allagem"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Maximum:** A number in a gray cell pointing outwards must be greater than all of the orthogonally adjacent cells.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MpdTnQ4TfP",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=il-iA1e-E_s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Maximum": [
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R3C2"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R1C6"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R2C7"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R6C8"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R7C7"
+            },
+            {
+                "cell": "R8C7"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R9C3"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C7",
+                    "R7C8",
+                    "R8C7"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3"
+                ],
+                "value": "18"
+            }
+        ]
+    }
+}

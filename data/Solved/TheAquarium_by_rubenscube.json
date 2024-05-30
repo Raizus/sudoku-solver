@@ -1,0 +1,275 @@
+{
+    "puzzleInfo": {
+        "title": "The Aquarium",
+        "authors": [
+            "rubenscube"
+        ],
+        "ruleset": "Normal Sudoku rules apply.\n\nDigits along thermometers increase starting from the bulb end.\n\nCells with a grey square contain even digits.\n\nAdjacent digits along a green line differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAAgEEBHAVwEMAnCKgWxFRqrUIHs6EQ6qAIxgA7MAGMhcVAJxgYaPgDkeTGlhIBlKgBMuAayolZMMCRoAHC1gCeAOgA6IpwBEIAc0xn1XEe5KcMHRMXEwKQWYQIuJ0MDTyJGBo9Bh%2BJABmdKEBxCSCVFiCJKI6js4iAMIwWFhmAO6YhOYk7rE2idT0pOK%2ByVHFAG6iJDoeXmVOZDoAVjTiomgjY2jeWL7%2BNC2xw1hRpKPp6UF57TSLOPGLAKx2rCCtEDoIANrPoJ5DIgAKouIQWABZej6MAIEQFLAAX2Q7wgnx%2B0X%2BQLoILBEOhsPhvyRwNB8HBNQx9zhogRf0BuLRhJhxKxiIpKLxBKhNI%2BpOxDNR%2BPRrJJ3w5yK5zKJbP59MFTJ5mPZ4sp3MJAF1kG9aTLyRKqSzpWL1XLhby6brGZqRXyyTjjfKtaqdRahVKbebOZLqdqnRqrabDXaXdbRe69eilSr%2FQLA67HWHLfq3VH7RHQ7Low7E0b436zXHfV61T6TQbc8787Gk%2BnIcGS2nswXbUXPTWA8mE5nS9XK3n6%2B26zHI63i72q%2F3Ux3hRWByOUy3B53x93J96582Fx6e8PFxnl%2BGN4WV%2FOd1vy8qu7ul%2Fum9vayeL42yw2s0OpxPT5eD3e%2BzO11fDyHH%2Bucy%2Fz3%2FG821nL832nVdfzA49XxgwDwKfKEx0%2FWDQNQlD4Lg28sJAjDsLQzCCPwvDs2QqD0PIwiSIfTcqMo4j6NwxiaLPBjaLLBUlRAGBPheUB5hqPgACUAGYKhEkAiQErBhLEgA2SSaWk2SKkQRT%2BOqGS8CEuTVPUkBlO03SFKkzThN0iTTME7TEHE%2FTDJAITbJMpSzJsvTD3QYhglCcJeHgFVdhEUwXmeRyxIAJjuISIrs1AhIARgqKLOKJIKQoCsLRIqK5otihT4qS3LUppdK8VecKKgADjyvTCuqkAStAMrQsc3Saviq46scgAWBqmpAFrMranLoq6gretGgahoqnTkrGuLJpShU0r2cqstsqL4qqxahIAdnm6a1tapzRu2ioJv2qaVtK47htOjrHJ2tT4oOmqjuC9bHIOvbop236Poy2a%2Bt%2BzqKgBm7mru2aktBxzYoh1bPpOpKetqtHAa%2BoS%2BrRsGMchwboayg7caeip8aRoHiYqBK%2FppxqCZmrK%2BtpsHacxlH6fi2L2ZWri6kICAwAsCI%2BMJ5H7vG6LdLhq7Ea40YwBoQQcB0NZPHEF4DN6OgaFGcQMF8UEuLQAQYHEGgRFGHQzlMLgLENsQXi49KxaZxypfimXop%2BhnUC4Dh0oqPgAGI5L2gAxAAGcO7gaHROAQKO7BE1AhaUGA6gqI3TZoKJFHgU2qBgctISAA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=DUlfr6jmaNA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R3C3"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R6C6"
+            },
+            {
+                "cell": "R6C3"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C3",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C6",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C9",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C9",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C9",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C3",
+                    "R7C2"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C7",
+                    "R7C7"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

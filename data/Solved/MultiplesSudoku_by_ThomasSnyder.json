@@ -1,0 +1,343 @@
+{
+    "puzzleInfo": {
+        "title": "Multiples Sudoku",
+        "authors": [
+            "Thomas Snyder"
+        ],
+        "ruleset": "Normal sudoku rules apply. Some numbers are given on the edges between two adjacent cells. Treating those cells as a two-digit number (reading left-to-right or downwards), the two-digit number must be a multiple of the clue (eg around a 7 clue, the two digits could be 14, 21, 28, 35, \u2026).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QLhQ6B6HHb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=44INUSVyMsw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Two Digit Multiples": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "3"
+            }
+        ]
+    }
+}

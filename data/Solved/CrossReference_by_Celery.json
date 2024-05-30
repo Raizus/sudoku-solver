@@ -1,0 +1,191 @@
+{
+    "puzzleInfo": {
+        "title": "Cross Reference",
+        "authors": [
+            "Celery"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Indexing Column Is X Line:** Digits along an orange line indicate the column in which the digit X (default X = 5) appears in that ROW (from left to right).\n\n**Indexing Row Is X Line:** Digits along a blue line indicate the row in which the digit X (default X = 5) appears in that COLUMN (from top to bottom).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/r8R7M39bQB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=G6LePFyxs_c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C5",
+                    "R1C6",
+                    "R2C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C4",
+                    "R8C5",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Indexing Column Is X Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8",
+                    "R9C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Indexing Row Is X Line": [
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2",
+                    "R7C3",
+                    "R6C4",
+                    "R5C5",
+                    "R4C6",
+                    "R3C7",
+                    "R2C8",
+                    "R1C9"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

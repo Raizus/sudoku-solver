@@ -1,0 +1,239 @@
+{
+    "puzzleInfo": {
+        "title": "Silent Killer",
+        "authors": [
+            "Luda3"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**X-Omit Little Killer Sum:** Numbers outside the grid indicate the sum of the digits along the indicated diagonal while omitting the Xth digit from the sum, where X is the digit in the first cell along the indicated diagonal. Note: N cannot be larger than the length of the diagonal. \n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f73T963tbD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=fsRlyCiHXKI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C9",
+                    "R9C8",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7",
+                    "R4C6",
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R3C2",
+                    "R2C3",
+                    "R1C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C7",
+                    "R7C8",
+                    "R6C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "X-Omit Little Killer Sum": [
+            {
+                "cell": "R2C0",
+                "direction": "NE",
+                "value": "0"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "17"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": "31"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "SW",
+                "value": "2"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "NE",
+                "value": "13"
+            }
+        ]
+    }
+}

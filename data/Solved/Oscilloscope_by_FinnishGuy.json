@@ -1,0 +1,202 @@
+{
+    "puzzleInfo": {
+        "title": "Oscilloscope",
+        "authors": [
+            "FinnishGuy"
+        ],
+        "ruleset": "Normal sudoku rules apply. The red line is an oscillator line, along which digits alternate being high (more than 5) and low (less than 5). Clues outside the grid give the sum of the digits along the indicated diagonal (and may include repeated digits if permitted by other rules). Digits may not repeat along the main diagonal marked in blue. Grey lines are palindromes, which read the same forwards and backwards. Digits along an arrow sum to the digit in that arrow's circle. The cell with an opaque grey square contains an even digit. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/P4FrjqFPRh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=wSN-nyRO1Uk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R8C8"
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C3",
+                    "R7C4",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C6",
+                    "R4C7",
+                    "R5C8"
+                ]
+            }
+        ],
+        "High Low Oscillator Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C2",
+                    "R2C3",
+                    "R3C2",
+                    "R4C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C4",
+                    "R6C5",
+                    "R5C6",
+                    "R6C7",
+                    "R7C6",
+                    "R8C7",
+                    "R7C8",
+                    "R8C9",
+                    "R9C8"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C5"
+                ],
+                "lines": [
+                    [
+                        "R1C5",
+                        "R1C6",
+                        "R1C7",
+                        "R1C8"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "15"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "NE",
+                "value": "8"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SE",
+                "value": "9"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SE",
+                "value": "25"
+            }
+        ]
+    }
+}

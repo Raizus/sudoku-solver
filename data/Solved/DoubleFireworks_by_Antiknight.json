@@ -1,0 +1,250 @@
+{
+    "puzzleInfo": {
+        "title": "Double Fireworks",
+        "authors": [
+            "Antiknight"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Doublers:** The grid contains 9 doublers (numbers multiplied by 2), one in each row column and box. Each digit appears as a doubler exactly once.\n\n**Doublers Multiplier Arrow:** The digits along each arrow must multiply to the digit in the circled cell. Doublers count as double their value on arrows. Doublers aren't necessarily on arrows. The value of the Doubler is counted if it appears on a one cell arrow.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fbqQB8jrhn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=KXumBBj0QqM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Doublers Multiplier Arrow": [
+            {
+                "cells": [
+                    "R3C1"
+                ],
+                "lines": [
+                    [
+                        "R3C1",
+                        "R4C1",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6"
+                ],
+                "lines": [
+                    [
+                        "R1C6",
+                        "R2C5",
+                        "R3C4",
+                        "R4C3",
+                        "R5C2",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R2C7",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R3C9",
+                        "R2C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C7"
+                ],
+                "lines": [
+                    [
+                        "R9C7",
+                        "R8C7",
+                        "R7C7",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R7C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4"
+                ],
+                "lines": [
+                    [
+                        "R7C4",
+                        "R8C5"
+                    ],
+                    [
+                        "R7C4",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3"
+                ],
+                "lines": [
+                    [
+                        "R8C3",
+                        "R8C2",
+                        "R9C3",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

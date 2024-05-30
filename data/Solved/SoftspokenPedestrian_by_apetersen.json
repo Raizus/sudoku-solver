@@ -1,0 +1,247 @@
+{
+    "puzzleInfo": {
+        "title": "Soft-spoken Pedestrian",
+        "authors": [
+            "apetersen"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a thermo increase from the bulb. Digits along an arrow sum to the number in the circle. Neighbouring digits on a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/p7RR7MBh9h",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=fDBtEMZXfMA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5",
+                    "R4C5",
+                    "R5C5"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C6",
+                    "R3C5",
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C5",
+                    "R5C5",
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C4",
+                    "R3C3",
+                    "R4C2",
+                    "R5C1",
+                    "R6C2",
+                    "R7C3",
+                    "R8C4",
+                    "R9C5",
+                    "R8C6",
+                    "R7C7",
+                    "R6C8",
+                    "R5C9",
+                    "R4C8",
+                    "R3C7",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R1C5"
+                ],
+                "value": "5"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C2"
+                ],
+                "lines": [
+                    [
+                        "R3C2",
+                        "R4C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8"
+                ],
+                "lines": [
+                    [
+                        "R3C8",
+                        "R2C7",
+                        "R2C8",
+                        "R2C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6"
+                ],
+                "lines": [
+                    [
+                        "R5C6",
+                        "R5C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C3",
+                        "R8C2",
+                        "R7C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

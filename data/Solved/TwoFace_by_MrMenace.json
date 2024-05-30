@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "Two Face",
+        "authors": [
+            "Mr.Menace"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**Odd Even Oscillator Line:** Digits along a red line alternate between odd and even numbers.\n\n**Even:** Cells with grey squares must contain even numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6tjbqNGt37",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=pYv-InlgAwM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R9C7"
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C3",
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R4C7",
+                    "R4C6",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R5C8",
+                    "R6C8",
+                    "R7C7",
+                    "R8C7",
+                    "R8C6"
+                ]
+            }
+        ],
+        "Odd Even Oscillator Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C4",
+                    "R2C4",
+                    "R3C5",
+                    "R2C6",
+                    "R3C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9",
+                    "R4C9",
+                    "R4C8",
+                    "R5C7",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R4C2",
+                    "R5C3",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R5C2",
+                    "R6C2",
+                    "R7C3",
+                    "R8C3",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C5",
+                    "R6C4",
+                    "R5C5"
+                ]
+            }
+        ]
+    }
+}

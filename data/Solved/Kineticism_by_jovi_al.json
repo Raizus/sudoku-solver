@@ -1,0 +1,175 @@
+{
+    "puzzleInfo": {
+        "title": "Kineticism",
+        "authors": [
+            "jovi_al"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**X-Sum:** A clue outside the grid gives the sum of the first X digits from that direction, where X is the first of those digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2LJ7ggN9D4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=M-jTmBSv-HE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "X-Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "15"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "14"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "14"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "23"
+            },
+            {
+                "cell": "R10C2",
+                "direction": "N",
+                "value": "21"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "21"
+            },
+            {
+                "cell": "R10C8",
+                "direction": "N",
+                "value": "21"
+            }
+        ]
+    }
+}

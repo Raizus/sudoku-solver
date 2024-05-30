@@ -1,0 +1,351 @@
+{
+    "puzzleInfo": {
+        "title": "Numbered Regions",
+        "authors": [
+            "Jesper"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Numbered Unknown Regions:** Divide the grid into 9 regions, each consisting of nine orthogonally connected cells. The digit in the top-left cell of a region (its leftmost cell in its highest row) is its \u201cregion number\u201d. All region numbers are different.\n\n**Next Numbered Region Distance Arrows:** If a cell with the digit X in a region with the number N contains an arrow, then the cell X steps away in the indicated direction belongs to the region numbered N+1.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Hf9QqQMD7J",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8cVWUjV4Ps8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+      "Unknown Numbered Regions": true
+    },
+    "local_constraints": {
+      "Next Numbered Region Distance Arrows": [
+        {
+          "cell": "R1C1",
+          "arrows": ["SE"]
+        },
+        {
+          "cell": "R1C6",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R2C3",
+          "arrows": ["S"]
+        },
+        {
+          "cell": "R2C9",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R3C2",
+          "arrows": ["SE"]
+        },
+        {
+          "cell": "R3C3",
+          "arrows": ["W", "E"]
+        },
+        {
+          "cell": "R3C4",
+          "arrows": ["W", "E"]
+        },
+        {
+          "cell": "R4C1",
+          "arrows": ["SE"]
+        },
+        {
+          "cell": "R4C4",
+          "arrows": ["SW"]
+        },
+        {
+          "cell": "R5C1",
+          "arrows": ["NE"]
+        },
+        {
+          "cell": "R7C4",
+          "arrows": ["E"]
+        },
+        {
+          "cell": "R7C7",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R7C9",
+          "arrows": ["W"]
+        },
+        {
+          "cell": "R8C2",
+          "arrows": ["SE"]
+        },
+        {
+          "cell": "R8C3",
+          "arrows": ["E"]
+        },
+        {
+          "cell": "R8C8",
+          "arrows": ["N"]
+        },
+        {
+          "cell": "R9C9",
+          "arrows": ["N"]
+        }
+      ]
+    }
+}

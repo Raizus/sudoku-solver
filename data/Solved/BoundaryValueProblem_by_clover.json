@@ -1,0 +1,250 @@
+{
+    "puzzleInfo": {
+        "title": "Boundary Value Problem",
+        "authors": [
+            "clover!"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QCEB7AVwDsATAQwCcBPAAgDVKtiZ6AFawgIxwFsQqSsTQALQtQQgAxlkIA3GNQCEQkNWI4wMNNIByk%2Fi3phi5QgGti9TdvqUADo6y0AdPQAiEAOaYwpjCONJRoMOT0PAyU9ADuYpjsFmgO1OwyhKQ6MqIQSh6GKSxY9MkBNOykMDIwYGA0EK70fkqkHuo%2B1BDkCADavcAAvshDI8OgCixsCAAcqC0wpAhomjDj4yCTrLgoIAtL8Cts62NjALrIAycTU7gAjPN5i8ur19ebtwgATI%2BtL8enIYXK6At6gkYfbYIXb7f5rc6XUZIsHIwGQ6bwB57J4HI5rYGowko9YE4ngwno3A%2FbF%2FQ6vAmUhAAZl%2BzzpAKJ5I2WwxcxpbLxJMRZM5yIZPNwABZWbjXmiJQgAOwyuEit5nC4gcgQABmOuUixqfVANSwWDAfRAACUmQBhACs6httslIDOG1N5stzsdqGdADY3R6YGaLfBeta7ravk6o3cgxDPWGI1aozG%2FVGmQmTSGveHrV9bYhY0Xs7Jc8mC6W%2FXbi%2B7ExXvfbbYqnZKW2Wk02O37%2FR36znQ93XX7266B%2BWh%2Fmrc2R9a%2B%2BPg1OU33ffOXZ3G9PV06%2B4GJ13pzMHU7ECeD1uU83437mzH3e6gA%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Au1VM5Fd0OA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

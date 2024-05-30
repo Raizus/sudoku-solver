@@ -1,0 +1,190 @@
+{
+    "puzzleInfo": {
+        "title": "Diwali Candle 2",
+        "authors": [
+            "Schwupel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Yin Yang Seen Unshaded Cells:** Blakc circles represent unshaded cells. A digit on a circle is equal to the number of consecutive unshaded cells (including itself) the circle sees in its row and column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9g2bRq7dLL",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GwZcXQ1re6w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Yin Yang": true
+    },
+    "local_constraints": {
+        "Yin Yang Seen Unshaded Cells": [
+            {
+                "cell": "R2C3"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R3C2"
+            },
+            {
+                "cell": "R4C4"
+            },
+            {
+                "cell": "R6C8"
+            },
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R5C9"
+            }
+        ]
+    }
+}

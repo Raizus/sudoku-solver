@@ -1,0 +1,132 @@
+{
+    "puzzleInfo": {
+        "title": "12 12",
+        "authors": [
+            "Florian Wortmann"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Antiking:** Cells that are a chess king's move apart must not contain the same number.\n\n**All XV's Given:** All XV's are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/F4nDB4d9h7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=VSbOn10eZu8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Antiking": true,
+        "All XV's Given": true
+    },
+    "local_constraints": {}
+}

@@ -1,0 +1,273 @@
+{
+    "puzzleInfo": {
+        "title": "Yes, The Clever Equation",
+        "authors": [
+            "SSG"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits cannot repeat within a cage. Digits along an arrow must sum to the digit in that arrow's circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FmD4JTL79p",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=4dJ052UJq2w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R5C5",
+                        "R4C5",
+                        "R5C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R4C8",
+                        "R5C8",
+                        "R6C8"
+                    ],
+                    [
+                        "R3C9",
+                        "R4C8",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C9",
+                        "R8C8",
+                        "R7C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5"
+                ],
+                "lines": [
+                    [
+                        "R8C5",
+                        "R9C5",
+                        "R9C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C4",
+                        "R7C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C1",
+                        "R7C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R6C2",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R3C3",
+                        "R4C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R2C7",
+                        "R1C7"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R3C4",
+                    "R3C5",
+                    "R4C2",
+                    "R4C3",
+                    "R4C4",
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R6C7",
+                    "R6C8",
+                    "R7C5",
+                    "R7C6",
+                    "R7C7",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

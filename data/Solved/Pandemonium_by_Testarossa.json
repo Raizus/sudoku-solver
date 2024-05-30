@@ -1,0 +1,302 @@
+{
+    "puzzleInfo": {
+        "title": "Pandemonium",
+        "authors": [
+            "Testarossa"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along arrows sum to the digit in the attached circle. Clues outside the grid show the sum of the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2gmhjNF7PF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=DbVOzckHLUY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C5"
+                ],
+                "lines": [
+                    [
+                        "R1C5",
+                        "R2C5",
+                        "R3C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8"
+                ],
+                "lines": [
+                    [
+                        "R1C8",
+                        "R2C9",
+                        "R3C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7"
+                ],
+                "lines": [
+                    [
+                        "R3C7",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3"
+                ],
+                "lines": [
+                    [
+                        "R2C3",
+                        "R3C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2"
+                ],
+                "lines": [
+                    [
+                        "R5C2",
+                        "R5C1",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "lines": [
+                    [
+                        "R7C3",
+                        "R7C2",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C1",
+                        "R7C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "lines": [
+                    [
+                        "R6C4",
+                        "R5C4",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7"
+                ],
+                "lines": [
+                    [
+                        "R5C7",
+                        "R6C6",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R6C8",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R8C9",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C6"
+                ],
+                "lines": [
+                    [
+                        "R9C6",
+                        "R8C6",
+                        "R7C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C2"
+                ],
+                "lines": [
+                    [
+                        "R1C2",
+                        "R2C1",
+                        "R3C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SE",
+                "value": "30"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "SE",
+                "value": "30"
+            }
+        ]
+    }
+}

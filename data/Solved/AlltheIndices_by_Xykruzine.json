@@ -1,0 +1,197 @@
+{
+    "puzzleInfo": {
+        "title": "All the Indices",
+        "authors": [
+            "Xykruzine"
+        ],
+        "ruleset": "Normal sudoku rules apply. Any digit appearing in the nth column of a row indicates the column where n appears in that row. Digits along a thermometer increase from the bulb.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gjnpJGb94g",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=LEdQy7VLHL8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Global Indexing Column": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C2",
+                    "R3C1",
+                    "R2C1",
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R3C8",
+                    "R3C7",
+                    "R2C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R8C2",
+                    "R7C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R5C3",
+                    "R5C2",
+                    "R5C1",
+                    "R4C1",
+                    "R4C2"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "puzzleInfo": {
+        "title": "Quad Sums Sudoku",
+        "authors": [
+            "udukos"
+        ],
+        "ruleset": "Normal sudoku rules apply. Three of the four digits touching a circle sum to the fourth digit. Not all circles are necessarily given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/j3RRHDn7M9",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gxU_q1Hl4TE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Corner Sum of Three Equals The Other": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

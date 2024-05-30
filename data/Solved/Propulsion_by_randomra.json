@@ -1,0 +1,280 @@
+{
+    "puzzleInfo": {
+        "title": "Propulsion",
+        "authors": [
+            "randomra"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the digit in that arrow's circle. Cells separated by an X must contain digits summing to 10. Not all possible Xs are given. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/nHhdmbMtRp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=EsBf1OrPk7U"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "X"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C4"
+                ],
+                "lines": [
+                    [
+                        "R2C4",
+                        "R2C3",
+                        "R2C2",
+                        "R2C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7"
+                ],
+                "lines": [
+                    [
+                        "R3C7",
+                        "R2C8",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R7C8",
+                        "R8C8",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R7C6",
+                        "R8C6",
+                        "R9C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "lines": [
+                    [
+                        "R6C4",
+                        "R7C3",
+                        "R8C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R4C3",
+                        "R4C2",
+                        "R4C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

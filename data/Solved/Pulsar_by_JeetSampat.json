@@ -1,0 +1,228 @@
+{
+    "puzzleInfo": {
+        "title": "Pulsar",
+        "authors": [
+            "Jeet Sampat"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. Cells separated by a white dot must contain consecutive digits. Not all possible dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/ngJ7MLBQLd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=cW9TWSFsaZ0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R2C1",
+                    "R2C2",
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "28"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R3C2",
+                    "R3C3",
+                    "R4C2"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "42"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R2C7",
+                    "R3C7",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C8",
+                    "R8C9",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "28"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C7",
+                    "R7C8",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R7C3",
+                    "R8C3",
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R8C1",
+                    "R8C2",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "42"
+            }
+        ]
+    }
+}

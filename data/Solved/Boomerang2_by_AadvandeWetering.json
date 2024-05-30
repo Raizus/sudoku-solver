@@ -1,0 +1,172 @@
+{
+    "puzzleInfo": {
+        "title": "Boomerang 2",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow must sum to the digit in that arrow's circle. Cells separated by a knight's move (in chess) cannot contain the same digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/nB66jBP6JG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=uxhYdRkAITc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C5",
+                        "R2C5",
+                        "R1C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R5C3",
+                        "R5C2",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R7C5",
+                        "R8C5",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

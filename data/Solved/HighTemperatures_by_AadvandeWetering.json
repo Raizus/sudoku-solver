@@ -1,0 +1,203 @@
+{
+    "puzzleInfo": {
+        "title": "High Temperatures",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rB3dmRbj7H",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=eeaBtJNMi84"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C4",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C4",
+                    "R3C3",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6",
+                    "R7C7",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C4",
+                    "R7C3",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C4",
+                    "R8C3"
+                ]
+            }
+        ]
+    }
+}

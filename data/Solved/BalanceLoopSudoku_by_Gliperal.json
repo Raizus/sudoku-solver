@@ -1,0 +1,186 @@
+{
+    "puzzleInfo": {
+        "title": "Balance Loop Sudoku",
+        "authors": [
+            "Gliperal"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All Balanced Loop Cell Or Border Given:** All balanced loop cell or border dots are given.\n\n**Center Cells Loop:** Draw a single closed loop that travels orthogonally through the centres of some cells. The loop does not use any cell more than once. The loop is not allowed to branch, intersect or cross itself.\n\n**Balanced Loop Cell Or Border:** The loop does not use any cell more than once and must travel through each dot. The two loop segments extending from both sides of a dot must be balanced ie the sum of the digits up to and including the digit in the cell containing the first turn must be the same.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/LdgRt8ddjQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=7qoHeiyQ3r0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+      "Center Cells Loop": true,
+      "All Balanced Loop Cell Or Border Given": true
+    },
+    "local_constraints": {
+      "Balanced Loop Cell Or Border": [
+        {
+          "c": 0.5,
+          "r": 0.5
+        },
+        {
+          "c": 1.5,
+          "r": 1
+        },
+        {
+          "c": 2.5,
+          "r": 1
+        },
+        {
+          "c": 5,
+          "r": 0.5
+        },
+        {
+          "c": 4.5,
+          "r": 1.5
+        },
+        {
+          "c": 8.5,
+          "r": 2.5
+        },
+        {
+          "c": 8,
+          "r": 4.5
+        },
+        {
+          "c": 4.5,
+          "r": 4.5
+        },
+        {
+          "c": 1.5,
+          "r": 3.5
+        },
+        {
+          "c": 2.5,
+          "r": 5.5
+        },
+        {
+          "c": 0.5,
+          "r": 5.5
+        },
+        {
+          "c": 1.5,
+          "r": 7.5
+        },
+        {
+          "c": 0.5,
+          "r": 8.5
+        },
+        {
+          "c": 4,
+          "r": 7.5
+        },
+        {
+          "c": 6.5,
+          "r": 8
+        },
+        {
+          "c": 7.5,
+          "r": 8.5
+        }
+      ]
+    }
+}

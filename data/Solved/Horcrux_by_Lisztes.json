@@ -1,0 +1,199 @@
+{
+    "puzzleInfo": {
+        "title": "Horcrux",
+        "authors": [
+            "Lisztes"
+        ],
+        "ruleset": "Normal sudoku rules apply. A number outside the grid shows the sum of the digits sandwiched between the 1 and the 9 in that row or column. A purple line contains a set of consecutive digits in any order, without repeats.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2M8Hmp6rdR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Fo9BwFo57Rg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C3"
+                ]
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "8"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "10"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "22"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "22"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "9"
+            }
+        ]
+    }
+}

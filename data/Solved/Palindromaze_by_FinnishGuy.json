@@ -1,0 +1,279 @@
+{
+    "puzzleInfo": {
+        "title": "Palindromaze",
+        "authors": [
+            "FinnishGuy"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Grey lines in the grid are palindromes, which must read the same forwards and backwards. The clue outside the grid gives the sum of the digits along the indicated diagonal. Digits can repeat along the diagonal if allowed by other rules. Cells separated by a white dot must contain consecutive digits. Cells separated by a black dot must be in a 1:2 ratio. Not all possible dots are given. Cells with a grey circle contain an odd digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DnhfRLQ8FF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=dHyVQPKNALU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R2C9"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": ""
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C5",
+                    "R9C6",
+                    "R8C7",
+                    "R9C8",
+                    "R8C9",
+                    "R7C8",
+                    "R6C9",
+                    "R5C8",
+                    "R4C9",
+                    "R3C8",
+                    "R2C7",
+                    "R1C6",
+                    "R2C5",
+                    "R1C4",
+                    "R2C3",
+                    "R1C2",
+                    "R2C1",
+                    "R3C2",
+                    "R4C1",
+                    "R5C2",
+                    "R6C3",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R4C3",
+                    "R3C4",
+                    "R4C5",
+                    "R3C6",
+                    "R4C7",
+                    "R5C6",
+                    "R6C7"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ],
+                "value": "14"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "31"
+            }
+        ]
+    }
+}

@@ -1,0 +1,322 @@
+{
+    "puzzleInfo": {
+        "title": "Regional Arrows",
+        "authors": [
+            "YARR"
+        ],
+        "ruleset": "1-9 must be placed in each row, column and marked region. Digits in cages do not repeat and sum to the totals given. Digits along arrows sum to the number in the attached circle. A clue outside the grid shows the sum of the indicated diagonal, which may contain repeat digits",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FFgDG29LgR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=N2kuqhmxhnU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 5
+            },
+            {
+                "value": 9,
+                "given": true
+            }
+        ],
+        [
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            }
+        ],
+        [
+            {},
+            {
+                "region": 3,
+                "value": 9,
+                "given": true
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {
+                "region": 5
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R1C6",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5"
+                ],
+                "lines": [
+                    [
+                        "R3C5",
+                        "R3C6",
+                        "R3C7",
+                        "R3C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5"
+                ],
+                "lines": [
+                    [
+                        "R4C5",
+                        "R4C6",
+                        "R4C7",
+                        "R4C8"
+                    ],
+                    [
+                        "R4C5",
+                        "R5C4",
+                        "R5C5",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4"
+                ],
+                "lines": [
+                    [
+                        "R7C4",
+                        "R7C3",
+                        "R6C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5"
+                ],
+                "lines": [
+                    [
+                        "R8C5",
+                        "R8C4",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R8C2",
+                        "R8C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "26"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "13"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": "16"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "9"
+            }
+        ]
+    }
+}

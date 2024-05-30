@@ -1,0 +1,212 @@
+{
+    "puzzleInfo": {
+        "title": "Arbitrary Code Execution",
+        "authors": [
+            "jovi_al"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MGBFPqRQTt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ihggWfW5wqM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {
+                "value": 4,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {}
+}

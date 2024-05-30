@@ -1,0 +1,251 @@
+{
+    "puzzleInfo": {
+        "title": "R is for arrows",
+        "authors": [
+            "Chameleon"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/mM7R76NrpR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=d3DLt9m2jkE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C5",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R2C9",
+                        "R3C9"
+                    ],
+                    [
+                        "R2C8",
+                        "R3C8",
+                        "R3C7"
+                    ],
+                    [
+                        "R2C8",
+                        "R2C7",
+                        "R1C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3"
+                ],
+                "lines": [
+                    [
+                        "R3C3",
+                        "R4C2"
+                    ],
+                    [
+                        "R3C3",
+                        "R2C4"
+                    ],
+                    [
+                        "R3C3",
+                        "R4C3",
+                        "R4C4",
+                        "R3C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8"
+                ],
+                "lines": [
+                    [
+                        "R5C8",
+                        "R5C7",
+                        "R5C6",
+                        "R6C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5"
+                ],
+                "lines": [
+                    [
+                        "R8C5",
+                        "R7C5",
+                        "R6C5",
+                        "R5C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R9C8",
+                        "R9C7"
+                    ],
+                    [
+                        "R8C8",
+                        "R8C9",
+                        "R7C9"
+                    ],
+                    [
+                        "R8C8",
+                        "R7C7",
+                        "R8C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R9C2",
+                        "R9C3"
+                    ],
+                    [
+                        "R8C2",
+                        "R8C3",
+                        "R7C3"
+                    ],
+                    [
+                        "R8C2",
+                        "R7C2",
+                        "R6C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

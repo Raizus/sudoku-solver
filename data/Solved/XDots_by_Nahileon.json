@@ -1,0 +1,204 @@
+{
+    "puzzleInfo": {
+        "title": "X Dots",
+        "authors": [
+            "Nahileon"
+        ],
+        "ruleset": "Normal sudoku rules apply. Each main diagonal (marked in blue) must contain the digits 1 to 9 once each. Cells separated by a black dot must contain digits with a 1:2 ratio. Not all possible dots are given. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits may repeat along such diagonals if allowed by the other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bL4Nd3T6f2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=RUN-Y7Fba9w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R3C0",
+                "direction": "SE",
+                "value": "37"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "NW",
+                "value": "27"
+            }
+        ]
+    }
+}

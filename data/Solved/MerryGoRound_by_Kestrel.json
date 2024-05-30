@@ -1,0 +1,280 @@
+{
+    "puzzleInfo": {
+        "title": "Merry-Go-Round",
+        "authors": [
+            "Kestrel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/g4nPPf8jLh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=WVZLv5Rrj6M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "V"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "29"
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R2C8",
+                    "R3C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "12"
+            }
+        ]
+    }
+}

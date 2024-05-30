@@ -1,0 +1,218 @@
+{
+    "puzzleInfo": {
+        "title": "Fortress Sudoku",
+        "authors": [
+            "'South Korea'"
+        ],
+        "ruleset": "Normal sudoku rules apply. A digit in a shaded cell must be higher than a digit in an orthogonally adjacent unshaded cell.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f2thqnFn7j",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=w3fn9BA019U"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Maximum": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R3C2"
+            },
+            {
+                "cell": "R2C3"
+            },
+            {
+                "cell": "R1C4"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R5C4"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R6C6"
+            },
+            {
+                "cell": "R5C6"
+            },
+            {
+                "cell": "R5C7"
+            },
+            {
+                "cell": "R5C8"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R7C7"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ]
+    }
+}

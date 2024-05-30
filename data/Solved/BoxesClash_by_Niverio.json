@@ -1,0 +1,178 @@
+{
+    "puzzleInfo": {
+        "title": "Boxes Clash",
+        "authors": [
+            "Niverio"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a purple line must be a set of consecutive, non-repeating digits, in any order. Clues outside the grid give the multiplication of the box sums that the diagonal passes through. Eg the 1000 clue on the SW-NE diagonal means that (R1C9 + R2C8 + R3C7) * (R4C6 + R5C5 + R6C4) * (R7C3 + R8C2 + R9C1) = 1000",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Tgb6g6rPR7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=jG2o59TErfM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R7C7",
+                    "R6C8"
+                ]
+            }
+        ],
+        "Little Killer Region Sum Product": [
+            {
+                "cell": "R0C0",
+                "direction": "SE",
+                "value": "1000"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": "99"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SW",
+                "value": "1001"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "1000"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "99"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "20"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "SW",
+                "value": "1001"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "40"
+            }
+        ]
+    }
+}

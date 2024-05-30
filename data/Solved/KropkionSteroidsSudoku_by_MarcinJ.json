@@ -1,0 +1,252 @@
+{
+    "puzzleInfo": {
+        "title": "Kropki on Steroids Sudoku",
+        "authors": [
+            "MarcinJ"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits on a larger blue line have an equal sum N within each 3x3 box it passes through. Digits cannot repeat on the indicated diagonal. Digits separated by a black dot (either diagonally or orthogonally) have a 1:2 ratio, e.g. R1C2 and R2C3 have a 1:2 ratio, and so do R2C2 and R1C3. Digits separated by a white dot (either diagonally or orthogonally) are consecutive, e.g. R1C7 and R6C8 are consecutive, and so are R6C7 and R5C8. Not all possible dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Pd2RLT7dpm",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=BiDWDJP6K-s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C2",
+                    "R3C1",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R1C6",
+                    "R1C7",
+                    "R2C8",
+                    "R3C9",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7",
+                    "R8C8",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C1",
+                    "R7C1",
+                    "R8C2",
+                    "R9C3",
+                    "R8C4"
+                ]
+            }
+        ]
+    }
+}

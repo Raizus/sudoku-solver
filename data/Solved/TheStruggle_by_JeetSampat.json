@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "The Struggle",
+        "authors": [
+            "Jeet Sampat"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a black dot must contain digits in a 1:2 ratio (ie one digit will be double the other). Digits along an arrow must sum to the digit in that arrow's circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/JmJmTrt6T4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=7TznfjqLxEY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R4C3"
+                ],
+                "lines": [
+                    [
+                        "R4C3",
+                        "R5C4"
+                    ],
+                    [
+                        "R4C3",
+                        "R3C3",
+                        "R3C2",
+                        "R2C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4"
+                ],
+                "lines": [
+                    [
+                        "R3C4",
+                        "R2C4",
+                        "R1C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6"
+                ],
+                "lines": [
+                    [
+                        "R3C6",
+                        "R3C7",
+                        "R2C7",
+                        "R1C8"
+                    ],
+                    [
+                        "R3C6",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7"
+                ],
+                "lines": [
+                    [
+                        "R6C7",
+                        "R5C6"
+                    ],
+                    [
+                        "R6C7",
+                        "R7C7",
+                        "R7C8",
+                        "R8C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4"
+                ],
+                "lines": [
+                    [
+                        "R7C4",
+                        "R6C5"
+                    ],
+                    [
+                        "R7C4",
+                        "R7C3",
+                        "R8C3",
+                        "R9C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

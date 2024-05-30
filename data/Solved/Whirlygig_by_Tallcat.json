@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "Whirlygig",
+        "authors": [
+            "Tallcat"
+        ],
+        "ruleset": "Normal Sudoku rules apply\n\nRenban: Pink lines must contain a set of consecutive, non-repeating digits in any order.\n\nGerman Whisper: Adjacent numbers on green lines must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QHUALCAJywE8BzCSkVAQwFc1CB7EhEAFXqywGN6aOiBKMcYGMLwA5dgFteAAgDKjACasA1oyViJS%2BgAcjFADoA7SwCUYFgEb0L8JQAUIFrUqweYYJfKMYGhK%2FKwWaPQehkqSIawAZqHhkvzMEABuMMhKFuEAtCQwRjBCHpRK6jSY%2FtFO5Ers6jAkAHRKlpYA4i2KFkpEEGAlJC4AguoAVvT8diEWjPL2Lf7hSpRFdt6%2B%2FoHBlRAJCS1K9g1C3qX7AKytIhsQ6ggA2s%2Bg1FkWrnb8EFgAsvQSFowAgFnwAL7Id6ZOzfCy%2FAFAkFg8RYKEwz7wxGA4Gg%2BDg9HQkAfOE%2FP64lEEtEYkmwr7kpF41GQ4mkhkIinI%2FGE2ns7Fc5nU1mYsmcplU3ls%2BkCiU8mkAXWQbzpWMZlPlItVYpx3JZRNFHN1QqlhtlGv1fJl6r1woN2qNgslNOlavFFrtVrdxudWv5NpNiuVZoDvvt%2FvdttNDvNUZdIcjgb91sTYa9OqdmvDKZ9WfTjrlltdGcLnqVKojuaLCarnuLBY90crmerMdDefrsaT9oyvEYuAAbKh2Qg0GJsm3Ux2ay26zPS7zy%2FPG%2FHJ7WmznZxvvVvV82F3vNwfkzvj9nTyuTyXL%2Bil2vd1eG3HH120532639zf86%2Fp%2Fezz%2BH5zv%2B353l%2Bz7nteEGAVOn5Ht%2B76wcB4HdjB66Hhe0GIehkJgfBWHLgRIFEShb6Eah2EPpBT4UeRZHEahd69lg%2FYIAAzMO9KjuOnGYbRDH0aRf5CXBfGCfh%2FEichEniWJeYKkqoh2I4FgvKAPgWH4LzPCA1gACwAMJ6SI1hsQZ1wmQATOZJkAIw2QptIaVp8CvLpA4GQOJkAOw2ag1gABx%2BbpiAOQqTk7Np7lGSZ1wGWxsUGZZiW2SAjnEs5%2BJufpnmJd5iUBYliBpeFGWRa5OnWL5xX%2BUFNUhQZxXpep5XZWZqX%2BdZHW6fZqXNSAmVRdY9n1cNBmFf59n5Y5ikAO7EMMKxqQNrWVYZFn%2BWZXmbQZ%2BU7RNulmU1pUtZpWWVXF23RXtum%2BTdgW7SZoXTSdK1nUNHkbbdMX%2Bb5CW%2FUlPkGX1r2DRVulxcZ%2FmGf9h3xVZ8OTfD%2FVg9lQXJf5oXJSjq26UFsMPcZM2oFUYD0PYODqFgrDUPwLyKWO%2FaCBYVTqEIfisEYGApC8IBhNTRRPIpznLaja0%2FXDX3WNZUv2RZCmoKwzDOQZnAAMQAGIAAwDt52siLNjwsAgWutHpqBDDIMCzQZKRjlEETcf2EXveD1geVdVXBQ9UuhfLilK9gviq3gms63rWsG0bhAm2bFtgFbNt2yQDvSIzMAuy52UeVDEOI3nGN5yDivK8H6va7r%2BuoIb6jG%2FApvmyAlvW7bFjBCnHhp%2BOmfnbphme3F91xQd1hxcdJdB5pIcgGHleR9X0ex43zdJ239ud07Gdla72XVSZdVPY1JUTyr5fh1XIA13XDfx4nrft6nm890N7UI91Y3FyAgen6HFcR1HtcY71zjk3BOLdk6P3gOnZ%2BbsRp2XGvAl6J8y6%2F3PvPS%2Bi9gHLzAavB%2BG8oHd23lncWUstomTMvdMyI8jrHy%2FqXKe6s566wAdfVoHFQF3wgfg6BRDe6j1yv5Dy907r70epjR6Cs6GTxgNPNWTCbpXyAabdhK977r0dgQ52vCPre18rnL2BNfKFy9p%2Fb%2BKCZ7yJYUotht9wFrw7honhp1iF530TDch%2BdpaePsglSRZiGGh0sQvQBscVE4LUQ4ruWjnF8PRofbGAd6EyMYRHZhwTWFhM4fYyBTi3ouIegTIKRNEnSNkUEjBITgGZLsXgxx3dwpAA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mNKUQYGv12M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R3C3",
+                    "R4C3",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C7",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C4",
+                    "R7C3",
+                    "R7C2",
+                    "R7C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C5",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C5",
+                    "R7C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R6C4"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "puzzleInfo": {
+        "title": "Nurimisaki Sudoku",
+        "authors": [
+            "Mark Sweep"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nurimisaki:** Shade some cells so that the remaining unshaded cells form one orthogonally connected area. No 2x2 region may be entirely shaded or unshaded. Circles mark every instance of a cell which is unshaded and orthogonally adjacent to exactly one other unshaded cell (i.e. the circles are the only 'endpoints' of the unshaded area). The digit in a circle indicates how many cells are in the straight line of unshaded cells coming out of the cell with the circle, including itself.\n\n**All Nurimisaki Unshaded Endpoints Are Given:** Circles mark every instance of a cell which is unshaded and orthogonally adjacent to exactly one other unshaded cell (i.e. the circles are the only 'endpoints' of the unshaded area).\n\n**Cells Along Nurimisaki Path Have A Difference Of At Least 5.**\n\n**Nurimisaki Unshaded Endpoints:** Circles mark an instance of a cell which is unshaded and orthogonally adjacent to exactly one other unshaded cell (i.e. the circles mark 'endpoints' of the unshaded area). The digit in a circle indicates how many cells are in the straight line of unshaded cells coming out of the cell with the circle, including itself.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GjDNNTdp4r",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=OkVYvGsuw20"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Nurimisaki Unshaded Endpoints Given": true,
+        "Nurimisaki": true,
+        "Cells Along Nurimisaki Path Have A Difference Of At Least 5": true
+    },
+    "local_constraints": {
+        "Nurimisaki Unshaded Endpoints": [
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R4C2"
+            },
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R8C8"
+            }
+        ]
+    }
+}

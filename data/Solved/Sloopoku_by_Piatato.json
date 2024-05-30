@@ -1,0 +1,90 @@
+{
+  "puzzleInfo": {
+    "title": "Sloopoku",
+    "authors": ["Piatato"],
+    "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Center Cells Loop:** Draw a single closed loop that travels orthogonally through the centres of some cells. The loop does not use any cell more than once. The loop is not allowed to branch, intersect or cross itself.\n\n**Center Cells Loop Passes Through Every Cell Except Digit 1:** Draw a loop through every cell except the cells that contain the digit 1. \n\n**Sandwich Sum:** A number outside the grid gives the sum of the digits sandwiched between the 1 and 9 in that row/column.",
+    "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6mBf9mr992",
+    "ctcYoutubeUrl": "https://www.youtube.com/watch?v=uBc80Z91uK4"
+  },
+  "nRows": 9,
+  "nCols": 9,
+  "grid": [
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}]
+  ],
+  "bool_constraints": {
+    "Center Cells Loop": true,
+    "Center Cells Loop Passes Through Every Cell Except Digit 1": true
+  },
+  "local_constraints": {
+    "Sandwich Sum": [
+      {
+        "cell": "R0C2",
+        "direction": "S",
+        "value": "32"
+      },
+      {
+        "cell": "R0C4",
+        "direction": "S",
+        "value": "20"
+      },
+      {
+        "cell": "R0C5",
+        "direction": "S",
+        "value": "10"
+      },
+      {
+        "cell": "R0C6",
+        "direction": "S",
+        "value": "9"
+      },
+      {
+        "cell": "R0C7",
+        "direction": "S",
+        "value": "10"
+      },
+      {
+        "cell": "R0C8",
+        "direction": "S",
+        "value": "6"
+      },
+      {
+        "cell": "R2C0",
+        "direction": "E",
+        "value": "31"
+      },
+      {
+        "cell": "R3C0",
+        "direction": "E",
+        "value": "21"
+      },
+      {
+        "cell": "R6C0",
+        "direction": "E",
+        "value": "29"
+      },
+      {
+        "cell": "R7C0",
+        "direction": "E",
+        "value": "7"
+      },
+      {
+        "cell": "R8C0",
+        "direction": "E",
+        "value": "25"
+      },
+      {
+        "cell": "R9C0",
+        "direction": "E",
+        "value": "13"
+      }
+    ]
+  }
+}

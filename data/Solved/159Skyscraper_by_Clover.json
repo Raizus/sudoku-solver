@@ -1,0 +1,242 @@
+{
+    "puzzleInfo": {
+        "title": "159 Skyscraper",
+        "authors": [
+            "Clover"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in column 1 indicate the column in which the digit 1 appears in that row (e.g. if r4c1 is a 6, r4c6 is a 1). The same applies to columns 5 and 9, with the digits 5 and 9 respectively. Each digit in the grid represents a skyscraper with a height corresponding to its value. Taller skyscrapers block smaller skyscrapers from view. Clues outside the grid indicate how many skyscrapers can be seen, in total, when looking along that row or column from that direction. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/T4dMrNr2pF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=lJUQbX3F4gs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R8C9"
+            }
+        ],
+        "Skyscrapers": [
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "5"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "5"
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": "5"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "5"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "5"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "5"
+            }
+        ]
+    }
+}

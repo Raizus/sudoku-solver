@@ -1,0 +1,228 @@
+{
+    "puzzleInfo": {
+        "title": "Wildberry Poptart",
+        "authors": [
+            "Tyrgannus"
+        ],
+        "ruleset": "Normal sudoku rules apply. Each purple line contains a set of non-repeating consecutive digits arranged in any order. Digits along blue lines have the same sum in each 3x3 box they pass through eg r5c7 + r6c7 = r7c8 + r8c7 = r7c5 + r7c6.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FgDb8nbdnP",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8OisfvDJoQY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C3",
+                    "R3C2",
+                    "R2C3",
+                    "R3C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R2C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R8C8",
+                    "R9C8",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R5C6",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ]
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C2",
+                    "R2C2",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R3C7",
+                    "R3C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7",
+                    "R7C8",
+                    "R8C7",
+                    "R7C6",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3",
+                    "R9C4",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R6C4",
+                    "R5C4",
+                    "R4C4",
+                    "R4C5"
+                ]
+            }
+        ]
+    }
+}

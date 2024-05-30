@@ -1,0 +1,265 @@
+{
+    "puzzleInfo": {
+        "title": "Inner Sanctum",
+        "authors": [
+            "Sotek"
+        ],
+        "ruleset": "Normal Sudoku rules apply\nNormal Killer rules apply. (Digits in cages must sum to the value in the upper left, and may not repeat.)\nNormal Little Killer rules apply. (Digits on the marked diagonal must sum to the indicated value, and may repeat if allowed by other rules.)",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QEkA7QmAJwAIBlAQ0IGM0BXAWxFWsbQAsB7UhEJR5oYAazYhSjHGBhoBAOT7NqWKowAmPUY3JSZ5agAcjWAJ4AdQktIq1AaQhYcFfTDCGT5gHTkAFAAiEADmmB4QhOR01MHu5MyMYGjkYCzkaDzpXDDkAG6qjDkRWTmMJmTkOABmaMiGhBrx1GbkhMJ6MEYw1GjeAJRWNnbkADKY2DmOzhVuHsamZr6BIWHkPJHcOSqkojCNGhAx66rxicmpzOmZm%2BQRB9EijflYhXW0jSotpJ3dyRBVhmcPAA7ntyAAjFrCbKuaTufoSYKkCAaBAAbTRoFCuRghAACri6E4ALLUHZgBCEaRYAC%2ByCxEBx%2BMJJLJogp8CpzjpDKZBPorPJlOpPJA2Nx%2FKJWFJQs5IvpYsZEpZ0rZHK5tIV4uZAtVso1ou1ksF7OF3K1Sp1Uplprl5t5yt1NvVIoAushMYq%2BSrnWbNQ6rSaXfavY7rWq%2FYbLca9baDRbvU6I3b%2FaHA7Hg6mjT7k%2FGAzHfSmo4nw%2Fq3R78zmyyHs0nq1no1W4%2FLK3XmzXG23M8Ww0HIwnexn%2B63S%2B2GyW%2B0X3Z7a6PuwP04W82mC7mWyum%2FOR5Pl7Od%2Bu90OiwvV%2FWe4u19zp9uj7vO3Phxuu4%2FD0v189CggAOyobUINBSDAv73vuHYTreB4gRBYGDm%2BMEXme15Pg%2Bx43nB46wZeGEIWO56nrhJ6bi%2BUHoXhRGochoG0khr5YWRz4UbRZ6EQxd7gaRLEoWxmHMWhdGcVRNI0SR%2FF8bxlHQdh%2BFbhJHFiQR8kyUxCmyXRwnsaJqnicpSkidpekqTpxEafpJmGQZ3auu6ICiE4LjRLE6KgHQMDOByaIgAASgATAAwgAzBIPm%2BQALEFfkAKzhb5ABs0VfkF%2FkBYlvkJdZH64CAIUAAwgKKLlueiXlfslqCeSVCVlQAHKVXk1WF1W%2BVFjVxY1aWoBlAg5XlCoFVg7leX53kpcNZUhb5o1eRFE1BTFM1lSVk2eTVw3pQUmUhcN%2BWuf1RXBVVKUHWNvlHVNJ2zedC2XXV51rS8G1bb1O0DctvmIEFiDXZ5n3vXdn54AAjI9znPXtAO%2BQDQXg0tfmQ39mUA2F22FfAHmeeDp3o290W%2FR160CADkPI7tqM3ZDZWfeTXmfateP3QTSNPSjaNJQ1XlJVF8MCFFxMvSVzXFbFIBc3gPNMyTaNzWz5WhcLdP%2FSAhM9SDzPs0Lx1xSLIDvbze3jdL42c%2FLmUJbrpOeXNAsW0LWtxWbaPjYFx2VWdTtndL01W9NrVnS71tu9b7UgJ1eAhTz1lYOMOC2dMpAXE5IB9QInnZbVfUveD0uRSlPueeNfvTZjc24yABzfAwEDrAIASeRIIcgP5uVCagBxgNQ4I4BoWA8KEdDotZAGFNEDQoj07g8EYGDrANdA8N33yoqg3e96ows0kAA%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gCCYFSr9Ess"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": "42"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C7",
+                    "R8C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "42"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R2C7",
+                    "R3C3",
+                    "R3C7"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C7",
+                    "R5C3",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C3",
+                    "R6C7"
+                ],
+                "value": "45"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "6"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SE",
+                "value": "30"
+            }
+        ]
+    }
+}

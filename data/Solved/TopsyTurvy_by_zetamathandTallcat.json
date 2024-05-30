@@ -1,0 +1,220 @@
+{
+    "puzzleInfo": {
+        "title": "Topsy-Turvy",
+        "authors": [
+            "zetamath and Tallcat"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits on a 'between line', which may include repeats, must be strictly between the values in the circles on the ends of that line. Nine cells in the grid are 'doublers', one in each row, column and 3x3 box. For the purposes of the between lines, digits on doublers count as double their value. Each digit from 1 to 9 appears on a doubler exactly once.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4TPGDbgjHd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y5hPv-Ba-L0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Doublers Between Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R3C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C8",
+                    "R4C7",
+                    "R4C6",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C6",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R4C3",
+                    "R4C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C2",
+                    "R3C3",
+                    "R3C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C2",
+                    "R6C1",
+                    "R7C1",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7",
+                    "R8C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R6C6",
+                    "R6C7",
+                    "R6C8",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C3",
+                    "R6C4",
+                    "R7C5"
+                ]
+            }
+        ]
+    }
+}

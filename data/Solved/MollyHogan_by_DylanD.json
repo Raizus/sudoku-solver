@@ -1,0 +1,100 @@
+{
+  "puzzleInfo": {
+    "title": "Molly Hogan",
+    "authors": ["DylanD"],
+    "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.",
+    "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QP8dphbD78",
+    "ctcYoutubeUrl": "https://www.youtube.com/watch?v=1Y2CNJb9Aek"
+  },
+  "nRows": 9,
+  "nCols": 9,
+  "grid": [
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [
+      {},
+      {},
+      {
+        "value": 7,
+        "given": true
+      },
+      {},
+      {
+        "value": 5,
+        "given": true
+      },
+      {},
+      {
+        "value": 9,
+        "given": true
+      },
+      {},
+      {}
+    ],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}],
+    [{}, {}, {}, {}, {}, {}, {}, {}, {}]
+  ],
+  "bool_constraints": {},
+  "local_constraints": {
+    "Palindrome": [
+      {
+        "cells": ["R4C1", "R5C1", "R6C1", "R7C2", "R8C2", "R9C2"]
+      },
+      {
+        "cells": ["R1C8", "R2C8", "R3C8", "R4C9", "R5C9", "R6C9"]
+      },
+      {
+        "cells": ["R9C5", "R9C6", "R8C7", "R8C8"]
+      },
+      {
+        "cells": ["R2C2", "R2C3", "R1C4", "R1C5"]
+      }
+    ],
+    "Arrow": [
+      {
+        "cells": ["R3C2"],
+        "lines": [["R3C2", "R3C3", "R2C4", "R2C5"]],
+        "value": ""
+      },
+      {
+        "cells": ["R1C7"],
+        "lines": [["R1C7", "R2C7", "R3C7", "R4C8", "R5C8"]],
+        "value": ""
+      },
+      {
+        "cells": ["R9C3"],
+        "lines": [["R9C3", "R8C3", "R7C3", "R6C2", "R5C2"]],
+        "value": ""
+      },
+      {
+        "cells": ["R7C8"],
+        "lines": [["R7C8", "R7C7", "R8C6", "R8C5"]],
+        "value": ""
+      }
+    ],
+    "Killer Cage": [
+      {
+        "cells": ["R4C4", "R4C5", "R4C6"],
+        "value": "14"
+      },
+      {
+        "cells": ["R5C4", "R5C5", "R5C6"],
+        "value": "23"
+      }
+    ],
+    "Clones": [
+      {
+        "cells": ["R1C1", "R2C1", "R3C1"],
+        "cells2": ["R7C9", "R8C9", "R9C9"]
+      },
+      {
+        "cells": ["R1C9", "R2C9", "R3C9"],
+        "cells2": ["R7C1", "R8C1", "R9C1"]
+      }
+    ]
+  }
+}

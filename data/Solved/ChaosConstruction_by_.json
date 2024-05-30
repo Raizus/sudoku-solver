@@ -1,0 +1,622 @@
+{
+    "puzzleInfo": {
+        "title": "Chaos Construction",
+        "authors": [
+            "\u771f\u7b11\uff08\u6d2a\u536b\u534e)"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Unknown Regions:** The grid must be divided into 9 regions, each containing 9 cells.\n\n**Two by Two Unmarked Areas Belong To Two Or Four Regions:** All unmarked 2x2 areas belong to two or four regions.\n\n**Corner Cells Belong To The Same Region:** The 4 cells surrounding a circle must belong to the same region.\n\n**Corner Cells Belong To Exactly Three Regions:** The 4 cells surrounding a black square must belong to exactly three regions.\n\n**X-Sum Region Borders:** A clue outside the grid gives the sum of the first M digits from that direction, where M is the number of region borders in that row/column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6JBh99JDJJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=SaGvTXn-NI4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+      "Unknown Regions": true,
+      "All Corner Cells Belong To The Same Region Given": true,
+      "All Corner Cells Belong To Exactly Three Regions Given": true
+    },
+    "local_constraints": {
+        "Corner Cells Belong To Exactly Three Regions": [
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4",
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Corner Cells Belong To Same Region": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9",
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": ""
+            }
+        ],
+        "X-Sum Region Borders": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "17"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "23"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "24"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "20"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "27"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "29"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "20"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "6"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": "9"
+            },
+            {
+                "cell": "R2C10",
+                "direction": "W",
+                "value": "6"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "20"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "W",
+                "value": "20"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "24"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "19"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "19"
+            },
+            {
+                "cell": "R8C10",
+                "direction": "W",
+                "value": "14"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "9"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "7"
+            },
+            {
+                "cell": "R10C8",
+                "direction": "N",
+                "value": "32"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "14"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "20"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "17"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "N",
+                "value": "20"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "N",
+                "value": "27"
+            },
+            {
+                "cell": "R10C2",
+                "direction": "N",
+                "value": "24"
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": "12"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "19"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "17"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "24"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "11"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "31"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "7"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "E",
+                "value": "21"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "8"
+            }
+        ]
+    }
+}

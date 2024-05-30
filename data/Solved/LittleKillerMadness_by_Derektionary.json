@@ -1,0 +1,174 @@
+{
+    "puzzleInfo": {
+        "title": "Little Killer Madness",
+        "authors": [
+            "Derektionary"
+        ],
+        "ruleset": "Normal sudoku rules apply. Numbers outside the grid give the sum of the digits along the indicated diagonal. Digits along each diagonal may repeat if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBlNsYACAaQixwCcSBZAQwBMA7GMMEVBgVzQAsA9tQQgAIjGowA1hkEsG1AJ5cQ1HjjAw0ogHLCAtgywkwPJoOk8S6zSQYAHB1iUA6Erp4GARpLAlBPkgmUgFSAHNqCCYScIgAN1D%2BUjMDAIAzEjCSJgg4tH9jeXCs5JIIFlyAYwY0GBjchnD5Y3cxPMxCrGKSGAYq%2FhyIJpaTIyUbGAc%2BtHLM426Ad3qSbwnBMNpbdldVSOiEAG1D4ABfZDOL88ub67urgF1kE%2Fvbq%2Fe3s6eXj9e%2F3%2B%2Bn3%2BQMezxB4L%2BgOB0IBYJhENBPwREKhvzRKKeICwRBw0koNFSR1AVRgVFEACUAAwAYQAzKoSVROPBDiByQBGakAJlU5K51PZIExuSkVTkLFEYnwqnixh4uBAADYQNcQIysBSaQAWBmkrDM1kcum8%2Fk81Dk2kCoWoEUwMUQeSS6WoWVYeWidmIFUXNV6zXc3VMo5szmC4UQUXip0yuUKnWq9X%2BgCsgf1waNOvN%2FPp5stZrZWqt4cjDoleClMbdCvZgoTfrwVOpytQ6oNIepKaz1MzbMtOYLAfNSaLNojdqj5edIFd7rw7IA7N7ifW2TTFy29W2jc22fzO73u7zC%2F3ycP8%2BTFSOQLb7Y7J5XZyBabWfYmGzSAByprec9e7pu8pa%2B7koWPansa5qXue85XjeE7iFOM5xvGr4ro27KUt%2B6acl6XZfrm1J%2FiBAFDh2vKXmBMEnh%2Bg5sogsFjreZYIQ%2BCqKphdZkg2nKYRuQYsv%2BgoEeex68sOYGXsBME7uSNFEfRX7FuOpaSuSrGiFqX6cRqDY0RhWECeS9FekpTHRi6sYaUuvpcau1K4TZaaGZy%2BH%2FkRloyYWwHieREFsjB556da16MfBFYWVWGleqcDynEAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=N_2nZvAnm6c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Little Killer Sum": [
+            {
+                "cell": "R8C10",
+                "direction": "SW",
+                "value": "4"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "SE",
+                "value": "48"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "SW",
+                "value": "4"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "SW",
+                "value": "6"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SW",
+                "value": "19"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "11"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SW",
+                "value": "17"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SW",
+                "value": "31"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": "44"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "SW",
+                "value": "49"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "60"
+            }
+        ]
+    }
+}

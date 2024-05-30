@@ -1,0 +1,223 @@
+{
+    "puzzleInfo": {
+        "title": "Happy Birthday, Dad",
+        "authors": [
+            "BremSter"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MJh2Q2jGPj",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=6jlFr7bqn5k"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2",
+                    "R3C2",
+                    "R3C3",
+                    "R4C3",
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R7C4",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9",
+                    "R9C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C8",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C5",
+                    "R8C6",
+                    "R8C8",
+                    "R8C9",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "45"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4",
+                    "R8C4"
+                ],
+                "value": "12"
+            }
+        ]
+    }
+}

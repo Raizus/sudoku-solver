@@ -1,0 +1,182 @@
+{
+    "puzzleInfo": {
+        "title": "\u03c0peline",
+        "authors": [
+            "Philip Newman"
+        ],
+        "ruleset": "Normal sudoku rules apply (1-9 appear in each row, column and 3x3 box).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rRN9frgJhf",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=-1tykO0Q3zc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {
+                "value": 9,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {}
+}

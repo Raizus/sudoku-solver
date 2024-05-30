@@ -1,0 +1,276 @@
+{
+    "puzzleInfo": {
+        "title": "Syzygy",
+        "authors": [
+            "jovi_al"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along arrows must sum to the digit in that arrow's attached circle. Digits may repeat along an arrow's path if allowed by other rules. No bifurcation is required!",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gJBjt7tP43",
+        "ctcYoutubeUrl": ""
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C5",
+                        "R1C6",
+                        "R1C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C9",
+                        "R3C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R3C7",
+                        "R4C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8"
+                ],
+                "lines": [
+                    [
+                        "R9C8",
+                        "R9C9",
+                        "R8C9",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R8C9",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5"
+                ],
+                "lines": [
+                    [
+                        "R9C5",
+                        "R9C4",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1"
+                ],
+                "lines": [
+                    [
+                        "R6C1",
+                        "R7C2",
+                        "R8C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1"
+                ],
+                "lines": [
+                    [
+                        "R3C1",
+                        "R2C1",
+                        "R1C1"
+                    ],
+                    [
+                        "R3C1",
+                        "R4C2",
+                        "R5C2",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "lines": [
+                    [
+                        "R6C4",
+                        "R5C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R3C3",
+                        "R2C3"
+                    ],
+                    [
+                        "R4C4",
+                        "R5C5",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R6C7",
+                        "R6C8",
+                        "R6C9"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

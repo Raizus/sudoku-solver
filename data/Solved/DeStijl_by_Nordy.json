@@ -1,0 +1,226 @@
+{
+    "puzzleInfo": {
+        "title": "De Stijl",
+        "authors": [
+            "Nordy"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Adjacent Cells Are Consecutive Or Ratio Line:** Along lines, adjacent digits must be consecutive and/or in a ratio of 2:1.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fBf6B3FFrG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Bgz4wMQ62V4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Adjacent Cells Are Consecutive Or Ratio Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C1",
+                    "R1C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R6C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R1C6",
+                    "R2C5",
+                    "R3C6",
+                    "R4C7",
+                    "R3C8",
+                    "R2C9",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C4",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C7",
+                    "R6C8",
+                    "R7C9",
+                    "R8C8",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C9",
+                    "R4C8",
+                    "R3C7",
+                    "R4C6",
+                    "R5C5",
+                    "R6C4",
+                    "R7C5",
+                    "R8C6",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R4C3",
+                    "R5C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R3C1"
+                ]
+            }
+        ]
+    }
+}

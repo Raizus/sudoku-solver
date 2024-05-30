@@ -1,0 +1,247 @@
+{
+    "puzzleInfo": {
+        "title": "The Ancient Wall",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Two Contiguous Regions:** Divide the grid into two sets of contiguous cells.\n\n**Two Contiguous Regions Row Column Opposite Set Count:** Digits in a circled cell indicate the number of cells in the corresponding row and column combined that are in the other set.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bFgHtLg373",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=TRWcPWXIPxs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Two Contiguous Regions": true
+    },
+    "local_constraints": {
+        "Two Contiguous Regions Row Column Opposite Set Count": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C4"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R9C2"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R4C2"
+            },
+            {
+                "cell": "R2C4"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R3C7"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R9C4"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R9C7"
+            },
+            {
+                "cell": "R9C8"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R8C7"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R5C8"
+            },
+            {
+                "cell": "R5C7"
+            }
+        ]
+    }
+}

@@ -1,0 +1,339 @@
+{
+    "puzzleInfo": {
+        "title": "Lighthouse",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Unknown Regions:** The grid must be divided into 9 regions. Each region must be determined and each is a set of nine orthogonally connected cells.\n\n**Seen Region Borders Count:** A digit in a circle indicates the number of borders between regions it sees in its row and column. Note that the edge of the grid does not count toward this total.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fLtm97H9GD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=t_upg5jSJ6s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null,
+                "value": 9,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null,
+                "value": 2,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 2,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Unknown Regions": true
+    },
+    "local_constraints": {
+        "Seen Region Borders Count": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R9C4"
+            },
+            {
+                "cell": "R9C2"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R6C5"
+            }
+        ]
+    }
+}

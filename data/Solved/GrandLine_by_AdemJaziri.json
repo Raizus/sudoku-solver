@@ -1,0 +1,190 @@
+{
+    "puzzleInfo": {
+        "title": "Grand Line",
+        "authors": [
+            "Adem Jaziri"
+        ],
+        "ruleset": "**Normal Sudoku Rules ALMOST Apply.** Place the digits 1 to 7 in each row, column and 7-cell region. A 6-cell region must contain 6 different digits from the set of the digits 1 to 7.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/tBdqj9rHGn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=NjWLyl8jHrY"
+    },
+    "nRows": 7,
+    "nCols": 7,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 5
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C2"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R6C1"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "8"
+            }
+        ]
+    }
+}

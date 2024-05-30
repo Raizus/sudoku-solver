@@ -1,0 +1,203 @@
+{
+    "puzzleInfo": {
+        "title": "Thermo Sudoku",
+        "authors": [
+            "Serhii Tyshchenko"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits increase from the bulb.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fDQqmQ93dJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y2gspyA4nLI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7",
+                    "R1C6",
+                    "R2C5",
+                    "R1C4",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C7",
+                    "R7C6",
+                    "R6C5",
+                    "R5C6",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C4",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C5",
+                    "R9C6",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R8C8",
+                    "R9C8"
+                ]
+            }
+        ]
+    }
+}

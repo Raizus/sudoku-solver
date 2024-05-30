@@ -1,0 +1,196 @@
+{
+    "puzzleInfo": {
+        "title": "Whispering Knight",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits separated by a knight's move (in chess) cannot contain the same digit. Adjacent digits along a line in the grid must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/L6FBpNTnhN",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=0fR6xBYO3kY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C4",
+                    "R3C3",
+                    "R4C2",
+                    "R3C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R1C6",
+                    "R2C7",
+                    "R2C6",
+                    "R3C6",
+                    "R4C5",
+                    "R3C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C6"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

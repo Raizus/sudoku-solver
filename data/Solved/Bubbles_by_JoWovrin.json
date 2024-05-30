@@ -1,0 +1,173 @@
+{
+    "puzzleInfo": {
+        "title": "Bubbles",
+        "authors": [
+            "JoWovrin"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/q7g3F93T6h",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=z1OESz4zpLs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C8",
+                    "R5C7",
+                    "R5C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C7",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C4",
+                    "R9C3",
+                    "R9C2",
+                    "R8C1"
+                ]
+            }
+        ]
+    }
+}

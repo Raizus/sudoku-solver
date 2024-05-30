@@ -1,0 +1,124 @@
+{
+    "puzzleInfo": {
+        "title": "The Dutch Miracle",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along each positive diagonal (ie from SW to NE): 1) all the digits are different; and 2) adjacent digits (ie those touching at a corner) must have a difference of at least 4.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hfpFTGNLrr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=wUnnXwLTbnA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Dutch Miracle": true
+    },
+    "local_constraints": {}
+}

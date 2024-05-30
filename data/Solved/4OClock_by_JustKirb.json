@@ -1,0 +1,148 @@
+{
+    "puzzleInfo": {
+        "title": "4 O'Clock",
+        "authors": [
+            "Just Kirb"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All Ratios Given:** Black dots show a 1:2 ratio relationship in orthogonal neighbors. All ratios are given.\n\n**All Differences Given:** White dots show all orthogonal neighbors whose digits are consecutive. All differences are given.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Even:** Cells with grey squares must contain even numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/nnPMBR9jhR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=11ur_FXtSak"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Ratios Given": true,
+        "All Differences Given": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R7C8"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C9"
+                ]
+            }
+        ]
+    }
+}

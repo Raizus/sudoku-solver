@@ -1,0 +1,176 @@
+{
+    "puzzleInfo": {
+        "title": "Renban-Anti-Kropki",
+        "authors": [
+            "Klausku"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nonconsecutive:** Orthogonally adjacent cells must not contain consecutive numbers.\n\n**All Ratios Given:** All ratios are given.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NMpgqR73rH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Aq16DYbLuI0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true,
+        "All Ratios Given": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R4C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R2C5",
+                    "R2C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C8",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2",
+                    "R9C2"
+                ]
+            }
+        ]
+    }
+}

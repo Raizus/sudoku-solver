@@ -1,0 +1,229 @@
+{
+    "puzzleInfo": {
+        "title": "Bicycles",
+        "authors": [
+            "SirSchmoopy"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in a cage sum to the small clue in the top left corner of the cage. Along a thermometer digits increase from the bulb end. The clue outside the grid gives the sum of the digits along the indicated diagonal. Within a row, let a 'cycle' be the path taken starting from digit A in column X and then looking at digit B in Column A, then digit C in Column B etc until the cycle returns to digit A again. The 'order' of a cycle is the number of unique digits contained in the cycle. eg A 5 in r9c1, a 9 in r9c5 and a 1 in r9c9 would force a cycle of order 3. In this puzzle the ORDER of the CYCLES also increases along thermometers starting from the bulb end. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rRJ2Tq4b6f",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8uWI_sRglSc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C1",
+                    "R6C1",
+                    "R5C1",
+                    "R4C1",
+                    "R3C1",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ]
+            }
+        ],
+        "Row Cycle Thermometer": [
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C1",
+                    "R6C1",
+                    "R5C1",
+                    "R4C1",
+                    "R3C1",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "15"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SE",
+                "value": "23"
+            }
+        ]
+    }
+}

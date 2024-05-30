@@ -1,0 +1,235 @@
+{
+    "puzzleInfo": {
+        "title": "Redemption",
+        "authors": [
+            "Andrew B"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells a knight's move apart cannot share the same digit. Cages show their sums. Cells separated by a blue dot have a 1-to-3 ratio. All possible blue dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/JGdtQfpN3m",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=17kpmteY5FQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "3"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "13"
+            }
+        ]
+    }
+}

@@ -1,0 +1,256 @@
+{
+    "puzzleInfo": {
+        "title": "December 25",
+        "authors": [
+            "Akash Doulani"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/M4Qfffphnf",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oqjwqM7csr4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8",
+                    "R8C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2",
+                    "R8C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C1",
+                    "R4C1",
+                    "R5C2",
+                    "R4C3",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C4",
+                    "R5C4",
+                    "R4C5",
+                    "R5C6",
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R3C8",
+                    "R4C7",
+                    "R5C8",
+                    "R6C9",
+                    "R7C8",
+                    "R7C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C5",
+                    "R3C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C5",
+                    "R3C4"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2",
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "25"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "25"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "NW",
+                "value": "25"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "SW",
+                "value": "25"
+            }
+        ]
+    }
+}

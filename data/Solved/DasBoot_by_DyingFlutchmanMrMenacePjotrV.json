@@ -1,0 +1,239 @@
+{
+    "puzzleInfo": {
+        "title": "Das Boot",
+        "authors": [
+            "Dying Flutchman",
+            "Mr.Menace",
+            "PjotrV"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5. Adjacent numbers along an orange line must have a difference of at least 4.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/tFThnGBNTR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=klY26mjzihE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8",
+                    "R7C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C6",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C6",
+                    "R6C7",
+                    "R7C8"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R4C7",
+                    "R5C8",
+                    "R6C7"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C6"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C3",
+                    "R8C4"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C3"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R7C6"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R9C9",
+                    "R9C8"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C5",
+                    "R6C4"
+                ],
+                "value": "4"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "18"
+            }
+        ]
+    }
+}

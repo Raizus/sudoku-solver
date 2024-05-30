@@ -1,0 +1,183 @@
+{
+    "puzzleInfo": {
+        "title": "Renrenbanban",
+        "authors": [
+            "Angelo"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a knight's move (in chess) cannot contain the same digit. Each coloured line contains a set of consecutive digits. Any digit appearing on a line MUST appear on that line at least twice.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4HJbTHdMfn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hm7vBJGg1_A"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Renrenbanban Line": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7",
+                    "R7C7",
+                    "R7C6",
+                    "R7C5",
+                    "R7C4",
+                    "R7C3",
+                    "R6C3",
+                    "R5C3",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R2C3",
+                    "R3C4",
+                    "R4C4",
+                    "R5C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R6C8",
+                    "R7C7",
+                    "R8C6",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R4C6",
+                    "R3C5",
+                    "R2C4",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2",
+                    "R7C3",
+                    "R6C4",
+                    "R5C5",
+                    "R6C5"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "puzzleInfo": {
+        "title": "E is for Entropy",
+        "authors": [
+            "Alaric Taqi A. / Crusader175"
+        ],
+        "ruleset": "Normal sudoku rules apply. Consider the low digits (1, 2, 3), middle digits (4, 5, 6) and high digits (7, 8, 9) as three different groups. Each 2x2 box in the grid has to contain at least one digit of each group.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QFEACCMQgMwHsAnQ%2FAOzSooAcBPEVAQwFc0ALaghABBLJyoQAxoQAqnAI4RCwgHSEA9IQDCVbmE4ATGFQCMAdgCsHELpxgYaIQDlqAW05ZCYbgYoBrbkJbGFJOZmYsVjUtCjpIIxp%2BGEIsCgB3QgMIAHNMUgAKE2RCACZigGYASmLXCAMDHEycvMJ8gBZii2KANkrCTjoDQj4cvibctAKzYoAOYsQ%2BzlJ%2BKhhkrLIyYxgGQmymbmYwNXxOSTGSgA8SwgAjCkviOkIkvYkhviWXikJJWLROBBnpw0CkYEtQbF1s1IWRCODzm8KIcVNZ9nUEABtTGgXIANx2AAUdpIIFgALLiPxgBB0bhYLAAX2QuIgBLoxLopIpVJp8DpDOZrPZnO5lKo1Np9KZLJA%2BKJJLJ4sl%2FOlQrlbIVXKVvKlgtl8o5ip5Er5Aplwq1Yt1qv1lqN2pNKvN6sNop1pr1TIAusgcRqRcblWa1QbNQ7rZ7bRaA1aPc7Q6A8R5uLgOrG6AhGKnUG6gzaXWHA47g17XeH3U6Q3aM5XS9Hy8XIwma8msKmEOVc%2BGs7oYN2m%2FHqz6%2Ffa6wXE7X81HC2Ppy2Y22O%2FAyhnezmpyWJzW81uZ5Pd83h4241Wy0XT%2FXZ5uj2Xff7D0Pz0mU7hugOduv%2Bzenw3ZUvcC7Nd4Gzb9HzPP85z3BcTwjX9rwAhB00NL8PzgiDr3Aq8DwredjwvdDsMFe8oNvSCfwwnDB0ondcOg%2FDSPgqjL23GMsNY2Dx33WjqKIkcHzosjMMEpieJY7jF1fBB32A0C0K4mCCIUhiKL49VEPgaZZL7eS8OfEANOQnsQJ01SOKUvSGxIsyJM4yzhN48zGJotiRJc9SpPgOZtI3djbIs%2Bj9L8xTnLU6yNK0lCTN8ty1ICoTmMIpybJClKVI0mSorktKgti5LgpUgq71HHLyKKsq8v80L8sq1Lyoc8S6tqwrmrvX0QCyfRbhwBoKFySQsXa0DJAGLIDBBEIWAwWI%2BUxb1GSAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=p7N85V5TSdM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Two By Two Box Global Entropy": true
+    },
+    "local_constraints": {}
+}

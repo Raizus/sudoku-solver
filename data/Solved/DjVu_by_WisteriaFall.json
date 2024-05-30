@@ -1,0 +1,278 @@
+{
+    "puzzleInfo": {
+        "title": "D\u00e9j\u00e0 Vu",
+        "authors": [
+            "Wisteria Fall"
+        ],
+        "ruleset": "1-9 must be placed in each row, column and marked region. Purple lines contain a set of non-repeating consecutive numbers in any order. Along the thermometer, digits must increase from the bulb end. Digits along an arrow sum to the circled digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fRmLQ9p7Qm",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=INrpx9EnGqg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            }
+        ],
+        [
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C1",
+                    "R8C1"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C4",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R5C1"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R9C2",
+                        "R8C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C6"
+                ],
+                "lines": [
+                    [
+                        "R9C6",
+                        "R9C5",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R7C8",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9"
+                ],
+                "lines": [
+                    [
+                        "R8C9",
+                        "R7C9",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9"
+                ],
+                "lines": [
+                    [
+                        "R4C9",
+                        "R5C9",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

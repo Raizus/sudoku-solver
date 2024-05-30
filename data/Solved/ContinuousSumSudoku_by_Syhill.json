@@ -1,0 +1,130 @@
+{
+    "puzzleInfo": {
+        "title": " Continuous Sum Sudoku",
+        "authors": [
+            "Syhill"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.\n\n**Fuzzy Sum Line Group Of Three:** For every triple of adjacent digits on a line, one of the digits has to be the sum of the other two, e.g. 2-5-7, 6-9-3, and 8-4-4 are valid adjacent digits along a line.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DgPHgtJqH6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=UZtMD-QhaYU"
+    },
+    "nRows": 6,
+    "nCols": 6,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "N-Consecutive Sum Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4",
+                    "R3C4",
+                    "R4C5"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4",
+                    "R5C4",
+                    "R6C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C2",
+                    "R6C1"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1",
+                    "R4C2",
+                    "R3C2",
+                    "R2C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C1",
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": "3"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R1C0",
+                "direction": "SE",
+                "value": "17"
+            }
+        ]
+    }
+}

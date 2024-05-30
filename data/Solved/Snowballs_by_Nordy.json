@@ -1,0 +1,174 @@
+{
+    "puzzleInfo": {
+        "title": "Snowballs",
+        "authors": [
+            "Nordy"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Snowball:** A blue circle in the grid is a Snowball. Snowballs roll in straight lines\u2014either horizontally or vertically\u2014through a set of orthogonally connected cells. The total length (in cells) of a Snowball's path is given by the number in the top left corner of its starting cell. The digits along a Snowball's path behave as follows: after the first two digits, each digit is the sum of the two preceding digits. Snowballs may cross paths, and therefore may share one or more cells with other Snowballs.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/T8mg9QGpdf",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=A4GAP4VeNUg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Snowball": [
+            {
+                "cell": "R1C1",
+                "value": "5"
+            },
+            {
+                "cell": "R1C5",
+                "value": "4"
+            },
+            {
+                "cell": "R5C9",
+                "value": "3"
+            },
+            {
+                "cell": "R9C5",
+                "value": "4"
+            },
+            {
+                "cell": "R5C1",
+                "value": "4"
+            },
+            {
+                "cell": "R4C4",
+                "value": "3"
+            },
+            {
+                "cell": "R5C5",
+                "value": "4"
+            },
+            {
+                "cell": "R6C6",
+                "value": "4"
+            },
+            {
+                "cell": "R7C7",
+                "value": "3"
+            },
+            {
+                "cell": "R9C9",
+                "value": "5"
+            },
+            {
+                "cell": "R7C3",
+                "value": "3"
+            },
+            {
+                "cell": "R8C2",
+                "value": "3"
+            },
+            {
+                "cell": "R2C8",
+                "value": "3"
+            }
+        ]
+    }
+}

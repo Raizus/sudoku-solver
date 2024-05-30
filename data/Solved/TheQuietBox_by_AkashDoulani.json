@@ -1,0 +1,218 @@
+{
+    "puzzleInfo": {
+        "title": "The Quiet Box",
+        "authors": [
+            "Akash Doulani"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along green lines, neighbouring digits differ by at least 5. A purple line shows a sequence of consecutive digits, not necessarily in order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/D4FB6FHJm7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=iLBL-HqHUwA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C7",
+                    "R3C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C4",
+                    "R2C5",
+                    "R3C6",
+                    "R4C7",
+                    "R5C8",
+                    "R6C7",
+                    "R7C6",
+                    "R8C5",
+                    "R7C4",
+                    "R6C3",
+                    "R5C2",
+                    "R4C3",
+                    "R3C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C2",
+                    "R8C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C7",
+                    "R7C8",
+                    "R6C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "40 Corners",
+        "authors": [
+            "the_cogito"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Doublers:** The grid contains 9 doublers (numbers multiplied by 2), one in each row column and box. Each digit from 1 through 9 is doubled exactly once.\n\n**Doublers Killer Cage:** A digit in a doubler cell counts for twice its value for the purposes of all cage sums. Digits may not repeat in cages, though values might. (eg a cage may not contain a doubled 2 and a regular 2 but may contain a doubled 2 and a regular 4). The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Odd:** Cells with grey circles must contain odd numbers.\n\n**Even:** Cells with grey squares must contain even numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/99JFmbth6r",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=_9mi7AatEQM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R6C4"
+            }
+        ],
+        "Even": [
+            {
+                "cell": "R4C6"
+            }
+        ],
+        "Doublers Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R2C2",
+                    "R2C3",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R5C7",
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C7",
+                    "R8C8",
+                    "R8C9",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "40"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R6C4",
+                    "R7C2",
+                    "R7C3",
+                    "R7C4",
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "40"
+            }
+        ]
+    }
+}

@@ -1,0 +1,285 @@
+{
+    "puzzleInfo": {
+        "title": "Odd Blockade Runners",
+        "authors": [
+            "Jeff Wajes"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**At Most One Odd Digit Around Each Quadruple:** Around each quadruple, at most one cell can contain an odd digit.\n\n**All Odd Digits Are Orthogonally Connected:** All cells containing odd digits form a single orthogonally-connected region.\n\n**Quadruple:** Numbers in a circle must appear at least once in the four cells touched by the circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/bq8jTQjhMd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=yNeV4kcQQ0M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Odd Digits Are Orthogonally Connected": true
+    },
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "4,6,7"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "5,8"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "2,4,5"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3",
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "3,4,8"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "2,6,8"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "2,4,6"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "4,6,7"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "1,2,8"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "5,6,8"
+            }
+        ],
+        "Corner Odd Count": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3",
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "<=1"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "<=1"
+            }
+        ]
+    }
+}

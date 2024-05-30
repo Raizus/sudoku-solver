@@ -1,0 +1,230 @@
+{
+    "puzzleInfo": {
+        "title": "Whispered Somethings",
+        "authors": [
+            "Riffclown"
+        ],
+        "ruleset": "Normal sudoku rules apply. All lines are both 'German Whispers' and Region Sum Lines! Digits on Region Sum Lines have an equal sum within each 3x3 box the line passes through. (Eg r6c6 = r5c7 + r4c7 = r7c5 + r7c4 = r8c3 + r9c2). Adjacent digits on German Whispers lines must have a difference of at least 5. In this puzzle, all lines must satisfy BOTH properties.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hFRMdthhM3",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=35wKUcSN9BY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C5",
+                    "R2C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7",
+                    "R6C6",
+                    "R7C5",
+                    "R7C4",
+                    "R8C3",
+                    "R9C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C7",
+                    "R9C8",
+                    "R8C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C3",
+                    "R7C4",
+                    "R7C5",
+                    "R6C6",
+                    "R5C7",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C5",
+                    "R2C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C7",
+                    "R9C8",
+                    "R8C9"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "puzzleInfo": {
+        "title": "German Whisper Pentominoes",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. Orthogonally adjacent digits within a cage must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/BmMjB4Dt62",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=d2AgLS3Acic"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C2",
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5",
+                    "R1C5",
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C8",
+                    "R1C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R6C8",
+                    "R6C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C8",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C5",
+                    "R8C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3",
+                    "R8C2",
+                    "R9C2",
+                    "R9C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R6C2",
+                    "R6C1",
+                    "R5C1"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R2C5",
+                    "R2C6",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C8",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C2",
+                    "R8C3",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C3",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

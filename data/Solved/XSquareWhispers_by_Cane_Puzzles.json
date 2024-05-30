@@ -1,0 +1,234 @@
+{
+    "puzzleInfo": {
+        "title": "X-Square Whispers",
+        "authors": [
+            "Cane_Puzzles"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DJ23rnDBPh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bXQMNRMHmRw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "X"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7",
+                    "R3C8",
+                    "R4C8",
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7",
+                    "R8C8",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C3",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

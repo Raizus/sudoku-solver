@@ -1,0 +1,272 @@
+{
+    "puzzleInfo": {
+        "title": "Silent Fletching",
+        "authors": [
+            "Oddlyeven"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow much sum to the digit in that arrow's circle. Adjacent digits on a green line must differ by at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RpN392fqHF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=070UQuPIbqs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R7C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C3",
+                    "R9C2",
+                    "R9C1"
+                ],
+                "value": "5"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C5"
+                ],
+                "lines": [
+                    [
+                        "R1C5",
+                        "R2C5",
+                        "R3C5",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C6",
+                        "R2C6",
+                        "R1C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C9",
+                        "R3C9",
+                        "R4C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8"
+                ],
+                "lines": [
+                    [
+                        "R5C8",
+                        "R6C9",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R5C6",
+                        "R5C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9"
+                ],
+                "lines": [
+                    [
+                        "R8C9",
+                        "R9C8",
+                        "R9C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C6"
+                ],
+                "lines": [
+                    [
+                        "R9C6",
+                        "R8C5",
+                        "R7C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1"
+                ],
+                "lines": [
+                    [
+                        "R7C1",
+                        "R7C2",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "puzzleInfo": {
+        "title": "Pincer",
+        "authors": [
+            "kuraban"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FBFJ4jMdQd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=BF-881KyY88"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C8",
+                    "R1C8",
+                    "R1C7",
+                    "R1C6",
+                    "R1C5",
+                    "R1C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9",
+                    "R3C9",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C1",
+                    "R7C1",
+                    "R6C1",
+                    "R6C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R8C4"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R2C1",
+                        "R3C1",
+                        "R4C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

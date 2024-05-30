@@ -1,0 +1,178 @@
+{
+    "puzzleInfo": {
+        "title": "Close Neighbors",
+        "authors": [
+            "Dennis Chen"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Consecutive Close Neighbors:** Every number must share a side with at least one other consecutive number. For example, 2 must share a side with either a 1 or a 3 (possibly both).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/LFJg87q9gt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=fwraGPO6vxU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 9,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Consecutive Close Neighbors": true
+    },
+    "local_constraints": {}
+}

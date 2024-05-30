@@ -1,0 +1,270 @@
+{
+    "puzzleInfo": {
+        "title": "Sweet Sixteen",
+        "authors": [
+            "Starwarigami"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits may not repeat in a cage. Every cage sums to 16.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/hh6p4qnnTt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hg5TZyK7rnw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9",
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6",
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R6C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R7C3"
+                ],
+                "value": "16"
+            }
+        ]
+    }
+}

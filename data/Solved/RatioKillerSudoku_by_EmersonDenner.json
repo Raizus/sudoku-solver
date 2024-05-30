@@ -1,0 +1,338 @@
+{
+    "puzzleInfo": {
+        "title": "Ratio Killer Sudoku",
+        "authors": [
+            "Emerson Denner"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by black dots contain digits with a 1:2 ratio. Not all dots are given. Cages contain no repeat digits and show their sums. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FgD8HLh3Gr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=tfMnFk6BelI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C4",
+                    "R2C5",
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": "30"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7",
+                    "R3C6"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "26"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R8C3",
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "45"
+            }
+        ]
+    }
+}

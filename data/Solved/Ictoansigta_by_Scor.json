@@ -1,0 +1,300 @@
+{
+    "puzzleInfo": {
+        "title": "Ictoansigta",
+        "authors": [
+            "Scor"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along the marked diagonal must not repeat. Cells separated by a white dot have a difference of 1. Cells separated by a black dot have a 1:2 ratio. Not all dots are given. Grey squares are even numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9mBDpM486d",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=2lzGnDUOvk4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R7C1"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

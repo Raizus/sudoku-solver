@@ -1,0 +1,224 @@
+{
+    "puzzleInfo": {
+        "title": "Prime Pentominoes",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Prime Dominos Cage:** In each green cage, any domino of digits must form a prime number reading left-to-right or downwards.\n\n**No Prime Dominos Cage:** In each red cage, any domino of digits must NOT form a prime number reading left-to-right or downwards.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/L6hfPmB4bn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=YmUClGlFRsU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Prime Dominoes Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R3C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C9",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C7",
+                    "R8C8",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C1",
+                    "R8C2",
+                    "R9C1"
+                ],
+                "value": ""
+            }
+        ],
+        "No Prime Dominoes Cage": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "puzzleInfo": {
+        "title": "An Easter Miracle",
+        "authors": [
+            "Farkov and TopAutism"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nonconsecutive:** Orthogonally adjacent cells must not contain consecutive numbers.\n\n**Marked Cells:** Mark nine cells such that there is one marked cell in each row, column and region. Each digit appears in exactly one marked cell. The digit in the first cell of a row, column, or region gives the position of the marked cell in that row, column or region.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3BqbqHQq3B",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=prNvphj3UGg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true,
+        "Marked Cells": true
+    },
+    "local_constraints": {}
+}

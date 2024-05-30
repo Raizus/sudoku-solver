@@ -1,0 +1,229 @@
+{
+    "puzzleInfo": {
+        "title": "Stitches Sudoku",
+        "authors": [
+            "Walking Writer"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits on a gray line must be between the digits in the circled ends. A clue outside the grid gives the sum of the digits along the indicated diagonal, which may include repeats. Digits connected by an X sum to ten. Digits connected by a V sum to five. Digits connected by a white circle must be consecutive. Not all X's, V's and white circles are shown. Digits along the blue diagonal cannot repeat and must alternate between odd and even.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NGPN2NHHM6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gTvPMgaBwb0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "V"
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C6",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C4",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C3",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2",
+                    "R9C3"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "30"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "SW",
+                "value": "12"
+            },
+            {
+                "cell": "R2C10",
+                "direction": "SW",
+                "value": "59"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "22"
+            },
+            {
+                "cell": "R10C10",
+                "direction": "NW",
+                "value": "24"
+            }
+        ]
+    }
+}

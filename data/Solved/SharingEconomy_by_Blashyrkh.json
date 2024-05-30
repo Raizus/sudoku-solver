@@ -1,0 +1,161 @@
+{
+    "puzzleInfo": {
+        "title": "Sharing Economy",
+        "authors": [
+            "Blashyrkh"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gTJqhL2TFb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=dwPN3J0gY5Q"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C1",
+                    "R2C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C7",
+                    "R5C6",
+                    "R4C6",
+                    "R3C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C9",
+                    "R9C8",
+                    "R9C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R6C3",
+                    "R5C4",
+                    "R6C5",
+                    "R7C4",
+                    "R8C3"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,243 @@
+{
+    "puzzleInfo": {
+        "title": "Happy Birthday \ud83d\udc3e (Keystone)",
+        "authors": [
+            "Wyrm",
+            "Rangsk"
+        ],
+        "ruleset": "-Normal sudoku rules apply. Place the digits 1 to 9 exactly once in each row, column, and 3x3 box.\n-Normal killer cage rules apply. Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QAkBDAB2IE8ACAIQgCc0ALAE0MsF4NwPh2KAKAaRjJg0AewB2MAJQhUhAK6NhtBCADqZWgFsKAMgoAlQqIDmYANbSQtWTjAw0ygLQA5RRsJYKYWU2GnZFKxsKEmIsMgA6CgAFLEIAYxgKRkSmCCNMMAoARiThCkQKGAAPeOxKMQSKCFFC%2BIYA4QB3ZAo44SxZDVEWwyYKAGYi%2FooAI2Ei8IAdUWdXdwpTCCwcWlbCI0TAmEyQsMinTpGYWkyNWSEKUWE0AJhiGEIb6uCFpZW1jciAFQZE0UPjplnskPokzhcvFoRElfhR0gA3GA1ERoebA2EiYgUHAAMzQ4QsRloECYCAA2mTgABfZDU2k0umMhnM%2BkAXWQlJZTPpPO51PZnN5XOFQoFfJF4rZHMlMuFYolCtF0sVsqlgtVsvlQu1mvZIEWy2OcXWuEpIASyzA5JAegA7ABhAAsFj0AA4nS7EPb%2Bp6PXr4e5ZLgQP0AAwgBnmmCW616ABs9qyLodSdQbsTIH9geDWR9kYtWCt8DJNoTceT9vLWY6wddEdpUZjxZtDoArC73e20%2B7y2mvVXUAGa8oss789HC7HW96XQmAEyzmdph0L5cz6tB5RzhfjpslvSO%2B1dm2HgcgIebvBZcO7yfN%2BP220Vp%2Fdx%2B%2Bp8bnPl29F%2FcOxAdvaAF9kBmaDtmI55g2Ba%2Fja07AaW9p1mmCYAZ%2BW43tBE6wXo%2FRvmmeHISeb7oVeUGgDBsZ4amNp4autFLsRNEHva9F6NOzHTgupEgI6SY%2FrGc74TaQlEXoQkIbhoE8XOAECfeWSMXoinOjxWQ7lhe4iRmaZCWxQk%2BrpHoEcZDHHlJZ4XsG%2FRyayVJAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=g0IlYmsN1es"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R2C3",
+                    "R2C4",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "39"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "29"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R4C7"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7",
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R4C1",
+                    "R4C2",
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "41"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C2",
+                    "R6C3",
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "30"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5",
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "14"
+            }
+        ]
+    }
+}

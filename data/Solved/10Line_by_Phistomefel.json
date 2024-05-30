@@ -1,0 +1,307 @@
+{
+    "puzzleInfo": {
+        "title": "10-Line",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Adjacent digits along a line must sum to 10 or more.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6BDF4d9G7r",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Zu6X5a6d0WU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "At Least X Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R1C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R5C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R4C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6",
+                    "R6C6",
+                    "R5C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R4C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C2"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7",
+                    "R9C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C9",
+                    "R8C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2",
+                    "R9C1"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2"
+                ],
+                "value": "10"
+            }
+        ]
+    }
+}

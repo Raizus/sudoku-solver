@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Broken X-Sums Sudoku",
+        "authors": [
+            "Richard Stolk"
+        ],
+        "ruleset": "Normal sudoku rules apply. A clue outside the grid indicates the sum of the first digits from that side. The number of digits to count is (X-1) or (X+1) where X is the digit in the first cell from that side.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/LfpB98Jrt6",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Of_057WM4Us"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Broken X-Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "10"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "4"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "28"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "32"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "14"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "14"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "34"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "18"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "18"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "10"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "28"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "7"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "N",
+                "value": "30"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "N",
+                "value": "27"
+            }
+        ]
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "puzzleInfo": {
+        "title": "Short, Sweet and Simple",
+        "authors": [
+            "Cassadilla"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All Ratios Given:** Black dots show a 1:2 ratio relationship in orthogonal neighbors. All ratios are given.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Edge Inequality:** The inequality sign points to the lower of the two digits.\n\n**High Digit:** Cells colored red are a high digit (6, 7, 8, 9).\n\n**Low Digit:** Cells colored blue are a low digit (1, 2, 3, 4).\n\n**Odd:** Cells with grey circles must contain odd numbers.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2gj4qQd4Qd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=73bGFkFsrao"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Ratios Given": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R2C2"
+            }
+        ],
+        "Low Digit": [
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R1C9"
+            }
+        ],
+        "High Digit": [
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R4C1"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Edge Inequality": [
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ],
+                "value": ">"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R2C7",
+                    "R2C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1",
+                    "R7C1"
+                ]
+            }
+        ]
+    }
+}

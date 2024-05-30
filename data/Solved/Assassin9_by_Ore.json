@@ -1,0 +1,348 @@
+{
+    "puzzleInfo": {
+        "title": "Assassin9",
+        "authors": [
+            "Ore"
+        ],
+        "ruleset": "1-9 appear in each row, column and marked region. Digits in a cage sum to the given number. Digits on an arrow sum to the number in the circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/ppTdQNN23n",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=xfVspZDFZTI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            }
+        ],
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C5"
+                ],
+                "lines": [
+                    [
+                        "R2C5",
+                        "R3C5",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C9"
+                ],
+                "lines": [
+                    [
+                        "R2C9",
+                        "R1C9",
+                        "R1C8",
+                        "R2C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1"
+                ],
+                "lines": [
+                    [
+                        "R2C1",
+                        "R1C1",
+                        "R1C2",
+                        "R2C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C9",
+                        "R5C8",
+                        "R6C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1"
+                ],
+                "lines": [
+                    [
+                        "R7C1",
+                        "R6C1",
+                        "R6C2",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6"
+                ],
+                "lines": [
+                    [
+                        "R8C6",
+                        "R7C6",
+                        "R7C5",
+                        "R6C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5"
+                ],
+                "lines": [
+                    [
+                        "R9C5",
+                        "R9C6",
+                        "R9C7"
+                    ],
+                    [
+                        "R9C5",
+                        "R9C4",
+                        "R9C3",
+                        "R9C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "9"
+            }
+        ]
+    }
+}

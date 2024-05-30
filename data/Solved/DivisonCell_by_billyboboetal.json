@@ -1,0 +1,304 @@
+{
+    "puzzleInfo": {
+        "title": "Divison Cell",
+        "authors": [
+            "billybobo et al."
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Divisible Killer Cage Sums Are Unique:** Divisible killer cage sums cannot be repeated.\n\n**Divisible Killer Cage:** Digits within a cage must sum to a number divisible by the clue given in the top left of the cage.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/r3LL9t2PLB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=6k7V5WwZgKk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Divisible Killer Cage Sums Are Unique": true
+    },
+    "local_constraints": {
+        "Divisible Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R2C1",
+                    "R2C2",
+                    "R2C3",
+                    "R3C1"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R1C9",
+                    "R2C7",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R7C7"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R9C4"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R6C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C9",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R1C6"
+                ],
+                "value": "3"
+            }
+        ]
+    }
+}

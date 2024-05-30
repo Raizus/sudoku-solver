@@ -1,0 +1,437 @@
+{
+    "puzzleInfo": {
+        "title": "Yin Yang",
+        "authors": [
+            "Jesper"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Yin Yang:** Shade some cells in the grid such that all shaded cells are orthogonally connected and all unshaded cells are orthogonally connected, and no 2x2 area is fully shaded or fully unshaded.\n\n**Unknown Regions:** The grid must be divided into 9 regions. Each region must be determined and each is a set of nine orthogonally connected cells.\n\n**Yin Yang Unknown Regions Fully Shaded Or Fully Unshaded:** Each unknown region is either fully shaded or fully unshaded (with yin yang shading).\n\n**Yin Yang Shaded Cell Count In Directions Except Itself:** The digit in a cell with one or more arrows is equal to the total number of shaded cells that appear in the indicated directions combined (not including the arrow cell itself).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/t4GP9DgL9j",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=N1Fi3xt3NkY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Unknown Regions": true,
+        "Yin Yang": true,
+        "Yin Yang Unknown Regions Fully Shaded Or Fully Unshaded": true
+    },
+    "local_constraints": {
+        "Yin Yang Shaded Cell Count In Directions Except Itself": [
+            {
+                "cell": "R1C1",
+                "arrows": [
+                    "S"
+                ]
+            },
+            {
+                "cell": "R1C2",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R1C3",
+                "arrows": [
+                    "S"
+                ]
+            },
+            {
+                "cell": "R1C4",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R1C5",
+                "arrows": [
+                    "S"
+                ]
+            },
+            {
+                "cell": "R1C6",
+                "arrows": [
+                    "W"
+                ]
+            },
+            {
+                "cell": "R1C7",
+                "arrows": [
+                    "E",
+                    "S"
+                ]
+            },
+            {
+                "cell": "R2C2",
+                "arrows": [
+                    "S"
+                ]
+            },
+            {
+                "cell": "R2C8",
+                "arrows": [
+                    "N",
+                    "E",
+                    "W"
+                ]
+            },
+            {
+                "cell": "R4C2",
+                "arrows": [
+                    "S"
+                ]
+            },
+            {
+                "cell": "R4C5",
+                "arrows": [
+                    "W"
+                ]
+            },
+            {
+                "cell": "R4C6",
+                "arrows": [
+                    "N"
+                ]
+            },
+            {
+                "cell": "R6C2",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R6C9",
+                "arrows": [
+                    "W"
+                ]
+            },
+            {
+                "cell": "R7C1",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R7C3",
+                "arrows": [
+                    "S",
+                    "W"
+                ]
+            },
+            {
+                "cell": "R8C1",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R8C2",
+                "arrows": [
+                    "N"
+                ]
+            },
+            {
+                "cell": "R8C3",
+                "arrows": [
+                    "N",
+                    "S",
+                    "E",
+                    "W"
+                ]
+            },
+            {
+                "cell": "R8C4",
+                "arrows": [
+                    "E"
+                ]
+            },
+            {
+                "cell": "R8C8",
+                "arrows": [
+                    "W"
+                ]
+            },
+            {
+                "cell": "R8C9",
+                "arrows": [
+                    "N"
+                ]
+            },
+            {
+                "cell": "R9C1",
+                "arrows": [
+                    "N",
+                    "E"
+                ]
+            },
+            {
+                "cell": "R9C7",
+                "arrows": [
+                    "W"
+                ]
+            }
+        ]
+    }
+}

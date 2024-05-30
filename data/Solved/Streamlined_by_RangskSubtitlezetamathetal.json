@@ -1,0 +1,288 @@
+{
+    "puzzleInfo": {
+        "title": "Streamlined",
+        "authors": [
+            "Rangsk",
+            "Subtitle",
+            "zetamath",
+            "et al."
+        ],
+        "ruleset": "Normal sudoku rules apply.\n\nIndexing Arrows: Digits on an arrow sum to the value in the diamond.\n\nIf the arrow is horizonal then the digit in the diamond indicates where the column number of the diamond appears in the row, e.g. if r9c5 is a 7 then r9c7 is a 5.\n\nSimilarly, if the arrow is vertical then the digit in the diamond indicates where the row number of the diamond appears in the column, e.g. if r2c7 is a 5 then r5c7 is a 2.\n\nIf a diamond has arrows in both directions then it follows both rules.\n\nThis puzzle was constructed on stream with help from the community!\n\nhttps://youtu.be/VH4wdhUi72U",
+        "ctcUrl": "",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=AKAogJ86gAA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C8"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R9C5"
+            }
+        ],
+        "Indexing Row": [
+            {
+                "cell": "R2C7"
+            },
+            {
+                "cell": "R8C7"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R1C1"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C1"
+                ],
+                "lines": [
+                    [
+                        "R1C1",
+                        "R2C1",
+                        "R3C1"
+                    ],
+                    [
+                        "R1C1",
+                        "R1C2",
+                        "R1C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R3C2",
+                        "R4C2",
+                        "R5C2"
+                    ],
+                    [
+                        "R2C2",
+                        "R2C3",
+                        "R2C4",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7"
+                ],
+                "lines": [
+                    [
+                        "R2C7",
+                        "R3C7",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8"
+                ],
+                "lines": [
+                    [
+                        "R4C8",
+                        "R4C7",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5"
+                ],
+                "lines": [
+                    [
+                        "R3C5",
+                        "R4C5",
+                        "R5C5"
+                    ],
+                    [
+                        "R3C5",
+                        "R3C4",
+                        "R3C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R7C3",
+                        "R7C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R7C7",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5"
+                ],
+                "lines": [
+                    [
+                        "R9C5",
+                        "R8C5",
+                        "R7C5"
+                    ],
+                    [
+                        "R9C5",
+                        "R9C4",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "puzzleInfo": {
+        "title": "Prime Time",
+        "authors": [
+            "James Kopp"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The digits in each cage sum to the same total (which is to be determined).\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**Adjacent Number Sum Is Prime:** Pairs of adjacent numbers on a line must sum to a prime number.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fhLrBFpQFF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=tqLfPm8fyQI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R3C6",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4",
+                    "R8C3",
+                    "R9C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R4C2",
+                    "R5C3",
+                    "R5C4",
+                    "R4C5",
+                    "R3C5",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C3",
+                    "R2C4",
+                    "R3C5"
+                ]
+            }
+        ],
+        "Adjacent Cell Sum Is Prime Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R4C2",
+                    "R5C3",
+                    "R5C4",
+                    "R4C5",
+                    "R3C5",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6",
+                    "R3C6",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4",
+                    "R8C3",
+                    "R9C3"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "x"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": "x"
+            }
+        ]
+    }
+}

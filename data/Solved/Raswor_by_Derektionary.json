@@ -1,0 +1,269 @@
+{
+    "puzzleInfo": {
+        "title": "Raswor",
+        "authors": [
+            "Derektionary"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the digit in that arrow's circle. Purple lines must contain a string of consecutive digits, in any order.",
+        "ctcUrl": "",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=3cH5kQ70b1A"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R1C1",
+                    "R1C2",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C8",
+                    "R7C9",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6",
+                    "R8C5",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C5",
+                    "R6C5",
+                    "R6C4"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C3"
+                ],
+                "lines": [
+                    [
+                        "R2C3",
+                        "R3C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7"
+                ],
+                "lines": [
+                    [
+                        "R2C7",
+                        "R3C7",
+                        "R3C8",
+                        "R3C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7"
+                ],
+                "lines": [
+                    [
+                        "R6C7",
+                        "R5C7",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R5C4",
+                        "R4C5",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6"
+                ],
+                "lines": [
+                    [
+                        "R7C6",
+                        "R8C7",
+                        "R9C8",
+                        "R9C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R7C3",
+                        "R8C3",
+                        "R9C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "puzzleInfo": {
+        "title": "Diagonal movements",
+        "authors": [
+            "Adem Jaziri"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/BjQP3L8QFr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8jSAUaGiuhI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8"
+                ],
+                "value": "20"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SE",
+                "value": "22"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "NW",
+                "value": "32"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "NE",
+                "value": "6"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "NE",
+                "value": "17"
+            },
+            {
+                "cell": "R10C0",
+                "direction": "NE",
+                "value": "20"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "NE",
+                "value": "30"
+            }
+        ]
+    }
+}

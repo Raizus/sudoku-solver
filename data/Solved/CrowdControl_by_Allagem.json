@@ -1,0 +1,255 @@
+{
+    "puzzleInfo": {
+        "title": "Crowd Control",
+        "authors": [
+            "Allagem"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Between Line:** Digits on a green line must be numerically in between the two circled cells at the line's ends.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Edge Inequality:** The inequality sign points to the lower of the two digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7bprG39P87",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=w2eA6JZULiU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Edge Inequality": [
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": ">"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C3",
+                    "R8C4",
+                    "R9C3",
+                    "R9C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C7",
+                    "R8C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "5"
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7",
+                    "R3C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R4C4",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R4C6",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R6C4",
+                    "R5C5",
+                    "R6C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9",
+                    "R7C8",
+                    "R8C8",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C1",
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ]
+            }
+        ]
+    }
+}

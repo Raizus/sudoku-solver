@@ -1,0 +1,302 @@
+{
+    "puzzleInfo": {
+        "title": "Three out of Four",
+        "authors": [
+            "Coyote"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiking:** Cells that are a chess king's move apart must not contain the same number.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QtNgbdQBBh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=flNDy3Udgfw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiking": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": ""
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C5",
+                    "R3C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C5",
+                    "R9C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C8"
+                ],
+                "value": "5"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R2C8",
+                        "R3C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C7",
+                        "R2C8",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R7C7",
+                        "R8C8",
+                        "R9C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C9"
+                ],
+                "lines": [
+                    [
+                        "R7C9",
+                        "R8C8",
+                        "R9C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "lines": [
+                    [
+                        "R6C4",
+                        "R7C3",
+                        "R8C2",
+                        "R9C1"
+                    ],
+                    [
+                        "R6C4",
+                        "R5C5",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R5C5",
+                        "R6C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C2",
+                        "R7C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

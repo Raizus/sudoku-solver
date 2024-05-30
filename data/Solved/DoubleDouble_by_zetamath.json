@@ -1,0 +1,224 @@
+{
+    "puzzleInfo": {
+        "title": "Double, Double",
+        "authors": [
+            "zetamath"
+        ],
+        "ruleset": "Normal sudoku rules apply.\n\nThe digit in the square cell is 2, 4, 6, or 8.\n\nThe rest of the clues in the grid are double arrow clues. The sum of the digits along a line is equal to the sum of the digits in the circles at either end of the line. Digits may repeat freely along a double arrow.\n\nAdditionally, the grid contains 9 doublers, one in each row column and box. For purposes of double arrow clues, cells on doublers count as double their value.\n\nEach digit from 1 through 9 is doubled exactly once.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=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=",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=BrMVhhaiUvE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R4C5"
+            }
+        ],
+        "Doublers Double Arrow Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C2",
+                    "R1C1",
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2",
+                    "R4C2",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R1C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C7",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R3C6",
+                    "R3C5",
+                    "R3C4",
+                    "R3C3",
+                    "R4C3",
+                    "R5C3",
+                    "R6C3",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R8C3",
+                    "R7C3",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C7",
+                    "R7C8",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R7C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R6C8",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C6",
+                    "R6C5",
+                    "R6C4",
+                    "R5C5",
+                    "R4C6",
+                    "R4C5",
+                    "R4C4"
+                ]
+            }
+        ]
+    }
+}

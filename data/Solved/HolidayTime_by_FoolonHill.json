@@ -1,0 +1,200 @@
+{
+    "puzzleInfo": {
+        "title": "Holiday Time",
+        "authors": [
+            "Fool on Hill"
+        ],
+        "ruleset": "Normal sudoku rules apply.\n\nBlack dots separate cells with a 1:2 ratio.\n\nCells a knight's or a king's move apart must be different.\n\nOrthogonally adjacent cells cannot be consecutive.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/39jphNn83b",
+        "ctcYoutubeUrl": ""
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Antiking": true,
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

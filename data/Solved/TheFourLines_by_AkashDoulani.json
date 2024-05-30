@@ -1,0 +1,289 @@
+{
+    "puzzleInfo": {
+        "title": "The Four Lines",
+        "authors": [
+            "Akash Doulani"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Adjacent digits along a green line must differ by at least 5. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits may repeat along such a diagonal if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2Ln6hRj4Gm",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=51X-WroOyWI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C3"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C8"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "18"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R5C0",
+                "direction": "NE",
+                "value": "26"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "17"
+            }
+        ]
+    }
+}

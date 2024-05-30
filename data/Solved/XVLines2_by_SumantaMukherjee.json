@@ -1,0 +1,195 @@
+{
+    "puzzleInfo": {
+        "title": "XV Lines 2",
+        "authors": [
+            "Sumanta Mukherjee"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Identical digits cannot be a chess knight's move apart. Neighboring digits along a yellow line must sum either to 5 or 10. A purple line contains a set of consecutive digits in any order. A black dot separates digits with a 1:2 ratio. Not all dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QgdG6gP7jq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Vy-ZnwcvjrQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R7C7"
+                ]
+            }
+        ],
+        "XV Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C5",
+                    "R2C4",
+                    "R1C5",
+                    "R2C6",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8",
+                    "R6C9",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C3"
+                ]
+            }
+        ]
+    }
+}

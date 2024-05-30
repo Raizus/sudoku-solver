@@ -1,0 +1,302 @@
+{
+    "puzzleInfo": {
+        "title": "One Ring to Rule 8 of 9",
+        "authors": [
+            "Legor455"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Sum Cage:** The numbers in the cage must sum to the given total in the top left (if one exists). Numbers can repeat in a sum cage.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Quadruple:** Numbers in a circle must appear at least once in the four cells touched by the circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/ndLtJqfLhd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=eIYhjdAXqZw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "1,2,5,8"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "4,6,7,8"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "3,5,6,7"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "1,2,3,4"
+            }
+        ],
+        "Sum Cage": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "47"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3",
+                    "R6C3",
+                    "R7C3",
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R6C5"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "9"
+            }
+        ]
+    }
+}

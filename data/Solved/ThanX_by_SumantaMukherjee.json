@@ -1,0 +1,288 @@
+{
+    "puzzleInfo": {
+        "title": "ThanX",
+        "authors": [
+            "Sumanta Mukherjee"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end. In cages, digits must sum to the small clue in the top left corner of the cage. Cells separated by an X must contain digits summing to 10. Cells separated by a white dot must contain consecutive digits. Cells separated by a black dot must contain digits in a ratio of 1:2. Not all possible dots/Xs are given. The cell with a grey circle contains an odd digit. The cell with a grey square contains an even digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/86667rD74D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mNKUQYGv12M"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R1C3"
+            }
+        ],
+        "Even": [
+            {
+                "cell": "R9C7"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "X"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C9",
+                    "R1C8",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "20"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "20"
+            }
+        ]
+    }
+}

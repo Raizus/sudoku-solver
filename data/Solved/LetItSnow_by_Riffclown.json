@@ -1,0 +1,337 @@
+{
+    "puzzleInfo": {
+        "title": "Let It Snow",
+        "authors": [
+            "Riffclown"
+        ],
+        "ruleset": "Normal sudoku rules apply. Adjacent digits along blue lines must differ by at least 5. Purple lines contain a consecutive series of digits (in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/D6gtMgFQbT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=c__XBsPos-s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3",
+                    "R4C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7",
+                    "R4C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C7",
+                    "R5C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C7",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C5",
+                    "R7C5",
+                    "R6C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C3",
+                    "R6C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C2",
+                    "R6C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ]
+            }
+        ]
+    }
+}

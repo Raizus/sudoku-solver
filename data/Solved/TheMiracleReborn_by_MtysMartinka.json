@@ -1,0 +1,126 @@
+{
+    "puzzleInfo": {
+        "title": "The Miracle Reborn",
+        "authors": [
+            "M\u00e1ty\u00e1s Martinka"
+        ],
+        "ruleset": "Normal sudoku rules apply. Cells separated by a knight's or king's move in chess cannot contain the same digit. Digits in the Nth column indicate in which column the digit N is placed in the respective row. Eg if R3C2 is a 5, the fifth column in the third row (R3C5) must contain a 2. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/2ftJ4jLbDG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FZg6ixKNPOQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Antiking": true,
+        "Global Indexing Column": true
+    },
+    "local_constraints": {}
+}

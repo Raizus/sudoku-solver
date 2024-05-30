@@ -1,0 +1,246 @@
+{
+    "puzzleInfo": {
+        "title": "Triclinium",
+        "authors": [
+            "Qodec"
+        ],
+        "ruleset": "Normal sudoku rules apply. A clue outside the grid indicates the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction. An X joins two digits that sum to 10. A black dot joins two digits with a 1:2 ratio. Not all possible dots or X's are necessarily given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/q6fGDLqpqF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=-78lEgjZUhk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "X"
+            }
+        ],
+        "X-Index": [
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "1"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": "3"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "W",
+                "value": "2"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "2"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "7"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "1"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "5"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "7"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "4"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "4"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "3"
+            }
+        ]
+    }
+}

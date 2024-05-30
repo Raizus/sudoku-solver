@@ -1,0 +1,226 @@
+{
+    "puzzleInfo": {
+        "title": "9/9/21",
+        "authors": [
+            "SSG"
+        ],
+        "ruleset": "Normal sudoku rules apply. (How could they not on International Sudoku Day?)\n\nKiller: Digits in cages may not repeat and must sum to the given total.\n\nLittle Killer: Digits along indicated diagonals must sum to the given total. These digits may repeat if allowed by the other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8SIHpCAmARhFQEMBXNACwHsAnBEAZTYHEKQnqcwMNKwByzALaUsAAjDUAJgwDW1aXwHTKABy1YAngDppACgASDAO7SAxg37zp9GHukA7BmmkNX0gJKu0GCZXSgxvKWk2BWVVABFKPQB%2BAEoAHVd0gGkILBwmeGlYiABzTDBpCB9rSmKYcskXd08mGC0YUM1XB3FqME85cUcGRzoYaVKANxgfNA8pA3T0gBlMbDHs3KCCotK0cqlvYoquiGrAh3kIGvCset7%2B6kHZkbHJ6aG0eekAFVHBaUuu3qCTUrXanggADNNLlLDAHAAjFxOLxOJhqfh1Aw8YpMCDyBAAbUJwAAvsgyRTyZSadS6VSALrIEn02lU9lsslMlkc1l83nczn8oWM5ki8V8wXC6UCsUyiWinkKiVS3lqlVMkBKHJ5aq1ImgawwXJgIkgABKABYAMLEHhW60AZhAmomUmouHwIGpICNJrN5oArNbLfbg4Gw9aAGwu1BurAe1iIb0U33G24BqPWgDs9qzAA489bk673Z6yCnDenTfBCRbs7b7fnG6hzc3naWE57kz6%2FRnaxbmxHW4hrRHO4m8D3U32a3XzaQx%2FbiEvWyuYxPu5W0%2F6BwuWxbF86143N0nt7OAyvcyfC63HTn7Q%2B7xaHyW42XWBXe9WAw2b%2FW1ovm2j6ts2wGjhBxaxiA8aTiA36algqw4NqmxMAMBo7lgrAOgADDwl57sG5Ctlmdqtg2x6DiG9qjuOqCXC01hhK4rCxOaPBwVuP65LhwYEagRHzlmpGARRNHUeao6hpqTEwCxEDeOxnEfl2568TheDmlmgnYXOgFiSBEnSU6MHyYpyl4BxXGfng34zumuF4dGhG%2Fnui4AeaK7AW%2B5kQMxrEqbZ6n2eQmnObRQnufOi7Dha65PqBFo2sBwbviAFlBdZqmwXZXoRdpLnUcJh4Ht51rkHJAUKdlICxEsIXwT2DKkkAA%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=_6PqW-g6CHQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C7",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "9"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SW",
+                "value": "9"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "SE",
+                "value": "9"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "SE",
+                "value": "21"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "9"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "9"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": "21"
+            }
+        ]
+    }
+}

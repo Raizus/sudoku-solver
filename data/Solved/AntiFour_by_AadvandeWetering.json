@@ -1,0 +1,167 @@
+{
+    "puzzleInfo": {
+        "title": "Anti-Four",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. No two orthogonal neighbours can sum to 4 or a multiple of 4. Any line in the grid has a sequence of consecutive digits, not in any particular order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qT84jPJ8b2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=1Ovwmzj0G7k"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C6",
+                    "R4C6",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C6",
+                    "R4C5",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C6"
+                ]
+            }
+        ],
+        "Forbidden Orthogonally Adjacent Sum": [
+            {
+                "value": "4"
+            }
+        ],
+        "Forbidden Orthogonally Adjacent Sum Multiple": [
+            {
+                "value": "4"
+            }
+        ]
+    }
+}

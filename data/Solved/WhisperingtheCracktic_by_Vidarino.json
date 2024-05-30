@@ -1,0 +1,219 @@
+{
+    "puzzleInfo": {
+        "title": "Whispering the Cracktic",
+        "authors": [
+            "Vidarino"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along the main diagonals can not repeat. Neighbouring numbers along green lines must differ by at least 5. Numbers in circles must appear in the surrounding 2x2 cell area.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/j3R2Nm447j",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=SrKbv0DhcA0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "1,2,3,5"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "2,4,5,6"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C2",
+                    "R1C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C3",
+                    "R2C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C3",
+                    "R3C4",
+                    "R2C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C1",
+                    "R5C2",
+                    "R4C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R8C8",
+                    "R7C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C8",
+                    "R6C9",
+                    "R7C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R7C6",
+                    "R8C7",
+                    "R9C6"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

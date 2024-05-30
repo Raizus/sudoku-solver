@@ -1,0 +1,198 @@
+{
+    "puzzleInfo": {
+        "title": "The Spectre",
+        "authors": [
+            "James Kopp"
+        ],
+        "ruleset": "Normal sudoku rules apply. A clue outside the grid shows the sum of the digits along the indicated diagonal. Grey circles are odd numbers. The grey line is a palindrome, reading the same from both directions.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/8r6FPhhLbd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=xtypraWVcfU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R3C6"
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R8C7",
+                    "R7C8",
+                    "R6C8",
+                    "R5C8",
+                    "R4C8",
+                    "R3C8",
+                    "R2C7",
+                    "R1C6",
+                    "R1C5",
+                    "R1C4",
+                    "R2C3",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C3",
+                    "R7C4",
+                    "R8C5",
+                    "R7C6"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R1C0",
+                "direction": "SE",
+                "value": "48"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "34"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "NW",
+                "value": "11"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "NW",
+                "value": "7"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "NE",
+                "value": "8"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "NE",
+                "value": "7"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "NE",
+                "value": "22"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "NE",
+                "value": "39"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "32"
+            }
+        ]
+    }
+}

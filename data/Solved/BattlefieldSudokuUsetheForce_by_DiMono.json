@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Battlefield Sudoku - Use the Force",
+        "authors": [
+            "DiMono"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Battlefield rules apply: Consider the first X cells and the last Y cells of a row or column where X is the number in the first cell and Y is the number in the last cell. A clue outside the grid gives the sum of the digits where these groups overlap, or the sum of the digits in the gap between the groups if they don't overlap.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/87b3n8FJFN",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=tv4cmpwFpfM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Battlefield": [
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "13"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "E",
+                "value": "34"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "2"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "39"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "5"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "37"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "17"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "0"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "31"
+            },
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "21"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "15"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "7"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "9"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "18"
+            }
+        ]
+    }
+}

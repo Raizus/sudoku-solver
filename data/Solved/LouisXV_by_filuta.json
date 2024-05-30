@@ -1,0 +1,216 @@
+{
+    "puzzleInfo": {
+        "title": "Louis XV",
+        "authors": [
+            "filuta"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All XV's Given:** All XV's are given.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3dr6pFrqpP",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Jq2VZkolJhA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "All XV's Given": true
+    },
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ],
+                "value": "V"
+            }
+        ]
+    }
+}

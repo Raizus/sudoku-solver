@@ -1,0 +1,259 @@
+{
+    "puzzleInfo": {
+        "title": "Pinwheel",
+        "authors": [
+            "Paradox"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits cannot repeat along the indicated diagonal. Digits in a cage cannot repeat and (if given) must sum to the total in the top left corner. Digits on an arrow must sum to the number in the attached circle. A clue outside the grid either shows the total of a diagonal, if indicated, or otherwise the sum of the digits sandwiched between the 1 and 9 in the column or row. Not all sandwich clues are given, but none would be zero. The numbers on a line must be between the circled digits. Digits joined by a white dot must be consecutive, not all dots are given. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fQpGg8mQR4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=L67FRpiZjYU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R3C7",
+                    "R2C7",
+                    "R2C6",
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R1C9"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R9C2",
+                        "R9C1",
+                        "R8C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R8C9",
+                        "R9C9",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5",
+                    "R3C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8"
+                ],
+                "value": "29"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "29"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "19"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "20"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "E",
+                "value": "7"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C3",
+                "direction": "SW",
+                "value": "13"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "SE",
+                "value": "10"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "SW",
+                "value": "6"
+            }
+        ],
+        "Forbidden Orthogonal Adjacencies": [
+            {
+                "value1": "1",
+                "value2": "9"
+            }
+        ]
+    }
+}

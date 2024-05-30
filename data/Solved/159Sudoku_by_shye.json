@@ -1,0 +1,242 @@
+{
+    "puzzleInfo": {
+        "title": "159 Sudoku",
+        "authors": [
+            "shye"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in the first column indicate in which column the digit 1 is placed in the respective row. Digits in the fifth column indicate in which column the digit 5 is placed in the respective row. Digits in the ninth column indicate in which column the digit 9 is placed in the respective row.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TdBgH8fFdF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=yMkwG_y5gpk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R7C9"
+            }
+        ]
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "puzzleInfo": {
+        "title": "Product 2520",
+        "authors": [
+            "Aad van de Wetering"
+        ],
+        "ruleset": "Normal sudoku rules apply. The product of digits on each line is 2520.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/nqRP3L4PbD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=5tXvj6j2xSo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Product Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R1C7"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C1"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6",
+                    "R9C7"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C9"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8",
+                    "R3C7",
+                    "R4C6",
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R8C2",
+                    "R9C1"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R3C3",
+                    "R4C4",
+                    "R5C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8",
+                    "R9C9"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R6C5",
+                    "R5C6"
+                ],
+                "value": "2520"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C6",
+                    "R6C5",
+                    "R5C4"
+                ],
+                "value": "2520"
+            }
+        ]
+    }
+}

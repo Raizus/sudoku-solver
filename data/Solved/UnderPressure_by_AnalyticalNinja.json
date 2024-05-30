@@ -1,0 +1,231 @@
+{
+    "puzzleInfo": {
+        "title": "Under Pressure",
+        "authors": [
+            "AnalyticalNinja"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Aquarium Cage:** Digits cannot repeat within a cage. Cells within aquariums are either air cells or water cells, with cells outside of cages not being air or water. Water cells fill the bottoms of cages and must have digits greater than all the air cells in their cage. Rows in cages must be either all air cells or all water cells. Cages must have at least one row of air cells and one row of water cells. Additionally, the cages are \u201cpressurized\u201d: The air cells within any cage must have a higher average value than the number of rows above that cage in the grid. (Eg If a cage occupied only rows 7, 8 and 9 then any air cells in that cage must have an average value greater than 6.).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GDmnmRhFgN",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=-busjuK6SZU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Aquarium Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R2C2",
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2",
+                    "R3C3",
+                    "R4C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3",
+                    "R6C3",
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2",
+                    "R8C1",
+                    "R8C2",
+                    "R9C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R4C4",
+                    "R4C5",
+                    "R5C4"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,345 @@
+{
+    "puzzleInfo": {
+        "title": "Chaotic Equality",
+        "authors": [
+            "Knickolas"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Unknown Regions:** The grid must be divided into 9 regions, each containing 9 cells.\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**Count Region Sum Line Cells In Region:** Digits in a circle indicate the number of cells that are part of a line in that cell's region.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RjG3t8B9dp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bxRgdzPdU1A"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Unknown Regions": true
+    },
+    "local_constraints": {
+      "Region Sum Line": [
+        {
+          "cells": ["R2C3", "R1C3", "R1C4", "R1C5", "R1C6"]
+        },
+        {
+          "cells": ["R2C7", "R3C7", "R3C6"]
+        },
+        {
+          "cells": ["R5C7", "R5C8", "R5C9"]
+        },
+        {
+          "cells": ["R7C6", "R7C7", "R8C7", "R8C6"]
+        },
+        {
+          "cells": ["R7C8", "R8C8", "R9C8", "R9C9"]
+        },
+        {
+          "cells": ["R7C4", "R8C4", "R8C3", "R8C2", "R8C1"]
+        },
+        {
+          "cells": ["R6C1", "R5C1", "R4C1", "R3C1", "R2C1"]
+        },
+        {
+          "cells": ["R3C3", "R3C4", "R4C4"]
+        }
+      ],
+      "Count Region Sum Line Cells In Region": [
+        {
+          "cell": "R1C7",
+          "value": ""
+        },
+        {
+          "cell": "R2C8",
+          "value": ""
+        },
+        {
+          "cell": "R4C9",
+          "value": ""
+        },
+        {
+          "cell": "R6C9",
+          "value": ""
+        },
+        {
+          "cell": "R5C6",
+          "value": ""
+        },
+        {
+          "cell": "R7C5",
+          "value": ""
+        },
+        {
+          "cell": "R8C5",
+          "value": ""
+        },
+        {
+          "cell": "R7C1",
+          "value": ""
+        },
+        {
+          "cell": "R9C3",
+          "value": ""
+        }
+      ]
+    }
+}

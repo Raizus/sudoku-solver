@@ -1,0 +1,329 @@
+{
+    "puzzleInfo": {
+        "title": "Vikna (Windows)",
+        "authors": [
+            "Yarr"
+        ],
+        "ruleset": "1-9 appear in each row, column and region. Identical digits cannot be a knight's move apart. Along thermometers, digits increase from the bulb. Grey squares are even digits. Adjacent digits on a green line must have a difference of 5 or more. Orange lines join identical digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4M6M7GnBtM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oceKj6qmMJU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {}
+        ],
+        [
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 5
+            }
+        ],
+        [
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            }
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R3C3"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R3C7"
+            },
+            {
+                "cell": "R5C7"
+            },
+            {
+                "cell": "R7C7"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R7C3"
+            },
+            {
+                "cell": "R5C3"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C1",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R1C9",
+                    "R1C8"
+                ]
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R7C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C3"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R3C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

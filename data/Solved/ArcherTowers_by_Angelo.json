@@ -1,0 +1,257 @@
+{
+    "puzzleInfo": {
+        "title": "Archer Towers",
+        "authors": [
+            "Angelo"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow must sum to the digit in that arrow's circle. Each small purple circle represents a watchtower of height X, where X is the digit in that cell. Each watchtower must see exactly X cells (including itself) in its row and column combined. Watchtowers cannot see digits larger than their own height, nor past them. Not all watchtowers are given but cells with purple squares must not be watchtowers and they must therefore see more or less than X cells.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Hrbb6dRLqp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Lxd4ocyZJ9o"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Watchtower": [
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R3C8"
+            },
+            {
+                "cell": "R2C7"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R6C4"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R7C3"
+            }
+        ],
+        "Not Watchtower": [
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R9C8"
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R1C8",
+                        "R2C8",
+                        "R2C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R2C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R4C5",
+                        "R3C5",
+                        "R2C5"
+                    ],
+                    [
+                        "R5C5",
+                        "R5C6",
+                        "R5C7",
+                        "R5C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R7C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R7C2",
+                        "R6C2",
+                        "R5C2"
+                    ],
+                    [
+                        "R8C2",
+                        "R8C3",
+                        "R8C4",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4"
+                ],
+                "lines": [
+                    [
+                        "R5C4",
+                        "R6C3",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5"
+                ],
+                "lines": [
+                    [
+                        "R6C5",
+                        "R7C4",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

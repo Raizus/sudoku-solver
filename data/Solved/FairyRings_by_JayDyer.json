@@ -1,0 +1,202 @@
+{
+    "puzzleInfo": {
+        "title": "Fairy Rings",
+        "authors": [
+            "Jay Dyer"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits may not repeat along either main diagonal (marked in blue). In cages, digits sum to the small clue in the top left corner of the cage. Along thermometers, digits must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Hg6jH2L9fb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ef_Q4a3o0Mw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R2C1",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8",
+                    "R2C9",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C9",
+                    "R9C8",
+                    "R8C9",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2",
+                    "R8C1",
+                    "R9C2"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": "8"
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "puzzleInfo": {
+        "title": "No-divisor Sudoku",
+        "authors": [
+            "Nils Leder"
+        ],
+        "ruleset": "Normal sudoku rules apply. No digit can be orthogonally adjacent with one of its divisors (apart from 1) eg 6 cannot touch a 2 or 3.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/HnH4qH6gH2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=EoJDu4_u1Zw"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Orthogonally Adjacent Cells Are Not Divisors": true
+    },
+    "local_constraints": {}
+}

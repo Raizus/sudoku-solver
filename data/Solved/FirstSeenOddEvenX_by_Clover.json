@@ -1,0 +1,243 @@
+{
+    "puzzleInfo": {
+        "title": "First Seen Odd/Even X",
+        "authors": [
+            "Clover"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.\n\n**First Seen Odd/Even:** A clue outside of a row or column tells you the first odd (if the clue is odd) or even (if the clue is even) digit that appears in that row/column from the direction of the clue.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Bm3dMdPF8m",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Fxi1JQSEcx8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C6"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "X"
+            }
+        ],
+        "First Seen Odd/Even": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "1"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "1"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "2"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "3"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "3"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "W",
+                "value": "9"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "1"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "7"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "7"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "8"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "N",
+                "value": "9"
+            },
+            {
+                "cell": "R10C1",
+                "direction": "N",
+                "value": "9"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "4"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "2"
+            }
+        ]
+    }
+}

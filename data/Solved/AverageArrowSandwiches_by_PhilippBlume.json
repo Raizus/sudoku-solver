@@ -1,0 +1,321 @@
+{
+    "puzzleInfo": {
+        "title": "Average Arrow Sandwiches",
+        "authors": [
+            "Philipp Blume"
+        ],
+        "ruleset": "Normal sudoku rules apply. A clue outside the grid shows the sum of the digits sandwiched between the 1 and the 9 in that row/column. Digits along an arrow (which may repeat) average exactly to the digit in the attached circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FQDpNL27R2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=3AVP8CkBxs4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Average Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R2C3",
+                        "R2C4",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R2C7",
+                        "R3C7",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C9"
+                ],
+                "lines": [
+                    [
+                        "R1C9",
+                        "R2C8",
+                        "R3C8",
+                        "R4C8",
+                        "R5C8",
+                        "R6C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6"
+                ],
+                "lines": [
+                    [
+                        "R5C6",
+                        "R6C7",
+                        "R7C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R8C6",
+                        "R8C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4"
+                ],
+                "lines": [
+                    [
+                        "R8C4",
+                        "R8C3",
+                        "R8C2",
+                        "R7C2",
+                        "R6C2"
+                    ],
+                    [
+                        "R8C4",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2"
+                ],
+                "lines": [
+                    [
+                        "R5C2",
+                        "R4C2",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4"
+                ],
+                "lines": [
+                    [
+                        "R5C4",
+                        "R4C3"
+                    ],
+                    [
+                        "R5C4",
+                        "R6C5",
+                        "R7C6",
+                        "R8C7",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "lines": [
+                    [
+                        "R7C3",
+                        "R6C4",
+                        "R5C5",
+                        "R5C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C9"
+                ],
+                "lines": [
+                    [
+                        "R2C9",
+                        "R1C8",
+                        "R1C7",
+                        "R1C6",
+                        "R1C5",
+                        "R1C4",
+                        "R1C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "19"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "12"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "28"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "13"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "E",
+                "value": "0"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "14"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "23"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "6"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "22"
+            }
+        ]
+    }
+}

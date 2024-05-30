@@ -1,0 +1,302 @@
+{
+    "puzzleInfo": {
+        "title": "Code - 63",
+        "authors": [
+            "Sumanta Mukherjee"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages sum to the small clue in the top left corner of the cage. Each purple line contains a set of consecutive digits. Cells separated by a black dot contain digits with a 1:2 ratio. Cells separated by a white dot contain consecutive digits. Not all possible dots are given. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits may repeat along such diagonals if allowed by other rules. Digits along the thermometer must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/dQRm7HfTfM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=DcS3MBqrZ8Y"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C4"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C2"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "13"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C6",
+                "direction": "SW",
+                "value": "23"
+            },
+            {
+                "cell": "R10C3",
+                "direction": "NE",
+                "value": "23"
+            }
+        ]
+    }
+}

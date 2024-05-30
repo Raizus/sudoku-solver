@@ -1,0 +1,200 @@
+{
+    "puzzleInfo": {
+        "title": "Spiral Galaxy",
+        "authors": [
+            "Malrog"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along the marked diagonal must not repeat. Digits along grey lines increase starting from the bulb end. Coloured lines are palindromes, reading the same forwards or backwards. Digits along an arrow sum to the number in the circled cell.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Hb4Tb8tgRQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Q3IYQrAA-jQ"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C5",
+                    "R5C4",
+                    "R6C3",
+                    "R7C4",
+                    "R8C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R5C6",
+                    "R4C7",
+                    "R3C6",
+                    "R2C5",
+                    "R3C4"
+                ]
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C4",
+                    "R7C5",
+                    "R6C6",
+                    "R5C7",
+                    "R4C8",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C6",
+                    "R3C5",
+                    "R4C4",
+                    "R5C3",
+                    "R6C2",
+                    "R7C3"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R2C1",
+                        "R1C2"
+                    ],
+                    [
+                        "R2C2",
+                        "R2C3",
+                        "R3C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R9C9",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

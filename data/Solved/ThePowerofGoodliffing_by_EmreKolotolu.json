@@ -1,0 +1,282 @@
+{
+    "puzzleInfo": {
+        "title": "The Power of Goodliffing",
+        "authors": [
+            "Emre Koloto\u011flu"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAAgAUB7AdxgCcSKAzEgcQooBMsJHGIA7AOYhUAQwCuaQhVoIQAUQC2tUgGkKWCmgqB8QCziRIWuJxgYaOQDkZi0VhJhxHCgGtxJY6ZKiADj6wAngB0JACCmkIkUnSKFIrmdGDIJBwQgphgJIriYGgkAgDGKqJmJIy0cVHEJABGJjUkMPwcQYaCtBAcCADa3aAAbnbiuACMAL7IA0O4AEwTU%2Fq4AMzzIIOLCAAcq%2BvDCIg70wgA7Icb8ABsZ3vwAKzXuAAsYwC6yH1rR%2FDPk5%2FnB79drhtoCvldQedxhCbvdobhTnCECtEfA5m8PkCELCFjdwTj4Q8EHMUcj8QgfmSkIT4CDKeN0ZSEZTsX8blDKaTWU9qcTKbSuQg8QKqQzhQC%2BdSKcKWZjLtT2cLObLecLTqLldSlWDqUzhfzZeLhVLZQrZfd1V8tedjV9DSaedShWaddTthbzk6vrqNSibecZV99V9TbbNa93hKUSH%2FdS7V6wyiVbK%2FbjXm90MRaLF4mg6D1QNx%2BDAwD1uiAAEojADCI0MlarMzr1aWIBeL1WheLpYr1drqHLMxrdaWQ%2F7I8bY6rLf7g%2BnFcHjbbHYEXfgvQrI8edcHW%2F71a3S9%2BnZLa7L5c3w6rt0vF23Vdve%2FvTavrfbR5XJ%2FX56riEvm0vxyvsuRafmeI6%2FjOP7PhBPZVv%2Bj6AZBgGHgWH7duWFyjhWmEThWtxTnWjwNoRWHlvhtYoSAx7oURu54VWdEYQxdaYde%2FaYbelHUae2FwXW%2BHwRWRGCeWRHIW%2BqEgehmEiQJJEiURv5cWhPFMSJmHicBq5fjJLFQcpUmqccpGbKRiBDgZ2lnsZfYVsZuHlsZLaWaBdkme5i4SVRKlfsZjGmYx5kHl53G%2Bcx%2FYBXWpnXi56F%2BXWxlsW5nEhT5Z6mYhbmZY5fH9sZSmpYZX4ZXW5nZeZInmQVWmueWJURXxS7tkAA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=9vY7-56Tg-w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R2C3",
+                    "R2C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R2C6",
+                    "R1C6",
+                    "R1C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R2C4",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R2C9",
+                    "R1C9",
+                    "R1C8",
+                    "R1C7",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R3C8",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C8",
+                    "R4C8",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C8",
+                    "R4C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C4",
+                    "R6C4",
+                    "R6C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R5C3",
+                    "R4C2",
+                    "R4C1",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4",
+                    "R8C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R7C7",
+                    "R7C8",
+                    "R7C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8"
+                ]
+            }
+        ]
+    }
+}

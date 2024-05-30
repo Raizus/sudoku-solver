@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Transmission",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Antiknight:** Cells that are a chess knight's move apart must not contain the same number.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/489fDJPD78",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=aPT8H962E1I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C5",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C4",
+                    "R2C5",
+                    "R3C6",
+                    "R4C5",
+                    "R5C4"
+                ]
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C4",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R8C6",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C7",
+                    "R6C7",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R6C8",
+                    "R5C7",
+                    "R6C7"
+                ]
+            }
+        ]
+    }
+}

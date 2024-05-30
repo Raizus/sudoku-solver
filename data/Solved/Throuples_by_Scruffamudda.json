@@ -1,0 +1,296 @@
+{
+    "puzzleInfo": {
+        "title": "Throuples",
+        "authors": [
+            "Scruffamudda"
+        ],
+        "ruleset": "Normal sudoku rules apply. Numbers in circles show the difference between the adjoining pair of digits. Digits separated by a V sum to 5. Digits separated by an X sum to 10. Not all such differences, Xs or Vs are shown.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/r9rLrppHpT",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=9T380m4vD_I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "3"
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "X"
+            }
+        ]
+    }
+}

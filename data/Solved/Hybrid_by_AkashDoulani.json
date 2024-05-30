@@ -1,0 +1,261 @@
+{
+    "puzzleInfo": {
+        "title": "Hybrid",
+        "authors": [
+            "Akash Doulani"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages must sum to the small clue in the top left corner of the cage. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits can repeat along such diagonals if allowed by the other rules. Each purple line must contain a set of non-repeating, consecuitive digits. These digits can appear in any order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fm92h9Dn93",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=BE6qTNsjTgo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R8C2",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R2C1",
+                    "R2C2",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C8",
+                    "R2C9",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9",
+                    "R8C8",
+                    "R7C8"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "15"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R4C0",
+                "direction": "NE",
+                "value": "14"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "20"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "SE",
+                "value": "13"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "SW",
+                "value": "15"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "NW",
+                "value": "22"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "NW",
+                "value": "11"
+            }
+        ]
+    }
+}

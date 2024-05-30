@@ -1,0 +1,219 @@
+{
+    "puzzleInfo": {
+        "title": "Numbered Rooms Sudoku 2",
+        "authors": [
+            "Lizzy01"
+        ],
+        "ruleset": "Normal sudoku rules apply. Clues outside the grid equal the Xth digit in their row/column seen from the side of the clue, with X being the 1st digit in their row/column seen from the side of the clue. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/tMHDPtqHgG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=6hEUMb7DKB4"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "X-Index": [
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "7"
+            },
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "3"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "9"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "9"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": "7"
+            },
+            {
+                "cell": "R2C10",
+                "direction": "W",
+                "value": "5"
+            },
+            {
+                "cell": "R3C10",
+                "direction": "W",
+                "value": "1"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "4"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "3"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R10C2",
+                "direction": "N",
+                "value": "8"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "N",
+                "value": "8"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "3"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "8"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "9"
+            },
+            {
+                "cell": "R10C8",
+                "direction": "N",
+                "value": "8"
+            }
+        ]
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "puzzleInfo": {
+        "title": " The Smiling Bishop",
+        "authors": [
+            "Ryzen"
+        ],
+        "ruleset": "Normal sudoku rules apply. Neighbouring digits on a green line must have a difference of at least 5. Cells separated by a black dot contain digits with a 1:2 ratio. Not all possible dots are given. Cells separated by X must contain digits summing to 10; cells separated by V must contain digits summing to 5. The cell with the grey circle contains an Odd digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RtmGJTB3dJ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=EiWAyMQ22rI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R1C5"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "V"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C5",
+                    "R7C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C2",
+                    "R6C3",
+                    "R5C3",
+                    "R5C2",
+                    "R4C2",
+                    "R3C2",
+                    "R3C3",
+                    "R2C4",
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R2C6",
+                    "R3C7",
+                    "R3C8",
+                    "R4C8",
+                    "R5C8",
+                    "R5C7",
+                    "R6C7",
+                    "R7C8",
+                    "R8C8",
+                    "R9C8",
+                    "R9C7",
+                    "R9C6",
+                    "R9C5",
+                    "R9C4",
+                    "R9C3",
+                    "R9C2"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

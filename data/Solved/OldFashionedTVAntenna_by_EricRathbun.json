@@ -1,0 +1,215 @@
+{
+    "puzzleInfo": {
+        "title": " Old Fashioned TV Antenna",
+        "authors": [
+            "Eric Rathbun"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits along an arrow sum to the digit in that arrow's circle. Clues outside the grid give the sum of the digits along the indicated diagonal. Digits can repeat along such a diagonal if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NGbgngNgnd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=XeBqQ5-TLYs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R4C5",
+                        "R3C4",
+                        "R2C3"
+                    ],
+                    [
+                        "R5C5",
+                        "R4C5",
+                        "R3C6",
+                        "R2C7"
+                    ],
+                    [
+                        "R5C5",
+                        "R5C6",
+                        "R4C7",
+                        "R3C8"
+                    ],
+                    [
+                        "R5C5",
+                        "R5C6",
+                        "R6C7",
+                        "R7C8"
+                    ],
+                    [
+                        "R5C5",
+                        "R6C5",
+                        "R7C6",
+                        "R8C7"
+                    ],
+                    [
+                        "R5C5",
+                        "R6C5",
+                        "R7C4",
+                        "R8C3"
+                    ],
+                    [
+                        "R5C5",
+                        "R5C4",
+                        "R4C3",
+                        "R3C2"
+                    ],
+                    [
+                        "R5C5",
+                        "R5C4",
+                        "R6C3",
+                        "R7C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "13"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R5C10",
+                "direction": "NW",
+                "value": "30"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SW",
+                "value": "11"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "27"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "NE",
+                "value": "25"
+            }
+        ]
+    }
+}

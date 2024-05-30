@@ -1,0 +1,262 @@
+{
+    "puzzleInfo": {
+        "title": "Reciprocity",
+        "authors": [
+            "ICHTUES"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. Digits along an arrow must sum to the digit in that arrow's circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/L3thRT63mH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=O8w2rJZVtV8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C8"
+                ],
+                "lines": [
+                    [
+                        "R1C8",
+                        "R2C8",
+                        "R3C8",
+                        "R4C8"
+                    ],
+                    [
+                        "R1C8",
+                        "R1C7",
+                        "R1C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R2C3",
+                        "R2C4",
+                        "R2C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C5"
+                ],
+                "lines": [
+                    [
+                        "R7C5",
+                        "R6C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7"
+                ],
+                "lines": [
+                    [
+                        "R8C7",
+                        "R7C7",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1"
+                ],
+                "lines": [
+                    [
+                        "R9C1",
+                        "R8C1",
+                        "R7C1",
+                        "R6C1"
+                    ],
+                    [
+                        "R9C1",
+                        "R9C2",
+                        "R9C3",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7"
+                ],
+                "lines": [
+                    [
+                        "R4C7",
+                        "R5C6"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R1C3",
+                    "R1C4",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": "39"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C3",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": "36"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ],
+                "value": "43"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2",
+                    "R8C2",
+                    "R8C3",
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "38"
+            }
+        ]
+    }
+}

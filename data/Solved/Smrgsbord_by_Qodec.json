@@ -1,0 +1,215 @@
+{
+    "puzzleInfo": {
+        "title": "Sm\u00f6rg\u00e5sbord",
+        "authors": [
+            "Qodec"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits outside the grid show the sum to the digits sandwiched between the 1 and the 9 in their row/column. Digits in circles must appear at least once in the four cells surrounding that circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rDpM7bngfd",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ZnjGEa1RnAE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "4,5"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "1,2,3"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "7,8"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "1,3,4"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "16"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "2"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "27"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "0"
+            },
+            {
+                "cell": "R10C6",
+                "direction": "N",
+                "value": "18"
+            },
+            {
+                "cell": "R10C8",
+                "direction": "N",
+                "value": "21"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "28"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "puzzleInfo": {
+        "title": "The Chromatic Octagon",
+        "authors": [
+            "Eric Rathbun"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TQM4644NR7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=j4oD3Qh08lc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C2",
+                    "R5C2",
+                    "R4C2",
+                    "R3C3",
+                    "R2C4",
+                    "R2C5",
+                    "R2C6",
+                    "R3C7",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C7",
+                    "R8C6",
+                    "R8C5",
+                    "R8C4"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6",
+                    "R2C4",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R4C4",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8",
+                    "R4C9",
+                    "R5C7",
+                    "R5C9",
+                    "R6C7",
+                    "R6C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R6C6",
+                    "R7C4",
+                    "R7C5",
+                    "R7C6",
+                    "R8C6",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C3",
+                    "R5C1",
+                    "R5C3",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3",
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8"
+                ],
+                "value": "26"
+            }
+        ]
+    }
+}

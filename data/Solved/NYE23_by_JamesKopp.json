@@ -1,0 +1,225 @@
+{
+    "puzzleInfo": {
+        "title": "NYE 23",
+        "authors": [
+            "James Kopp"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle are consecutive.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7Q6dBrG9fN",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=o8b9b058hBE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R2C3",
+                    "R1C3",
+                    "R2C2",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R3C4",
+                    "R2C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R5C5",
+                    "R4C6",
+                    "R3C6",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R5C5",
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C6",
+                    "R9C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R6C6",
+                    "R7C7",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R6C6",
+                    "R5C7",
+                    "R6C8",
+                    "R7C9"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C0",
+                "direction": "SE",
+                "value": "23"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "SE",
+                "value": "23"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "SE",
+                "value": "23"
+            }
+        ]
+    }
+}

@@ -1,0 +1,421 @@
+{
+  "puzzleInfo": {
+    "title": "Madrigal",
+    "authors": ["Fafrd"],
+    "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nonconsecutive:** Orthogonally adjacent cells must not contain consecutive numbers.\n\n**Nonratio:** Orthogonally adjacent cells cannot be in 1:2 ratio.\n\n**Unknown Empty Cells.**\n\n**Nine 3x3 Regions:** Draw nine non-overlapping 3x3 boxes, and place the digits 1-9 once each in every box.\n\n**Sum Cage:** The numbers in the cage must sum to the given total in the top left (if one exists). Numbers can repeat in a sum cage.\n\nOrthogonally adjacent digits cannot sum to 5 or 10.",
+    "ctcUrl": "https://app.crackingthecryptic.com/sudoku/tGqm6F2nPN",
+    "ctcYoutubeUrl": "https://www.youtube.com/watch?v=kDPTNACpJuA"
+  },
+  "nRows": 11,
+  "nCols": 11,
+  "valid_digits": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "grid": [
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ],
+    [
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      },
+      {
+        "region": null
+      }
+    ]
+  ],
+  "bool_constraints": {
+    "Unknown Empty Cells": true,
+    "Unknown Nine 3x3 Regions": true,
+    "Nonconsecutive": true,
+    "Nonratio": true
+  },
+  "local_constraints": {
+    "Sum Cage": [
+      {
+        "cells": ["R10C9", "R11C9"],
+        "value": "11"
+      }
+    ],
+    "Forbidden Orthogonally Adjacent Sum": [
+      {
+        "value": "5"
+      },
+      {
+        "value": "10"
+      }
+    ]
+  }
+}

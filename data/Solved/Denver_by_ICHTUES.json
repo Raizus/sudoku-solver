@@ -1,0 +1,214 @@
+{
+    "puzzleInfo": {
+        "title": "Denver",
+        "authors": [
+            "ICHTUES"
+        ],
+        "ruleset": "Normal sudoku rules apply. The main diagonal (marked in blue) cannot contain a repeated digit. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. The cell containing a grey circle must contain an odd digit. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MHHnf7PDDQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hxuUUvEOyZk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R6C4"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4",
+                    "R7C3"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6",
+                    "R7C5"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7",
+                    "R7C8"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "19"
+            }
+        ]
+    }
+}

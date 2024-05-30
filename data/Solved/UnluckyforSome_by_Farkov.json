@@ -1,0 +1,185 @@
+{
+    "puzzleInfo": {
+        "title": "Unlucky for Some",
+        "authors": [
+            "Farkov"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nonconsecutive:** Orthogonally adjacent cells must not contain consecutive numbers.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists)..",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/m2F9RPPr6R",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Illxn4GfX8s"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "13"
+            }
+        ]
+    }
+}

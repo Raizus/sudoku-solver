@@ -1,0 +1,245 @@
+{
+    "puzzleInfo": {
+        "title": "Stitches",
+        "authors": [
+            "Ricky Cruz"
+        ],
+        "ruleset": "Normal sudoku rules apply. On thermometers, digits increase from the bulb end. Digits linked by a blue thread sum to 6. Digits linked by a purple thread sum to 14. Repeats are allowed on the sum threads.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/J2HhJ9Pb9t",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=06AddSTekmM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R7C8"
+                ]
+            }
+        ],
+        "Sum Line": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C3"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C6"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C8"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C6"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C9"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C3"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C2"
+                ],
+                "value": "14"
+            }
+        ]
+    }
+}

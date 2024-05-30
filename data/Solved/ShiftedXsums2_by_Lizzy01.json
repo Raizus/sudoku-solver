@@ -1,0 +1,174 @@
+{
+    "puzzleInfo": {
+        "title": "Shifted X-sums 2",
+        "authors": [
+            "Lizzy01"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Shifted X-Sums:** Clues outside the grid indicate the sum of the first X digits from the Nth cell from that side, where X is the digit in the Nth cell and N is the digit in the first cell from that side. Example: in a row with 514839762 the clue from the left would be 19 (3+9+7) and from the right would be 37 (6+7+9+3+8+4).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qT97tJ8q8p",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=oiL4WYYvsA8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Shifted X-Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "10"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "11"
+            },
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "11"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "40"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "9"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "8"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "33"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "10"
+            },
+            {
+                "cell": "R10C4",
+                "direction": "N",
+                "value": "19"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "25"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "1"
+            }
+        ]
+    }
+}

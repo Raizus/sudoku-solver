@@ -1,0 +1,339 @@
+{
+    "puzzleInfo": {
+        "title": "Bastille Day",
+        "authors": [
+            "Full Deck and Missing a Few Cards"
+        ],
+        "ruleset": "Normal sudoku rules apply. Blue (fortress) cells must be larger than orthogonally adjacent non-blue cells. Digits on thermometers must increase from bulb to tip, not necessarily consecutively.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/PNnGjgLp2Q",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=auoA3jEx75Y"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "value": 8,
+                "given": true
+            },
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Maximum": [
+            {
+                "cell": "R2C4"
+            },
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R4C7"
+            },
+            {
+                "cell": "R4C8"
+            },
+            {
+                "cell": "R6C7"
+            },
+            {
+                "cell": "R6C8"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R7C4"
+            },
+            {
+                "cell": "R6C3"
+            },
+            {
+                "cell": "R6C2"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R4C2"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C8",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C8",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C3",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C6",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C3",
+                    "R6C2"
+                ]
+            }
+        ]
+    }
+}

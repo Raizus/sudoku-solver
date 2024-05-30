@@ -1,0 +1,214 @@
+{
+    "puzzleInfo": {
+        "title": "Knights & Archers Hold The Line",
+        "authors": [
+            "Florian Wortmann"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along each arrow must sum to the digit in that arrow's circle. Cells separated by a knight's move (in chess) cannot contain the same digit. On the diagonal (marked in blue) digits cannot repeat.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/b4MTDfLJ8L",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=zkNF61uBHSk"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true,
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C5",
+                        "R2C5"
+                    ],
+                    [
+                        "R4C6",
+                        "R3C7",
+                        "R2C8",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R4C4",
+                        "R3C3",
+                        "R2C2",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4"
+                ],
+                "lines": [
+                    [
+                        "R6C4",
+                        "R7C3",
+                        "R8C2",
+                        "R8C1"
+                    ],
+                    [
+                        "R6C4",
+                        "R7C5",
+                        "R8C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C9"
+                ],
+                "lines": [
+                    [
+                        "R7C9",
+                        "R7C8",
+                        "R7C7",
+                        "R7C6"
+                    ],
+                    [
+                        "R7C9",
+                        "R6C9",
+                        "R5C9",
+                        "R5C8"
+                    ],
+                    [
+                        "R7C9",
+                        "R8C9",
+                        "R9C9",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1"
+                ],
+                "lines": [
+                    [
+                        "R3C1",
+                        "R4C2",
+                        "R5C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

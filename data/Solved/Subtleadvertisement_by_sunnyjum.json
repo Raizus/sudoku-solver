@@ -1,0 +1,196 @@
+{
+    "puzzleInfo": {
+        "title": "Subtle advertisement",
+        "authors": [
+            "sunnyjum"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.\n\n**Odd:** Cells with grey circles must contain odd numbers.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**XV:** Two cells joined by X must sum to 10. Two cells joined by a V must sum to 5.\n\n**Quadruple:** Numbers in a circle must appear at least once in the four cells touched by the circle.\n\n**X-Sum:** A clue outside the grid gives the sum of the first X digits from that direction, where X is the first of those digits.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gp8DLMT7Qt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FljB9uQ9nFQ"
+    },
+    "nRows": 6,
+    "nCols": 6,
+    "grid": [
+        [
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R2C1"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": "X"
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4",
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": "1,2,3,4"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C5",
+                    "R5C6"
+                ]
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C6"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R4C6"
+                ],
+                "lines": [
+                    [
+                        "R4C6",
+                        "R3C5",
+                        "R2C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3",
+                    "R4C4",
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": ""
+            }
+        ],
+        "X-Sum": [
+            {
+                "cell": "R7C1",
+                "direction": "N",
+                "value": "6"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R4C0",
+                "direction": "SE",
+                "value": "10"
+            }
+        ]
+    }
+}

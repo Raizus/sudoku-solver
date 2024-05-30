@@ -1,0 +1,285 @@
+{
+    "puzzleInfo": {
+        "title": "Clean Slate",
+        "authors": [
+            "Seren"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Indeing Column:** Numbers in red cells are indexing columns: Any number X appearing in the Yth column of a row indicates the column X where the number Y appears in that row.\n\n**Indexing Row:** Numbers in blue cells are indexing rows: Any number X appearing in the Yth row of a column indicates the row X where the number Y appears in that column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/qp3QFfMQ4N",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=vsN0Hp7qUHg"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": 8
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            }
+        ],
+        [
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {
+                "region": 5
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Indexing Row": [
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C4"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R1C6"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R1C8"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R9C2"
+            },
+            {
+                "cell": "R9C3"
+            },
+            {
+                "cell": "R9C4"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R9C7"
+            },
+            {
+                "cell": "R9C8"
+            }
+        ]
+    }
+}

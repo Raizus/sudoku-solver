@@ -1,0 +1,262 @@
+{
+    "puzzleInfo": {
+        "title": "Killin' It",
+        "authors": [
+            "Mr. Menace"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage. Digits in column 1 indicate the column in which the digit 1 appears in that row (eg if r4c1 is a 6, r4c6 is a 1). The same is true of column 5 and the digit 5, and column 9 and the digit 9.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/PB6TdhDJGR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=dPhQDsisRl0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R3C1"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R7C1"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R2C5"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R3C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R8C9"
+            },
+            {
+                "cell": "R7C9"
+            },
+            {
+                "cell": "R6C9"
+            },
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R2C7"
+                ],
+                "value": "17"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3",
+                    "R9C4"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R4C3",
+                    "R5C2"
+                ],
+                "value": "8"
+            }
+        ]
+    }
+}

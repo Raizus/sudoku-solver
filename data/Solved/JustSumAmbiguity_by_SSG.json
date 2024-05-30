@@ -1,0 +1,211 @@
+{
+    "puzzleInfo": {
+        "title": "Just Sum Ambiguity",
+        "authors": [
+            "SSG"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**Entropic Or Modular Line:** A blue line is either an Entropic Line or a Modular Line:\n\n- **Entropic Lines:** Along an entropic line any run of three cells contains exactly one low {1,2,3}, one medium {4,5,6}, and one high {7,8,9} digit.\n\n- **Modular Lines:** Along a modular line, the digits in any run of three cells must all have different remainders under division by 3. (ie So one digit must be from the set {1,4,7}, one from {2,5,8} and one from {3,6,9}).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NJgTqnNp9j",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8NRKc77pg-k"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C1",
+                    "R5C2",
+                    "R4C3",
+                    "R5C4",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R2C7",
+                    "R2C8",
+                    "R3C8",
+                    "R4C9",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6",
+                    "R8C6",
+                    "R8C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C5"
+                ]
+            }
+        ],
+        "Entropic Or Modular Line": [
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C2",
+                    "R4C1",
+                    "R5C2",
+                    "R4C3",
+                    "R5C4",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R2C7",
+                    "R2C8",
+                    "R3C8",
+                    "R4C9",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6",
+                    "R8C6",
+                    "R8C7",
+                    "R9C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R8C3",
+                    "R9C4",
+                    "R8C5"
+                ]
+            }
+        ]
+    }
+}

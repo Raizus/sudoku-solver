@@ -1,0 +1,181 @@
+{
+    "puzzleInfo": {
+        "title": "X-ception",
+        "authors": [
+            "Nahileon"
+        ],
+        "ruleset": "Normal sudoku rules apply. On the marked diagonal, digits cannot repeat. A clue outside the grid gives the sum of the first N digits from that direction, where N is the first of those digits. In this puzzle, all clues outside the grid are the same number X, which has to be determined by the solver (!)",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/h7rbdhqtFM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ztKGB9yQfD8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "X-Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "X"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "X"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "X"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "X"
+            },
+            {
+                "cell": "R1C10",
+                "direction": "W",
+                "value": "X"
+            },
+            {
+                "cell": "R2C10",
+                "direction": "W",
+                "value": "X"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "X"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "X"
+            },
+            {
+                "cell": "R8C0",
+                "direction": "E",
+                "value": "X"
+            },
+            {
+                "cell": "R10C2",
+                "direction": "N",
+                "value": "X"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "X"
+            },
+            {
+                "cell": "R10C7",
+                "direction": "N",
+                "value": "X"
+            }
+        ]
+    }
+}

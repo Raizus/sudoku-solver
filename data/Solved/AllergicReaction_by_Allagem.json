@@ -1,0 +1,177 @@
+{
+    "puzzleInfo": {
+        "title": "Allergic Reaction",
+        "authors": [
+            "Allagem"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All X's Given:** All X's are given.\n\n**Odd:** Cells with grey circles must contain odd numbers.\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fFBPDgBDFD",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gBvMDN_E3Us"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All X's Given": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R2C5"
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4",
+                    "R2C4",
+                    "R3C4",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C6",
+                    "R2C6",
+                    "R3C6",
+                    "R4C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2",
+                    "R4C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R6C8",
+                    "R7C8",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5"
+                ]
+            }
+        ]
+    }
+}

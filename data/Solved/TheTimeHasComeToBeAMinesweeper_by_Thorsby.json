@@ -1,0 +1,185 @@
+{
+    "puzzleInfo": {
+        "title": "The Time Has Come To Be A Minesweeper",
+        "authors": [
+            "Thorsby"
+        ],
+        "ruleset": "Normal sudoku rules apply. A digit in a cell with a circle is the same as the number of the surrounding cells (not counting the cell itself) with odd numbers. (So a total of 8 possible surrounding cells). All possible circles are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/jDNqJNjtdG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Nalti0d4Q58"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd Minesweeper": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R1C2"
+            },
+            {
+                "cell": "R2C3"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R3C7"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R5C7"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R6C1"
+            },
+            {
+                "cell": "R6C2"
+            },
+            {
+                "cell": "R6C3"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R6C5"
+            },
+            {
+                "cell": "R7C6"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R8C1"
+            },
+            {
+                "cell": "R9C1"
+            },
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R8C4"
+            }
+        ]
+    }
+}

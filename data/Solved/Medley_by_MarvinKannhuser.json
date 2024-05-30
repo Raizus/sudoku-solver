@@ -1,0 +1,309 @@
+{
+    "puzzleInfo": {
+        "title": "Medley",
+        "authors": [
+            "Marvin Kannh\u00e4user"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages add up to the small number in the corner, if given. Digits cannot repeat within a cage. The main diagonal (in blue) must include the digits from 1 to 9 once each. Digits within the white circles must appear at least once in the four surrounding cells. Digits on arrows sum up to the number in that arrow's circle. The two digits on the two-cell-palindrome must be the same. The cell with the grey square must be an even digit. Cells separated by an X must contain digits that sum to ten. Black dots separate cells containing digits with a ratio of 1 to 2. White dots separate cells containing consecutive digits. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/R4pBr43gb4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=rnOxnJX9G94"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Even": [
+            {
+                "cell": "R9C9"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R8C4"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R8C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "X"
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "6,7,8"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": "2,4,9"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "2,7,8"
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R7C6",
+                    "R6C7"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R4C8",
+                        "R4C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C3"
+                ],
+                "lines": [
+                    [
+                        "R9C3",
+                        "R8C4",
+                        "R7C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R6C8",
+                    "R7C5",
+                    "R7C8",
+                    "R8C5",
+                    "R8C6",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

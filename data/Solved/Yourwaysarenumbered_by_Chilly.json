@@ -1,0 +1,244 @@
+{
+    "puzzleInfo": {
+        "title": "Your ways are numbered",
+        "authors": [
+            "Chilly"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cells marked in red in columns 1, 5 and 9 indicate the position of the 1, 5 and 9 respectively in the corresponding row - all possible red cells are given. All cages must contain digits which sum to the same total, which must be determined by the solver. Digits cannot repeat in the same position in different 3x3 boxes, e.g. if 5 is in row 1 column 1, it cannot appear in row 4 column 4.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Nd33PPmjB7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=3NWwHPlQ6kM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Disjoint Groups": true,
+        "All Indexing Column In Used Columns Given": true
+    },
+    "local_constraints": {
+        "Indexing Column": [
+            {
+                "cell": "R1C1"
+            },
+            {
+                "cell": "R1C5"
+            },
+            {
+                "cell": "R4C5"
+            },
+            {
+                "cell": "R5C5"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R5C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R8C1"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C1"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4"
+                ],
+                "value": "X"
+            }
+        ]
+    }
+}

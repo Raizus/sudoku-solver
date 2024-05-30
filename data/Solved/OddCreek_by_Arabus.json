@@ -1,0 +1,319 @@
+{
+    "puzzleInfo": {
+        "title": "Odd Creek",
+        "authors": [
+            "Arabus"
+        ],
+        "ruleset": "Normal sudoku rules apply. White dots join consecutive digits. Black dots join digits with a ratio of 1:2. X's join digits summing to 10. Not all dots and X's are given. Cages show their sums. Numbers in white circles show the amount of even numbers in the surrounding four cells. All odd numbers must form an othogonally connected region at the end.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/rPTbfNrPRH",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=q794MPa7ueE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Odd Digits Are Orthogonally Connected": true
+    },
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": ""
+            }
+        ],
+        "XV": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7"
+                ],
+                "value": "X"
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "X"
+            }
+        ],
+        "Corner Even Count": [
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R4C4",
+                    "R4C5"
+                ],
+                "value": "1"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R5C7",
+                    "R5C8",
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R7C8",
+                    "R8C7",
+                    "R8C8"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C1",
+                    "R7C2"
+                ],
+                "value": "1"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4",
+                    "R3C4"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C8",
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": "7"
+            }
+        ]
+    }
+}

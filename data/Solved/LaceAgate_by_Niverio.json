@@ -1,0 +1,209 @@
+{
+    "puzzleInfo": {
+        "title": "Lace Agate",
+        "authors": [
+            "Niverio"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NNttMGHq7T",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=aURZi_Ml_DM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C3",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C4",
+                    "R3C3",
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C8",
+                    "R3C7",
+                    "R3C6",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R5C6",
+                    "R5C7",
+                    "R6C7",
+                    "R7C7",
+                    "R7C8",
+                    "R6C8",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R6C8",
+                    "R5C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C2",
+                    "R6C2",
+                    "R7C3",
+                    "R8C3",
+                    "R8C4",
+                    "R9C4",
+                    "R9C3",
+                    "R9C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R8C6",
+                    "R8C7",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3",
+                    "R7C4"
+                ]
+            }
+        ]
+    }
+}

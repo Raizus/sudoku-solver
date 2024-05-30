@@ -1,0 +1,325 @@
+{
+    "puzzleInfo": {
+        "title": "Bloodcursed Arrows",
+        "authors": [
+            "ViKingPrime"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Vampire And Prey:** There are 9 Vampire cells contained within the grid which are a set of the digits from 1-to-9. Each row, column and box contains exactly one Vampire cell. 9 Prey cells in the grid follow the same rules as the Vampire cells. A cell may have only one of these roles.\n\n**Vampire Prey Arrow:** Digits along an arrow sum to the value in its circle. For Arrows/Circles: Prey cells contribute no value; Vampire cells contribute the sum of the digits in the Vampire cell and the Prey cell within the same box.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/249f7Bnjb9",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hy2Tk47CbXs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Vampire And Prey": true
+    },
+    "local_constraints": {
+        "Vampire Prey Arrow": [
+            {
+                "cells": [
+                    "R1C6"
+                ],
+                "lines": [
+                    [
+                        "R1C6",
+                        "R2C5",
+                        "R1C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R2C9",
+                        "R1C9",
+                        "R1C8",
+                        "R1C7"
+                    ],
+                    [
+                        "R3C9",
+                        "R4C9",
+                        "R5C9",
+                        "R6C9",
+                        "R7C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R2C7",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C9"
+                ],
+                "lines": [
+                    [
+                        "R9C9",
+                        "R8C9"
+                    ],
+                    [
+                        "R9C9",
+                        "R8C8",
+                        "R8C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "lines": [
+                    [
+                        "R7C3",
+                        "R8C2",
+                        "R9C2",
+                        "R9C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1"
+                ],
+                "lines": [
+                    [
+                        "R7C1",
+                        "R8C1",
+                        "R7C2",
+                        "R8C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5"
+                ],
+                "lines": [
+                    [
+                        "R9C5",
+                        "R8C5"
+                    ],
+                    [
+                        "R9C5",
+                        "R9C4",
+                        "R8C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C2"
+                ],
+                "lines": [
+                    [
+                        "R5C2",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7"
+                ],
+                "lines": [
+                    [
+                        "R5C7",
+                        "R6C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3"
+                ],
+                "lines": [
+                    [
+                        "R3C3",
+                        "R4C3",
+                        "R5C3",
+                        "R6C3",
+                        "R7C3",
+                        "R7C4",
+                        "R7C5",
+                        "R7C6"
+                    ],
+                    [
+                        "R3C3",
+                        "R3C2",
+                        "R3C1",
+                        "R2C1"
+                    ],
+                    [
+                        "R3C3",
+                        "R2C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8"
+                ],
+                "lines": [
+                    [
+                        "R3C8",
+                        "R3C7",
+                        "R3C6",
+                        "R3C5",
+                        "R3C4",
+                        "R3C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4"
+                ],
+                "lines": [
+                    [
+                        "R4C4",
+                        "R3C5",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R5C5",
+                        "R4C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,468 @@
+{
+    "puzzleInfo": {
+        "title": "The Magic Column",
+        "authors": [
+            "Marty Sears"
+        ],
+        "ruleset": "**Normal Sudoku Rules Do Not Apply.**\n\n**One Of Each Digit On Columns.**\n\n**Digits Do Not Repeat On Any Diagonals.**\n\n**Unknown Empty Cells.**\n\n**Sum Lines Do Not Pass Through Empty Cells.**\n\n**One Column Is Magic:** One of the columns is magic. Each digit in the magic column tells you how many times that digit appears in its row. Eg: the 3 in the magic column has exactly three 3s in its row (including itself.)\n\n**Sum Line:** Digits on a line sum to 10.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/DrTgmjtJtq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=FXxdeBEKqfc"
+    },
+    "nRows": 10,
+    "nCols": 10,
+    "valid_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "grid": [
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 6,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 8,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 5,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null,
+                "value": 7,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null,
+                "value": 9,
+                "given": true
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ],
+        [
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            },
+            {
+                "region": null
+            }
+        ]
+    ],
+    "bool_constraints": {
+      "Normal Sudoku Rules Do Not Apply": true,
+      "Unknown Empty Cells": true,
+      "One Of Each Digit On Columns": true,
+      "Digits Do Not Repeat On Any Diagonals": true,
+      "One Column Is Magic": true,
+      "Sum Lines Do Not Pass Through Empty Cells": true
+    },
+    "local_constraints": {
+        "Sum Line": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C10",
+                    "R2C10",
+                    "R3C10",
+                    "R4C10"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C10",
+                    "R6C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R5C6",
+                    "R6C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R6C3"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R10C2",
+                    "R10C3",
+                    "R10C4",
+                    "R10C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R10C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R3C2",
+                    "R3C3",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "10"
+            }
+        ]
+    }
+}

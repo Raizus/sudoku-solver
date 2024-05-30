@@ -1,0 +1,244 @@
+{
+    "puzzleInfo": {
+        "title": "Who Killed my Sandwich????",
+        "authors": [
+            "Enje"
+        ],
+        "ruleset": "Normal sudoku rules apply. A clue outside the grid shows the sum of the digits sandwiched between the 1 and the 9 in that row/column. Cages show their totals.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/P2MgjGj6JF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=0T_yw3z4w84"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "21"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2",
+                    "R8C2"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2"
+                ],
+                "value": "7"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "33"
+            },
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "32"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "6"
+            },
+            {
+                "cell": "R0C5",
+                "direction": "S",
+                "value": "21"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "8"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "32"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "33"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "0"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "8"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "17"
+            }
+        ]
+    }
+}

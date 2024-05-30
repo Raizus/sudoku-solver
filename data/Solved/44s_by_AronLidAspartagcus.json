@@ -1,0 +1,238 @@
+{
+    "puzzleInfo": {
+        "title": "4 4s",
+        "authors": [
+            "Aron Lid\u00e9 (Aspartagcus)"
+        ],
+        "ruleset": "- Standard sudoku rules apply.\n- German whispers rules apply: Neighboring digits on green lines need to have a difference of at least 5.\n- Renban rules apply: The digits on a purple line have to be a set of non-repeating consecutive digits, in any order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBYACfMEVAQwFc0ALAewCcEQBBBugO0IBkIATAJeEAFCzAAHcgzTkA5gGNKYAJRkQDSjjAw0zALSEAyjI58pfQmEp86Aa0qENWwuXHisATwB0AHQ4GAcRgGAFtyLgB3GggJYLBHTRh413cPeEIAORgIWRoAI0YIDllCPhzMeM5CWQYYGC4sIqTCDjqLNDpCGnIANxgXUogAMyHg%2Bvl%2BuiGXNEIccjBZgFZff0IAJXq88ITnFM90gBUafrLZCsIq8kJxSgZ3fsbWrt7%2BjsI8%2FuvtWamWzj0tXEMHIGGKhHknG0igwfUG5zQYGQhCKLg4HkuDD4wS8ahq%2FAQAG1CaBzn0OAAFcYQLAAWSktlI8A4miwAF9kKSIOSqRx5DT6QxGQgWVh2ZyQGT6rz%2BXSGUzReKuTzqXKhQrWRzldLVYLhczNRKpZTdfKRYbtSa%2BQKzQaxVqQD1yFhKLh8KhjQg0BoYB7uTrrWr9YqHcaZTb1eb7QBdZAkyX%2Bq2yvUa%2B1GxPhoOppUJlWBlNRnNh02Ru1FjMl4MW3MB5O2kPpvN10sNy2Zgtl0MV%2FP1zWx%2BPFnst6uD5tVtNtyvZh1Ol1uv3kr0%2Bhe1iPj8tNtfTxurrOFrubvedndJrf7k%2Ft3sxuOTofrg%2B7jutmuno%2FP0dn4%2B3sfb7%2Bf9%2Fdj%2B55%2Fm%2BI6Af%2BfY3i%2Bl7DhO0FTsB8F3r%2BSFAV%2BqEQXBH6gVh4E4Ruj5XgRr5PpBA54aRuGHpRxEwfeF4Ieh2E0Q%2BJFEaxdEocx7EMch%2B79iBLG8WhAHUTxgniRh%2BEzs6roIO6L5Lq6K5sbBtGMaJhFqRxGlkRJ2nCZh6l8UxFGSdxBn6fRVlcWZllSSxAkOZJs5yfACmevA3rKc59kWdZvkBf5tliX5dlBeFIVafe0axuoWzhESoBPEkRKEiA6z4AAwvgajrEsWUAMx5QAbFlABMeUFZVqCZUVeWFfVsUOilTLEhlACMWUAOx5V1AAceXlVliANSNIDNRKrVpRliD1bVc01Rl%2FVZR1eXdatE3RmycVRDEwIMG1yVNG16XrGVJXrVlSx5StuW1RtxW1WV90ZQVN2TcdrSnRlL1XR921TSdM3nVll21QV4MZdlvW1dlg0Q1lCO%2FT1W0tcD8Dtfl115dlUPrI1sMZY1%2BPDfjjU3XDOVo0D30g41T0ZcNr3rF1APo3TmNnV1S3rMNvPDYzrNNYDX2pVzTMVWNvPZbzBVrZ9IDTRLdVrVTvMMzTYs%2FesG1E%2BsK343NlOzWDWtKxjWMrcj6xzb1ivK1jeulUjVXjc97sZRto21db5uO2dZX6xdaNxWUYDkHkOB8FgdDnPIRIgJCHDeuQZTyBgUITag3kwPI4RlGYaBJHQ4iZxwbVxSlSUW5zWPZSzBVC2VctS1TQua7FqB0NQKVZcwADEABiAAMJXdaPagRPwtAICPXgKTEWQRFlUKp0UuheT6HPi1jXX6wNQ2ewT41dyAPfYE0%2Fd4MPY8TyPU8zzQc8L6gS8wCva8MOQG9KTAO86zmkLRat1NoPU2mfC%2BfdB6j3HpPVA08%2BCz3gPPReYBl6rwruvFOf8AEgxDuAk2BtqbgObiQt6ONIG9yvoPOBd9H5IOfigrwhU37oI%2FpgxY39f5b1dHglWf1CFbW7tQ1o18QADzoePBhyD56sJAO%2FT%2BWDuE4N4f%2FWmu9A5m0RvjGGuNXaIxtkHYR59REwHEZI%2B%2B0iEFPxfvIxRnDsGb1zvwrG719Hk1RrVEmR9PFEIbiYqBNCb5SKJog2RLC2EYK%2Fj%2FVRLiNE601rVZmfVKFxSCWI2hViwm2OYfY9hSiuGxOcdvBJIMeZHwFvNTqIsRGX0ySE7JMimFyKiRwmJPD4naxBvzaW%2BjW4K3SWYixoTml2LaYUpxuCykq2ymraGbdia1NMfU8xWTYE5MYeMhRBTHEqJKXwmZTsvHLW0abIhc1LpUNWSMppNitl5ImXs4p0zukqz9gtVG1zoGNI2WMx5OzonKJeWo1xZ1nYextgVH2KMYW62Pn7b5wSJGjPuRE%2FJQKimdNKW8rGxiPZXKGTc9Z9C0UtMiYC9pwLsV8O2kAA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GCtThfRt4wY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R3C2",
+                    "R2C2",
+                    "R1C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R2C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R4C2",
+                    "R3C3",
+                    "R2C4",
+                    "R1C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R3C6",
+                    "R3C7",
+                    "R4C6",
+                    "R5C5",
+                    "R6C4",
+                    "R7C3",
+                    "R8C4",
+                    "R7C5",
+                    "R6C6",
+                    "R5C6",
+                    "R4C7",
+                    "R4C8",
+                    "R5C8",
+                    "R6C7"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C6",
+                    "R9C5",
+                    "R8C6",
+                    "R7C7",
+                    "R6C8",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C8",
+                    "R9C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3",
+                    "R5C2",
+                    "R6C2",
+                    "R5C3",
+                    "R4C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C2",
+                    "R9C3"
+                ]
+            }
+        ]
+    }
+}

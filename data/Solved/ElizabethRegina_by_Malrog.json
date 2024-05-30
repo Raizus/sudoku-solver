@@ -1,0 +1,259 @@
+{
+    "puzzleInfo": {
+        "title": " Elizabeth Regina",
+        "authors": [
+            "Malrog"
+        ],
+        "ruleset": "Normal sudoku rules apply. Adjacent digits on the E and R must differ by at least 5. Digits on a light grey thermometer must increase from the bulb end. Digits on a purple line must be a set of consecutive digits in any order, and must not repeat. Digits in a cage do not repeat, and must sum to the total given. Digits on a marked diagonal must sum to the total given. Digits separated by a white dot are consecutive.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7P97LBdqnt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=xExMFHakS2k"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R3C4",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R3C6",
+                    "R3C7"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R5C4",
+                    "R4C4",
+                    "R4C3",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R8C2",
+                    "R8C3",
+                    "R8C4",
+                    "R7C4"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6",
+                    "R5C6",
+                    "R6C6",
+                    "R7C6",
+                    "R8C6",
+                    "R8C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7",
+                    "R5C8",
+                    "R6C7",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C8",
+                    "R8C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R3C4",
+                    "R2C3",
+                    "R1C4",
+                    "R2C5",
+                    "R1C6",
+                    "R2C7",
+                    "R3C6"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3",
+                    "R9C4",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7"
+                ],
+                "value": "22"
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C5",
+                "direction": "SE",
+                "value": "19"
+            },
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "52"
+            }
+        ]
+    }
+}

@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "Tightrope Crossing",
+        "authors": [
+            "Joey Thamir"
+        ],
+        "ruleset": "Normal sudoku rules apply. 9 pairs of 'Poles' are marked with circles on the grid. Both cells of a pair have the same 'height' value and that value does not repeat along the line connecting them. Each pair has a unique height (eg the Poles of value 4 are already given, therefore, the line connecting the fours cannot contain a third 4 and no other circled cell can contain a 4).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/3F37hMHfLR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=rsTcnyv5ATo"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Tightrope Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C6",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C6",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C7",
+                    "R7C6",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R2C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R7C2",
+                    "R6C3",
+                    "R5C4",
+                    "R4C5",
+                    "R3C6",
+                    "R2C7",
+                    "R1C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C7",
+                    "R4C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C7",
+                    "R2C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R3C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R3C8",
+                    "R2C7"
+                ]
+            }
+        ]
+    }
+}

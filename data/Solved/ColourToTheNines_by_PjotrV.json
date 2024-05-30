@@ -1,0 +1,245 @@
+{
+    "puzzleInfo": {
+        "title": "Colour To The Nines",
+        "authors": [
+            "PjotrV"
+        ],
+        "ruleset": "Normal sudoku rules apply. In cages, digits must sum to the small clue in the top left corner of the cage. Digits cannot repeat within a cage.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/HbR228RMb2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mzbZYn41TuU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C3",
+                    "R2C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R6C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "10"
+            }
+        ]
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "puzzleInfo": {
+        "title": "Happy Birthday muffin",
+        "authors": [
+            "Testarossa"
+        ],
+        "ruleset": "Normal sudoku rules apply. The cage shows its sum. Digits next to each other on a line have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9MQmRjRnTp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=UbOfup0Wklc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C7",
+                    "R2C7",
+                    "R2C6",
+                    "R2C5",
+                    "R3C5",
+                    "R4C5",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2",
+                    "R7C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R2C6",
+                    "R1C6",
+                    "R1C7",
+                    "R2C8",
+                    "R3C8",
+                    "R4C8",
+                    "R5C9",
+                    "R6C9",
+                    "R7C8",
+                    "R8C7",
+                    "R9C6",
+                    "R9C5",
+                    "R8C4",
+                    "R8C3",
+                    "R8C2",
+                    "R7C1",
+                    "R6C1",
+                    "R6C2",
+                    "R6C3",
+                    "R5C3",
+                    "R4C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R1C3",
+                    "R2C3",
+                    "R3C4"
+                ],
+                "value": "5"
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5"
+                ],
+                "value": "9"
+            }
+        ]
+    }
+}

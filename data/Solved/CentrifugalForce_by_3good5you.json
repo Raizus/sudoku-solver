@@ -1,0 +1,801 @@
+{
+    "puzzleInfo": {
+        "title": "Centrifugal Force",
+        "authors": [
+            "3good5you"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply: ** Fill all (non-shaded) cells with digits 1-9 such that no digit repeats in any row, column, or 3x3 box.\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Thermometer:** Numbers along a thermometer must increase from the bulb end.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Qqbf8mFL6b",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=buJZxW9lS50"
+    },
+    "nRows": 13,
+    "nCols": 13,
+    "valid_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "grid": [
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R5C2",
+                    "R4C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C12",
+                    "R10C12"
+                ]
+            },
+            {
+                "cells": [
+                    "R10C5",
+                    "R9C5",
+                    "R8C5"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R8C11",
+                    "R8C12",
+                    "R9C13"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R11C6",
+                    "R12C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R11C4",
+                    "R12C5",
+                    "R12C4",
+                    "R13C5",
+                    "R13C4"
+                ],
+                "value": "5"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C10",
+                    "R1C9",
+                    "R2C10",
+                    "R2C9",
+                    "R3C10"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C2",
+                    "R6C3"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R4C10",
+                    "R5C10"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R4C11",
+                    "R5C11",
+                    "R6C11"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R4C2",
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": "28"
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R9C3",
+                    "R10C3"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R10C4"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R11C8",
+                    "R11C9",
+                    "R11C10"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R9C12",
+                    "R9C13",
+                    "R10C12",
+                    "R10C13"
+                ],
+                "value": "28"
+            },
+            {
+                "cells": [
+                    "R11C4",
+                    "R12C4",
+                    "R12C5",
+                    "R12C6"
+                ],
+                "value": ">14"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C9",
+                    "R2C10",
+                    "R3C10"
+                ],
+                "value": "18"
+            }
+        ]
+    }
+}

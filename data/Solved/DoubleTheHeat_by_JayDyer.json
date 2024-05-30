@@ -1,0 +1,250 @@
+{
+    "puzzleInfo": {
+        "title": "Double The Heat",
+        "authors": [
+            "Jay Dyer"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Doublers:** The grid contains 9 doublers (numbers multiplied by 2), one in each row column and box. Each digit from 1 through 9 is doubled exactly once.\n\n**Doublers Thermometer:** Values along a thermometer must increase from the bulb end. If a thermometer cell is a doubler it counts as twice its value for purposes of the thermometer",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/NbhMLRBtdj",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=AsJC2KmsacU"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Doublers Thermometer": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R2C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C3"
+                ]
+            }
+        ]
+    }
+}

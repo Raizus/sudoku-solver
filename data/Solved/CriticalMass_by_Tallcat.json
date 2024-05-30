@@ -1,0 +1,223 @@
+{
+    "puzzleInfo": {
+        "title": "Critical Mass",
+        "authors": [
+            "Tallcat"
+        ],
+        "ruleset": "Normal Sudoku Rules apply\n\nBetween Lines: Cells along lines between two filled circles must have values strictly between those in the circles.\n\nRenban: Pink lines must contain a set of consecutive, non-repeating digits, in any order.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGEAnTCAYwEMsACAWXLDBFXIFc0ALAe0IRABVKWCmiYhCLHGBgi8AOW4BbSlQDKLACacA1iyoAlCTDBVyAB1NYAngB0AdnYBC0gO4wYtqgBkIto%2FCr4MFhYxpSctgDmVFg%2BRlQARi5uHmjOnFQAZhDBMOpUpBCEpJJUCixgaFTs5ABuMFQ1lCxxFcSk2JYJSe5UHJxSVD697PUFRZIAdHZ2eu7x5Lb%2BAAo%2BWtGxxmUV%2BeFo5EPkVFKVnBk7tlKkbBB1yFS24QC0hDCmMOQYkVTqEBGYYHcDrZOtx1DBCBNRBFiOoEABtOGgP51WxLdwFLB0QhaRjwWwSLAAX2QSJu7jRtgxWJxCHxwWJpJRFKp5GxuLpRJJIGR5PR2Wp7IJDJAjSwzQQAEZUDzbAg0OIYNKyai%2BZjWTS8UKuTLmfz1YL6drlbq1WzaVrGbzKXqzZrDZaVdbTRqOYSALrIRHc42qgXm%2B3epm%2B%2FX%2BzkOk1%2Bu1hwNWlm211GoNOyMJ8PB%2BMWmOOuMuzM69O5gP55MhqPuz1pksZos%2BquF6PFnMGhu1puh4WNm31jutrvNntJttlxOxvvtkfZsdlj1ezvO%2FsTiOl1NZpfVluDqcrucpvO9%2BfjytD7f73c1zcH6cV1cFhdHrd7i9njejy8np%2FLx%2Bv58D7%2Bf89%2Fuuv6Tm%2BQozveoEASBP6Lreh43nWd4IceX7Qf%2BL5oUBsGIfBO7oeWs6nvh2EoVBa7diRD5kXBw4QTBdHEQxWFMd24HIVRGHkUheHMexkGcTR76ARRLHcURvE8ax16iuK8AAExKiicoKopwliR%2BEniSJfH0TpjF6ZpGnaZJSEybgADMqmyvA8rNFZXHtm6HpiHMCzwqAMS%2BLiCIgHo5n4OZoh6AALPgclBQArGFQUAGzRagegAOwBSATnCp5RjwnCvn%2BYlQWhQAHJF%2BBFQlcWlb5yV5WlXIZd52V6FFgUJaFzW%2BaFwWpW66UbFlvlxTFsX4HlCVRdV3W1b18A%2BY1%2BCdS1%2BARV1PVeX1s2DWVi3LZNq3TQ1BVbQliBbTVHlTTNclzUFl1LQll2DWlzmJKkyQZe5IB1Wt%2FnhQtErFX9m0A5V0WnR950Nf5FUhfgiDFbDm3w8DRWg59e2%2BQdbVJVdCXJbdwMbejw3bWdu0XSlCX%2BfNOWHdTBN6Jd43liAPxgOQ8Q4OoWCcH8pDws5tkwBQtg%2FOoHxGJwpgYOE3kgKQnBcy8sLOW900k5laN%2BeT7Xxb5UU%2Ff1OtY4FTmoJwbAZfgvAAMQAGIAAwxYl9uiM4EDqBwCB2xMwWoBAYCyDAzj4NL8r7LYMgCyt6szbl%2BUlcVUPlUFVVdab5uxJbeC2w7Tt2y7bse%2FAXs%2ByAfsB0HIeEGHEcKlH9W61r0OYx1qcgGb2AZ9b9uO87qCu%2B77Ce97vv%2B4HwcXKHPg180ddrQNQ0jQ341px3viZyA2c93nfcF4PRfD6Xo8VxPVdT8pM87dHDVRVT0NLSbbfp2vXc573ID94Xxcj%2BX4%2BtNX58wFnhrKKdM4r32cu3C2L8t75wHkPEuZcx6V3%2FjZWul9656AOnjPQx1wErygVnbuudYGfwPog4%2Bf8z6oIvmrDBl1b43WuvgB6ECn4wHXpvYhO84H7wQUfX%2Bk9w4APdISIAA%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GljZsflgPss"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C8",
+                    "R5C8",
+                    "R6C8",
+                    "R7C7"
+                ]
+            }
+        ],
+        "Between Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C4",
+                    "R3C5",
+                    "R3C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R7C4",
+                    "R7C5",
+                    "R7C6",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R6C1",
+                    "R5C1",
+                    "R4C1",
+                    "R3C2"
+                ]
+            }
+        ]
+    }
+}

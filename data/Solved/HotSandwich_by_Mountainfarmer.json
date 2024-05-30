@@ -1,0 +1,185 @@
+{
+    "puzzleInfo": {
+        "title": "Hot Sandwich",
+        "authors": [
+            "Mountainfarmer"
+        ],
+        "ruleset": "Normal sudoku rules apply, and identical digits cannot be a knight's move apart. The grey region contains no repeated digits. The cage contains no repeated digits, and shows its sum. Along a thermometer, digits increase from the bulb end. A number outside the grid indicates the sum of digits sandwiched between the 1 and the 9 in that row/column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RfGfTfHHJq",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=1V5J7NGQqyE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4",
+                    "R3C4",
+                    "R4C4",
+                    "R4C3",
+                    "R4C2",
+                    "R4C1"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R6C8",
+                    "R6C9",
+                    "R7C6",
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "42"
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R4C5",
+                    "R5C1",
+                    "R5C2",
+                    "R5C3",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "8"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "12"
+            },
+            {
+                "cell": "R0C8",
+                "direction": "S",
+                "value": "7"
+            },
+            {
+                "cell": "R4C0",
+                "direction": "E",
+                "value": "21"
+            }
+        ]
+    }
+}

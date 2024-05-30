@@ -1,0 +1,324 @@
+{
+    "puzzleInfo": {
+        "title": "Mean World Syndrome",
+        "authors": [
+            "Miky"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.\n\n**Average Arrow:** The digits along an arrow must average to the number in the connecting circle.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/493Jt84qfp",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=gvi2UEgEjDE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C9",
+                    "R8C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R9C3"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            }
+        ],
+        "Average Arrow": [
+            {
+                "cells": [
+                    "R1C4"
+                ],
+                "lines": [
+                    [
+                        "R1C4",
+                        "R1C3",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C7"
+                ],
+                "lines": [
+                    [
+                        "R1C7",
+                        "R1C6",
+                        "R1C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8"
+                ],
+                "lines": [
+                    [
+                        "R1C8",
+                        "R2C7",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C9"
+                ],
+                "lines": [
+                    [
+                        "R3C9",
+                        "R2C9",
+                        "R1C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C9"
+                ],
+                "lines": [
+                    [
+                        "R6C9",
+                        "R5C9",
+                        "R4C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C7"
+                ],
+                "lines": [
+                    [
+                        "R5C7",
+                        "R5C8",
+                        "R6C8"
+                    ],
+                    [
+                        "R5C7",
+                        "R4C6",
+                        "R4C5"
+                    ],
+                    [
+                        "R5C7",
+                        "R6C6",
+                        "R6C5",
+                        "R6C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1"
+                ],
+                "lines": [
+                    [
+                        "R3C1",
+                        "R4C1",
+                        "R5C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1"
+                ],
+                "lines": [
+                    [
+                        "R6C1",
+                        "R7C1",
+                        "R8C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3"
+                ],
+                "lines": [
+                    [
+                        "R5C3",
+                        "R6C2",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3"
+                ],
+                "lines": [
+                    [
+                        "R8C3",
+                        "R8C4",
+                        "R8C5",
+                        "R7C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C4"
+                ],
+                "lines": [
+                    [
+                        "R9C4",
+                        "R9C5",
+                        "R9C6",
+                        "R9C7",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4"
+                ],
+                "lines": [
+                    [
+                        "R2C4",
+                        "R3C4",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "puzzleInfo": {
+        "title": "Thermofactor",
+        "authors": [
+            "Ecl1psed"
+        ],
+        "ruleset": "Normal sudoku rules apply.\nThermometer: Digits must strictly increase along a thermometer, starting from the bulb.\nFactor dot: For any two digits separated by a yellow dot, one must be divisible by the other.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAJwFsB7AMwEMBjNCkkVGgVzUKYRAFE6sARgAOYGABMWIEmxxi0PAHJMyNLAAIwbcRQDWbdTLnqaw4VgCeAOgA6AOyKlKZGGlLx1AEQgBzTGHUyNjA0TTQSCAZLdQg7OhIYGjETLAo7HxN1TicKFzcSZDCaEgx09SoSXKzidQAjWVrbOwAxekYSdR00D2amEzsLLIB3Ck7ff00YYWKaN3E6wZp1CxgsVKHOijRCtJhA4NDavfEIADcISFqcBeq9reISKykfCMl4AG134ABfZB%2B%2F36gU5qNi4ADMqD8pxgdgQ4VBgMRAORPwAusgvkj%2Ftisbj0ZiUbjCYT8TjiWSKd9SUTKeSqRjaYy8QyaaySSy%2FiBgVhQQgAKyQs4wuEyGBspnUulSnGo9HoB7OVykBBfEBYWIwMAq94gABKYIAwmCpPqDQAmE2GwQmgAsButssBao1Wo%2BOt1fINADYTZ6AOy%2Bg0ADhAjrldAgJAEuFVdFWWFd7rtFtQpotctqSRgBp4AGJmgXmny%2BVIKBx1XZs3mAAy1utSKhpNA5vC5uv11BDCDiTgIatWCEgYi%2BQgKeD9sFOuNrRN6u3G1OG40ZrMtkD5wvF0vljVrtvt6sNpt7g%2BHzvd3vjgeoYc%2BUd9gdT%2BOz002y1G0OoTNiPeFosl1Ay2wXcawPI87GbUD2ykLse0IB9B1ve8r0nTlpwTFU9TND9U2wt8Vx%2FPM%2Fy3QCd0rE8wNQRsIIo6DzzghCbxgEcxwnJ8Z0w3U7TfRcDXwr9VyIzcAJAICKyrVtT3AyDJMokBYMvCcmJYhD2Iwj45xwzT%2BJAb8JPXYiRLEkDZLokBqJk9cpPoxTryHZi71Yx80OfTjDREriDRLAj9I3AsSNEsjfOs8zjygjt5IveCUOUxzVJcjiNNNANeJ9Hzf2E7dgPI8La2k2iIoU6KlPslSULUl87R9VLP10wTW0MrLxIKvKqLC0zCqixjSri8qEvU91sOqrCDQDdKhP8oygpas9Qpo3LZqK7qkKc1DQHQyrRvfMaBMIhrMtI7LgrkiyZpgrqYp65C2P6zaUs0tLdt8xrDuahb8vemzirslb4vW1ykrtENeJDcb9smpqTKsk72uhsylsu36%2Bv%2BxL3U9YaPS2sGDIOwKjrOtr5o61rIoYxGHOu5yUYGvV0cDbynoyiHXqh%2FczNOz7SdsxCKdWirOM9Dy7QZuq9px5m8be4nZo56XzrJkqkZu6mX0FwMdL0pn%2F0hnK5cJyy2c6hWft5v6QA2gWvJNL0rexvztZZ3W4Yi2XnZJhHFdN5HzYB90bYxm2dtF57ceMp3DZJ12I8Wi7PbK5WfdRvU%2FS21NA9qzWJodyXWZCqOQo9k346pxOad1G3geT4MM%2Fq8Xs7D472dh6P5e52LKbW0uXxTjGU6DzPwfr6bOfzuTC554vO4tpKg29E1Z%2F72v7YChuCbmg2C9joveoT6f3R76257tl6c%2FDvPm8342J53ku96rjybZFge65X4e9fXtfx%2Fbvnbs4m2eKrhrJeJ9V4jwvmPLe18O78xnlpXUs8gFi2XlNfGYCiZuxjlfb%2BZs766hTguQBNckEgLfhgj678v5XR%2FirP%2BcD8FEJDhLUB79R7w0gdg72uCbYpirumRmWdX6oJYeAthWCqE4N9nqG2BDy58QYVrQRUsyH60%2Fuw8RnDJGYxkZ6RBjCh5COUR%2FTmlClaPlRN8IAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=DcY2Nc8yX5c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 3,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Edge Factor": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R2C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R6C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C3",
+                    "R8C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R7C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C4",
+                    "R7C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R7C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R8C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C6",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R2C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C2",
+                    "R3C1",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7",
+                    "R5C8"
+                ]
+            }
+        ]
+    }
+}

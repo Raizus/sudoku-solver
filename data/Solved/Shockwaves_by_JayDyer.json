@@ -1,0 +1,191 @@
+{
+    "puzzleInfo": {
+        "title": "Shockwaves",
+        "authors": [
+            "Jay Dyer"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Doublers:** The grid contains 9 doublers (numbers multiplied by 2), one in each row column and box. Each digit from 1 through 9 is doubled exactly once.\n\nIn each cage, the values of the cells sum to the clue in the top left corner of the cage. Digits may not repeat in a cage (values may repeat after doubling).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/TFFD8LHJTn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=N6wm55h60Ss"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Doublers": true
+    },
+    "local_constraints": {
+        "Doublers Killer Cage": [
+            {
+                "cells": [
+                    "R1C7",
+                    "R1C8"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "31"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R7C6",
+                    "R7C7",
+                    "R8C6"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": "3"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "32"
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R2C6",
+                    "R3C5",
+                    "R3C6"
+                ],
+                "value": "32"
+            }
+        ]
+    }
+}

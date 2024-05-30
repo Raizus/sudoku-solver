@@ -1,0 +1,174 @@
+{
+    "puzzleInfo": {
+        "title": "Xmas-Sums",
+        "authors": [
+            "clover"
+        ],
+        "ruleset": "Normal sudoku rules apply. A value outside the grid gives the sum of the first X digits in that direction, where X is the first digit in that row or column. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/4rjdBRPmdF",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ewNCuu4sHgM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "X-Sum": [
+            {
+                "cell": "R0C2",
+                "direction": "S",
+                "value": "10"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "24"
+            },
+            {
+                "cell": "R0C4",
+                "direction": "S",
+                "value": "11"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "29"
+            },
+            {
+                "cell": "R2C0",
+                "direction": "E",
+                "value": "10"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "38"
+            },
+            {
+                "cell": "R4C10",
+                "direction": "W",
+                "value": "31"
+            },
+            {
+                "cell": "R6C10",
+                "direction": "W",
+                "value": "35"
+            },
+            {
+                "cell": "R8C10",
+                "direction": "W",
+                "value": "27"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "8"
+            },
+            {
+                "cell": "R10C8",
+                "direction": "N",
+                "value": "8"
+            }
+        ]
+    }
+}

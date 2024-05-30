@@ -1,0 +1,298 @@
+{
+    "puzzleInfo": {
+        "title": "The Mods Are Asleep",
+        "authors": [
+            "SSG"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow must sum to the digit in that arrow's circle. Each purple line must contain a non-repeating set of consecutive digits (in any order).",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7tF7DBtJn2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=8mn-G1G0fqA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R2C3",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R1C4",
+                    "R1C5",
+                    "R2C5",
+                    "R3C5",
+                    "R4C4",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C2",
+                    "R5C1",
+                    "R4C1",
+                    "R4C2",
+                    "R4C3",
+                    "R3C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R2C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R3C9",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C7",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C7",
+                    "R9C7",
+                    "R9C8",
+                    "R8C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C8",
+                    "R6C7",
+                    "R7C6",
+                    "R8C6",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1",
+                    "R9C1",
+                    "R9C2",
+                    "R8C2"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C3"
+                ],
+                "lines": [
+                    [
+                        "R1C3",
+                        "R1C2",
+                        "R2C1",
+                        "R3C1"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C6"
+                ],
+                "lines": [
+                    [
+                        "R2C6",
+                        "R3C6",
+                        "R4C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C6"
+                ],
+                "lines": [
+                    [
+                        "R6C6",
+                        "R5C5",
+                        "R4C5"
+                    ],
+                    [
+                        "R6C6",
+                        "R5C5",
+                        "R6C5",
+                        "R6C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C8"
+                ],
+                "lines": [
+                    [
+                        "R7C8",
+                        "R6C9",
+                        "R5C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2"
+                ],
+                "lines": [
+                    [
+                        "R7C2",
+                        "R6C3",
+                        "R5C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C4"
+                ],
+                "lines": [
+                    [
+                        "R9C4",
+                        "R9C3",
+                        "R9C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

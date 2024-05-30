@@ -1,0 +1,622 @@
+{
+    "puzzleInfo": {
+        "title": "A Mathematical Phenomenon",
+        "authors": [
+            "Xenonetix"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**X-Sum:** A clue outside the grid gives the sum of the first X digits from that direction, where X is the first of those digits.\n\n**Ratio:** Cells separated by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Numbers separated by a white circle are consecutive. Cells separated by a white circle with a number X must have a difference of X.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBGRAaEAXC6A2d4gEEACAWQEN0ALGAWwogGMzsiAFagOwHsaZuOQaMgFcqXAE4IQADT5cOMTAA9BIccNxhFUgLREAchLosAysIAmXANbCi6zUTIAHJ9gCeAOgA6HH3oCqHFbcAO4cRNI6ZjRgRAzYwjCxYMLi4lzCHOZEVDBEAObiEObevhx6kdGx8YmxEFmMFHm5RCk0RFwAZjnURJ0Q4mDoEa0wfETmEPlYdeG5A3ZJTjAMmABueekhHeJxXAk0HChEIdTiedJEELEt%2FYPDWuOT0%2BilfkQA6pRYeZbosZ1mCx6kQAEaKEJjcIMeRaBiiCAbCJRYQxOIJJJvcpEABC2DIDCsEy4%2Fz6QKu4XB6Eh40qqOqGNiFEcREQ8AATHZ6FwPKpCsUEABtQWgc7TeQIACcaAYUgAxAAGJXK1QMAhpMhuIUgRXKpUgAC6AF8UKKYOKBPBpSBZfhdXrVerxJrtfaVcbTWpzRAJVaZfKAGJBgM4hWOjVa%2BCCnXBkNhj1mi1S%2F122Oh8POyPRuVp%2BMmxM%2By3W20x4PpmVOl1R0tB9MJr1Jv02wNlsMViOu3OG%2FMNwvJ5t2vX69uZ11DvOesV9pslnOtjNV7Nd%2BtT33Flu1ts2ytZmtx7uT71rlM68cL3du%2FUro9Fk%2BXrdqjvV%2B%2Fdg0oEW948D09D89j3%2FXo2CpoGszCJAgiA9qulrASAoEYggAAsUE3ggsHweB8AAOw9hheAAMy4WBeDskRCFWihjbsiBxEIAAbJR07UXBtHwAArIxvrMXhCAABycbe34viOi4%2Fg6xpvh%2B0H9rOXYiRey4CWhNHkZKSnwOhrGkYeQEqZhHE6dOqAseR%2FGGb6xk8fADHmZalmsZBnpWchTmsThrnkYRtkyfKZ7yf%2B4lGpJBZfrJ87%2Bc%2BineRpel4GZIUwbFCBeQlykmZhNmpUgSXsep9nke5WX5ZhLlZdxWnqeVqmVTljlZeug6%2FhF2ZnhJ771Xecnbk%2BS7zoB074TlpWfpag3pXghUjclOXaaAVlqR5%2BlkZh8VTexOUpWtbG1ep23jfR6kNWJKrNcdV5Be1a1HXOm5%2FpFfXqWNVmZWtT2sQZWVveRdVrYhQ3qX9%2B3wJt0nwIDVmzUDC1zaxq1WZNoPXV1j6jvdt1tVJqEzhu%2B6nTd%2B79b6X2YSDWPE3g0OvTlq2g%2BDbkAzt0V0%2BRL2g3tVkfVtM27f90VI%2BF3Wo716MXZjjb87deNRVldHc9FstAzTWMK1Zm3PctFMawgCNY7xjNZXrQPDaDhsc4dd5%2BYLokvhjHVCcjO6dg98s5ZzoMqw56ke%2BRxtY1hctZf7ivqUHqta9h4cvfN5tCZbKPW61ougGFktWwpzsyzlOuNt7GVezllOg6HnvRcXPsh676mm7DVcbbXQOQ7OceO8%2BifBVdFtNWnAXujHKe493aME33OPloPwvD3zncOnjidT7HXfxxec92%2F3Y9L07Ivz2vD4txPdYj41M%2Fj2dE6r75i976fB7n0fJ0nzbh%2FX7PAFBW%2BICTJ0nQwOcHAMHgH5%2F7YGwGAbUAAlfCABhRAqgwGIWgTfG0MBgGgOrGAuiCC0BgLYgg%2BsQCQHgIwTArBWFcE9nwag6MYDkCQPZLAmh%2BFEEUPATQui9DECQKwkw5BBC0EcMlPQyBvFXxoGdJgLgQpk48MoSAahkDGFYI4YhbhKCWGQLYoI5ReDpFqLYYo9RKjeFUNIcgWBRCYHaNUWgnBxDZHwIseQnRaDeKYNkSYwxMiwEuNsWAyUZDPTMLQX4nxiAFRkPfmAfYCJfSCmAnElA8TEkJOSfE1Af1%2FaDWotKWW209bxOlNRXJKBZZpJQBklJKA9aDRyWUlAf0skoFQPE9JKAGlFMGqgWW8SamlMySgaUet%2FbxMGgM2pnSUDbWon9eJ1EqnFP6WMupEyKnbVKbMlAg1%2Fay2lPErZCzSntNaRUpJJzjnGiAA%3D%3D&setting-conflictchecker=0",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y9CafAeTzpE"
+    },
+    "nRows": 11,
+    "nCols": 11,
+    "valid_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "grid": [
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Ratio": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C11",
+                    "R7C11"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R10C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C1"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R11C2",
+                    "R11C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R11C6",
+                    "R11C7"
+                ],
+                "value": ""
+            }
+        ],
+        "X-Sum": [
+            {
+                "cell": "R1C9",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C8",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C6",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C5",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C4",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C3",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R3C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R4C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R5C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R6C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R7C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R8C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R9C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R10C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R11C2",
+                "direction": "N",
+                "value": ""
+            },
+            {
+                "cell": "R11C3",
+                "direction": "N",
+                "value": ""
+            },
+            {
+                "cell": "R11C6",
+                "direction": "N",
+                "value": ""
+            },
+            {
+                "cell": "R11C7",
+                "direction": "N",
+                "value": ""
+            },
+            {
+                "cell": "R7C11",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R6C11",
+                "direction": "W",
+                "value": ""
+            }
+        ]
+    }
+}

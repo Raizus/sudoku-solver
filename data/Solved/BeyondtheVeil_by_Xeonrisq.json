@@ -1,0 +1,324 @@
+{
+    "puzzleInfo": {
+        "title": "Beyond the Veil",
+        "authors": [
+            "Xeonrisq"
+        ],
+        "ruleset": "Each row, column, region and marked diagonal must contain the digits 1-9. Numbers along an arrow must sum to the number shown in the circled cells. Cells with grey circles must contain odd numbers. Cells with grey squares must contain even numbers. A black dot joins digits with a ratio of 1:2. A white dot joins consecutive digits. Not all dots are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/G8q3Dbj2rt",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=B_vWnWInu5c"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {}
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 7
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true,
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R4C7"
+            },
+            {
+                "cell": "R6C3"
+            },
+            {
+                "cell": "R7C4"
+            }
+        ],
+        "Even": [
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R6C7"
+            },
+            {
+                "cell": "R7C6"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R9C5"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R2C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R6C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R2C1",
+                        "R1C1",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R1C8",
+                        "R1C9",
+                        "R2C9"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C8"
+                ],
+                "lines": [
+                    [
+                        "R8C8",
+                        "R8C9",
+                        "R9C9",
+                        "R9C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R9C2",
+                        "R9C1",
+                        "R8C1"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

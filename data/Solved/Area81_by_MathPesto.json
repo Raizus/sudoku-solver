@@ -1,0 +1,400 @@
+{
+    "puzzleInfo": {
+        "title": "Area 81",
+        "authors": [
+            "Math Pesto"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Count Cell Edges Belonging To Edge Loop:** A digit in a white square indicates the number of that cell's edges that are part of the loop.\n\n**Count Seen Cells Inside Edge Loop:** A digit in a white circle is inside the loop and indicates the number of cells inside the loop \u201cseen\u201d horizontally and vertically, including the circled cell itself. Cells outside the loop obstruct vision.\n\n**Cell Inside Edge Loop:** Green Cells are inside the loop.\n\n**Cell Outside Edge Loop:** Grey cells are outside the loop.\n\n**Ratio:** Diagonally adjacent cells joined by a black dot have a 1:2 ratio or a 1:X ratio if the circle has value X.\n\n**Difference:** Diagonally adjacent cells joined by a white circle are consecutive.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7TLdN2MJRh",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=mnnBocnCwsY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Cell Inside Edge Loop": [
+            {
+                "cell": "R5C9"
+            }
+        ],
+        "Cell Outside Edge Loop": [
+            {
+                "cell": "R8C3"
+            },
+            {
+                "cell": "R9C1"
+            }
+        ],
+        "Count Cell Edges Belonging To Edge Loop": [
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R2C9"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R9C3"
+            }
+        ],
+        "Count Seen Cells Inside Edge Loop": [
+            {
+                "cell": "R2C2"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R3C8"
+            },
+            {
+                "cell": "R3C5"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R9C6"
+            },
+            {
+                "cell": "R9C9"
+            },
+            {
+                "cell": "R6C1"
+            }
+        ],
+        "Ratio": [
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C8",
+                    "R5C7"
+                ],
+                "value": ""
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C1"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R4C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R3C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R8C1"
+                ],
+                "value": ""
+            }
+        ],
+        "Edge Loop Passes Straight On Corner And Turns After At Least Once": [
+            {
+                "cells": [
+                    "R2C1",
+                    "R2C2",
+                    "R3C1",
+                    "R3C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3",
+                    "R3C2",
+                    "R3C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R3C3",
+                    "R4C2",
+                    "R4C3"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5",
+                    "R3C4",
+                    "R3C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R2C8",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R5C4",
+                    "R5C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R7C2",
+                    "R8C1",
+                    "R8C2"
+                ],
+                "value": ""
+            }
+        ],
+        "Edge Loop Turns On Corner And Does Not Turn After": [
+            {
+                "cells": [
+                    "R3C5",
+                    "R3C6",
+                    "R4C5",
+                    "R4C6"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

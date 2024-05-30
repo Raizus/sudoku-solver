@@ -1,0 +1,269 @@
+{
+    "puzzleInfo": {
+        "title": "Christmas Tree",
+        "authors": [
+            "Walking Writer"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along the green line alternate between odd and even numbers. Digits along an arrow must sum to the digit in the connecting circle. Digits connected by a white dot must be consecutive. The digit in the larger circle must be in at least one of the four connecting cells. The gray square is an even digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/6pQgD6jgJn",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=q7GwUW1zvhc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Difference": [
+            {
+                "cells": [
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R9C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C4"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R9C7"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": ""
+            }
+        ],
+        "Quadruple": [
+            {
+                "cells": [
+                    "R3C7",
+                    "R3C8",
+                    "R4C7",
+                    "R4C8"
+                ],
+                "value": "3"
+            }
+        ],
+        "Odd Even Oscillator Line": [
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C4",
+                    "R8C3",
+                    "R8C2",
+                    "R8C1",
+                    "R7C2",
+                    "R6C3",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R2C5",
+                    "R3C6",
+                    "R4C7",
+                    "R5C8",
+                    "R5C7",
+                    "R5C6",
+                    "R6C7",
+                    "R7C8",
+                    "R8C9",
+                    "R8C8",
+                    "R8C7",
+                    "R8C6"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C5"
+                ],
+                "lines": [
+                    [
+                        "R1C5",
+                        "R2C4",
+                        "R3C5",
+                        "R2C6"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R3C3"
+                ],
+                "lines": [
+                    [
+                        "R3C3",
+                        "R4C4",
+                        "R4C5",
+                        "R4C6",
+                        "R3C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C7"
+                ],
+                "lines": [
+                    [
+                        "R7C7",
+                        "R8C6",
+                        "R7C5",
+                        "R8C4",
+                        "R7C3"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

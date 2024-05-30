@@ -1,0 +1,235 @@
+{
+    "puzzleInfo": {
+        "title": "Farsight",
+        "authors": [
+            "Sunnyjum"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Odd:** Cells with grey circles must contain odd numbers.\n\n**Farsight:** A digit in a cage sees one or more consecutive digits exactly N cells away from itself in the same row or column, where N = the digit in the caged cell. For example, a caged 4 must see a 3 or 5 exactly 4 cells away from itself.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/G9BrTHrpP4",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=pNr5WAI0698"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Odd": [
+            {
+                "cell": "R3C8"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R8C8"
+            },
+            {
+                "cell": "R7C7"
+            },
+            {
+                "cell": "R7C6"
+            }
+        ],
+        "Farsight": [
+            {
+                "cell": "R2C1"
+            },
+            {
+                "cell": "R1C4"
+            },
+            {
+                "cell": "R2C4"
+            },
+            {
+                "cell": "R3C4"
+            },
+            {
+                "cell": "R1C6"
+            },
+            {
+                "cell": "R2C6"
+            },
+            {
+                "cell": "R3C6"
+            },
+            {
+                "cell": "R2C8"
+            },
+            {
+                "cell": "R1C9"
+            },
+            {
+                "cell": "R4C9"
+            },
+            {
+                "cell": "R4C8"
+            },
+            {
+                "cell": "R5C8"
+            },
+            {
+                "cell": "R4C6"
+            },
+            {
+                "cell": "R5C6"
+            },
+            {
+                "cell": "R6C6"
+            },
+            {
+                "cell": "R5C4"
+            },
+            {
+                "cell": "R4C4"
+            },
+            {
+                "cell": "R4C3"
+            },
+            {
+                "cell": "R5C3"
+            },
+            {
+                "cell": "R4C2"
+            },
+            {
+                "cell": "R4C1"
+            },
+            {
+                "cell": "R5C1"
+            },
+            {
+                "cell": "R7C2"
+            },
+            {
+                "cell": "R7C3"
+            },
+            {
+                "cell": "R7C4"
+            },
+            {
+                "cell": "R8C4"
+            },
+            {
+                "cell": "R9C4"
+            },
+            {
+                "cell": "R9C5"
+            },
+            {
+                "cell": "R8C5"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R8C6"
+            },
+            {
+                "cell": "R7C8"
+            },
+            {
+                "cell": "R7C9"
+            }
+        ]
+    }
+}

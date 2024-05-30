@@ -1,0 +1,217 @@
+{
+    "puzzleInfo": {
+        "title": "Four Lockout Lines",
+        "authors": [
+            "Lizzy01"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end. Digits along an arrow must sum to the digit in that arrow's circle. The clue outside the grid gives the sum of the digits along the indicated diagonal. These digits may repeat if allowed by other rules. The main diagonal marked in blue cannot contain a repeated digit. Digits on the diamond endpoints of a purple line must have a difference of at least 4 and the remaining digits on the line cannot be between or equal to the digits on the endpoints.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/FLqFBMpTJB",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=YXQXQB4gdLc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R2C2",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R8C2",
+                    "R8C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C8",
+                    "R7C7",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C8",
+                    "R3C7",
+                    "R2C8",
+                    "R2C7"
+                ]
+            }
+        ],
+        "Lockout Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C3",
+                    "R1C2",
+                    "R2C1",
+                    "R3C1",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R1C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C9",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C9",
+                    "R7C9",
+                    "R8C9",
+                    "R9C8",
+                    "R9C7",
+                    "R9C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C3",
+                    "R9C2",
+                    "R8C1",
+                    "R7C1",
+                    "R6C1"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R5C5"
+                ],
+                "lines": [
+                    [
+                        "R5C5",
+                        "R5C4",
+                        "R4C5",
+                        "R5C6"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "puzzleInfo": {
+        "title": "5 Years CTC",
+        "authors": [
+            "Jodawo"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a thermometer must increase from the bulb. Neighbouring digits along a green line have a difference of at least 5. Digits on the orange line sum to 26. ",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/RHFM28PFPj",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=foH8zCuQquA"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C2",
+                    "R1C1",
+                    "R2C1",
+                    "R2C2",
+                    "R3C2",
+                    "R3C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C6",
+                    "R5C5",
+                    "R5C4",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C6",
+                    "R5C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8",
+                    "R5C9",
+                    "R5C8",
+                    "R5C7",
+                    "R4C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R7C2",
+                    "R8C1",
+                    "R9C2",
+                    "R9C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R8C5",
+                    "R9C5"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R6C1",
+                    "R5C1",
+                    "R4C2",
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R5C2",
+                    "R5C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C7",
+                    "R2C7",
+                    "R3C7",
+                    "R3C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R2C7"
+                ],
+                "value": "5"
+            }
+        ],
+        "Sum Line": [
+            {
+                "cells": [
+                    "R7C9",
+                    "R7C8",
+                    "R8C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "26"
+            }
+        ],
+        "Cosmetic Cage": [
+            {
+                "cells": [
+                    "R7C9"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

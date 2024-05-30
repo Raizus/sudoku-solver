@@ -1,0 +1,277 @@
+{
+    "puzzleInfo": {
+        "title": "Plaid Lunchbox",
+        "authors": [
+            "Rdndnt"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits cannot repeat in a cage and sum to the clue in the upper left corner. A clue outside the grid indicates the sum of the digits between the 1 and the 9 in that row or column.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/9bTTGgnF3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=ta1_5QM6FZY"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "16"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R1C6"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "18"
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "11"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R4C1",
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "23"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4",
+                    "R5C5",
+                    "R5C6",
+                    "R6C5"
+                ],
+                "value": "24"
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "14"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3"
+                ],
+                "value": "11"
+            }
+        ],
+        "Sandwich Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "12"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "14"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "26"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "9"
+            },
+            {
+                "cell": "R0C9",
+                "direction": "S",
+                "value": "5"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "23"
+            },
+            {
+                "cell": "R3C0",
+                "direction": "E",
+                "value": "21"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "E",
+                "value": "6"
+            },
+            {
+                "cell": "R9C0",
+                "direction": "E",
+                "value": "35"
+            },
+            {
+                "cell": "R7C0",
+                "direction": "E",
+                "value": "0"
+            }
+        ]
+    }
+}

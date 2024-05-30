@@ -1,0 +1,257 @@
+{
+    "puzzleInfo": {
+        "title": "Brittle Snowflakes",
+        "authors": [
+            "Derektionary"
+        ],
+        "ruleset": "Normal sudoku rules apply. Along thermometers, digits must increase from the bulb end. Along blue lines, successive digits must differ by at least 6.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GnhM7ppj24",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=btiuVhfbTtI"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R4C8",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R6C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C3"
+                ]
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1",
+                    "R3C2",
+                    "R4C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C2",
+                    "R2C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R1C7",
+                    "R2C8"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C6",
+                    "R4C5",
+                    "R5C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R3C4",
+                    "R4C5",
+                    "R5C6"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C6",
+                    "R4C5"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R6C1",
+                    "R7C1"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R7C2",
+                    "R7C3",
+                    "R7C4"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C3"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R9C5",
+                    "R8C6",
+                    "R9C7"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R6C8",
+                    "R7C9"
+                ],
+                "value": "6"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R6C8",
+                    "R7C7"
+                ],
+                "value": "6"
+            }
+        ]
+    }
+}

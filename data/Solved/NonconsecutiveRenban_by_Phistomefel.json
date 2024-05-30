@@ -1,0 +1,189 @@
+{
+    "puzzleInfo": {
+        "title": "Nonconsecutive Renban",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Orthogonally adjacent cells cannot contain consecutive digits. Each line contains a set of distinct consecutive digits, which may appear in any order. Note that, in box 2, there are two lines crossing each other.",
+        "ctcUrl": "",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=e871HiKV3q8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C6",
+                    "R2C5",
+                    "R3C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R4C8",
+                    "R5C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4",
+                    "R4C5",
+                    "R4C6",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C4",
+                    "R6C4",
+                    "R6C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R7C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R8C2",
+                    "R8C3",
+                    "R8C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5"
+                ]
+            }
+        ]
+    }
+}

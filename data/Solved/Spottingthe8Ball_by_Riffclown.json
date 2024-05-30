@@ -1,0 +1,236 @@
+{
+    "puzzleInfo": {
+        "title": "Spotting the 8 Ball",
+        "authors": [
+            "Riffclown"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along an arrow sum to the value in the attached circle. Circles without arrows are Neighbor Sum Cells and contain the sum of their orthogonally adjacent cells. White dots separate pairs of consecutive digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/fQGnQbP2MG",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Jm7L-7UeF4w"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Orthogonal Sum": [
+            {
+                "cell": "R1C3"
+            },
+            {
+                "cell": "R1C7"
+            },
+            {
+                "cell": "R5C7"
+            },
+            {
+                "cell": "R6C6"
+            },
+            {
+                "cell": "R7C5"
+            },
+            {
+                "cell": "R6C4"
+            },
+            {
+                "cell": "R5C3"
+            }
+        ],
+        "Difference": [
+            {
+                "cells": [
+                    "R3C8",
+                    "R4C8"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R7C2"
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": ""
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C2"
+                ],
+                "lines": [
+                    [
+                        "R2C2",
+                        "R1C1",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C5"
+                ],
+                "lines": [
+                    [
+                        "R2C5",
+                        "R3C5",
+                        "R4C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R1C9",
+                        "R1C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R7C8",
+                        "R8C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R7C2",
+                        "R6C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

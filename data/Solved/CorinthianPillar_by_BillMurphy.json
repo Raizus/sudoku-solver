@@ -1,0 +1,202 @@
+{
+    "puzzleInfo": {
+        "title": "Corinthian Pillar",
+        "authors": [
+            "Bill Murphy"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Palindrome:** Gray lines are palindromes, reading the same when reversed. eg 12321 or 4554.\n\n**Quadruple:** Numbers in a circle must appear at least once in the four cells touched by the circle.\n\n**Little Killer Sum:** A clue with an arrow outside the grid shows the sum of the numbers along the indicated diagonal.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QGEB7AJwgDs0ALCAQzIAIAFCLLG4kVGgVypIRAAhFlnoBZbsQAOlAJ6cQxbjjAw0AgHIkAtjVEBlbgBNCAa270ASsphh6AQSlSssgHT0AIhADmmO3sIyb3osclt6bW4wNHoAMx16KT1yI2JCbVt3L180O3J6AHdqNBh6AGMIYjKVCKiYmicYdnp8qlL4yXowSTTuMiNyYLAAR252TM8fP3oAoJb%2BiDKaEqN6AZpvQL07SOiu7m16NEIjylLfADcYBmO0PRn%2BiJpZemIYKSa0VwVvUiMEADaAOAAF9kKDwWCIdCobDIQBdZDAuGgMrXErERjXCpYMTsUxgQEARmQACZkABmeEommQhFI6EgNEUGCY7EsPHEAnEsmU6l0mECmmI4FM9GsrFkHGc7nwAEAFmQAFZ%2BYK1bTQSL1UKdTCtRqDUL9brDXqGaaLcbtdbYfDESAkqF%2BmkMoDQE7bICASBLEr8ESFJYAGz%2BwMh0mBv0R1CWeX4CmBin4eWB0n4JWBonpzPJ1O5u1QkAewly72WAAc%2BCDgcQVZr2ZjlYzMYA7HWYyGW5H8OXA3HezG44hu8OC%2FbQmhsDBTCJWd1tG6xawBL78AAGBRo1glstxgMxpPRn1phMxrMp%2B0DN5lDCBAQAVUsCguem4uBAw8LW6wK79RI3qDfjuPohsOrY9oGlZdjGtbVpelQwDeEB3ngHgADLPq%2B74UgGX4wMueCWGu%2FoAUuWDAZYWZgceEEHvg0E%2BnG1Yxn6zYgbm4Gnj6lZHpYtYBvB163mQAjoZhWBvgIFIJiC9qjDQqTcM4uCikBgI%2BueOZsZYaYpjGaYZvaL4SZ6cokuSVJ4du6mWEmXG2RxjHxn2%2BaoMZb47hSyCKiqVnkTZTaQe2Pq1tpsEgEZWE7i2yDlsgiCqmRFEhsx7EMZYbapRl9ERW5UWAkqyBBsgLbUtSQA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=TiV5b-sCQH8"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Quadruple": [
+            {
+                "cells": [
+                    "R1C4",
+                    "R1C5",
+                    "R2C4",
+                    "R2C5"
+                ],
+                "value": "1,2,3"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C3",
+                    "R4C4"
+                ],
+                "value": "3,4,5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R6C7",
+                    "R7C6",
+                    "R7C7"
+                ],
+                "value": "5,6,7"
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R8C6",
+                    "R9C5",
+                    "R9C6"
+                ],
+                "value": "7,8,9"
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R6C2",
+                    "R5C2",
+                    "R4C3",
+                    "R3C4",
+                    "R2C5",
+                    "R1C5",
+                    "R1C4",
+                    "R2C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6",
+                    "R9C5",
+                    "R8C5",
+                    "R7C6",
+                    "R6C7",
+                    "R5C8",
+                    "R4C8",
+                    "R4C9",
+                    "R5C9"
+                ]
+            }
+        ],
+        "Little Killer Sum": [
+            {
+                "cell": "R0C10",
+                "direction": "SW",
+                "value": "33"
+            },
+            {
+                "cell": "R5C10",
+                "direction": "SW",
+                "value": "31"
+            },
+            {
+                "cell": "R5C0",
+                "direction": "NE",
+                "value": "9"
+            }
+        ]
+    }
+}

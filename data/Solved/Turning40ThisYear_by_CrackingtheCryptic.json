@@ -1,0 +1,193 @@
+{
+    "puzzleInfo": {
+        "title": "Turning 40 This Year",
+        "authors": [
+            "Cracking the Cryptic"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**German Whispers:** Adjacent numbers along a green line must have a difference of at least 5.\n\n**X-Sum:** A clue outside the grid gives the sum of the first X digits from that direction, where X is the first of those digits.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/QNrbfMdbNb",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=Y_BqmfMRF_k"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C2",
+                    "R3C2",
+                    "R4C2",
+                    "R4C3",
+                    "R5C3",
+                    "R5C4",
+                    "R6C4",
+                    "R6C5",
+                    "R7C5",
+                    "R8C5",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "5"
+            }
+        ],
+        "X-Sum": [
+            {
+                "cell": "R0C1",
+                "direction": "S",
+                "value": "40"
+            },
+            {
+                "cell": "R0C3",
+                "direction": "S",
+                "value": "40"
+            },
+            {
+                "cell": "R0C6",
+                "direction": "S",
+                "value": "20"
+            },
+            {
+                "cell": "R0C7",
+                "direction": "S",
+                "value": "22"
+            },
+            {
+                "cell": "R1C0",
+                "direction": "E",
+                "value": "40"
+            },
+            {
+                "cell": "R6C0",
+                "direction": "E",
+                "value": "40"
+            },
+            {
+                "cell": "R10C5",
+                "direction": "N",
+                "value": "40"
+            },
+            {
+                "cell": "R10C9",
+                "direction": "N",
+                "value": "40"
+            },
+            {
+                "cell": "R9C10",
+                "direction": "W",
+                "value": "40"
+            },
+            {
+                "cell": "R7C10",
+                "direction": "W",
+                "value": "40"
+            }
+        ]
+    }
+}

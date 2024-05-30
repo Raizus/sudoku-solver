@@ -1,0 +1,186 @@
+{
+    "puzzleInfo": {
+        "title": "March 19, 2023: Deficit Sudoku",
+        "authors": [
+            "clover!"
+        ],
+        "ruleset": "Place a number from 1-7 in each empty cell in the grid such that each row and column contains each number exactly once, and each 6-cell region contains each number at most once.",
+        "ctcUrl": "",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=t7hYdmUfG1U"
+    },
+    "nRows": 7,
+    "nCols": 7,
+    "grid": [
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 0,
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2,
+                "value": 7,
+                "given": true
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 0,
+                "value": 5,
+                "given": true
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1,
+                "value": 7,
+                "given": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3,
+                "value": 4,
+                "given": true
+            }
+        ],
+        [
+            {
+                "region": 4,
+                "value": 1,
+                "given": true
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 5,
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            }
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {},
+            {
+                "region": 6,
+                "value": 6,
+                "given": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7,
+                "value": 1,
+                "given": true
+            },
+            {
+                "region": 7
+            }
+        ],
+        [
+            {
+                "region": 8
+            },
+            {
+                "region": 8,
+                "value": 3,
+                "given": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7,
+                "value": 2,
+                "given": true
+            },
+            {
+                "region": 7
+            }
+        ],
+        [
+            {
+                "region": 8
+            },
+            {
+                "region": 8,
+                "value": 1,
+                "given": true
+            },
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {}
+}

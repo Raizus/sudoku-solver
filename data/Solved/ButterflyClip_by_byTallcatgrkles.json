@@ -1,0 +1,544 @@
+{
+    "puzzleInfo": {
+        "title": "Butterfly Clip",
+        "authors": [
+            " by Tallcat",
+            "grkles"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Region Sum Line:** Numbers on a blue line have an equal sum N within each box the line passes through. If a line passes through the same box more than once, each individual segment of such a line within that box sums to N separately.\n\n**X-Index:** Clues outside the grid indicates the digit which has to be placed in the Xth cell in the corresponding direction, where X is the 1st digit in their row/column seen from the side of the clue.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/48dj4tMNbQ",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=-lWvjDPIl3A"
+    },
+    "nRows": 11,
+    "nCols": 11,
+    "valid_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "grid": [
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ],
+        [
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            },
+            {
+                "region": null,
+                "outside": true
+            }
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C2",
+                    "R10C2",
+                    "R10C1",
+                    "R9C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R10C5",
+                    "R11C6",
+                    "R10C7",
+                    "R9C7",
+                    "R8C7",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R11C10",
+                    "R10C10",
+                    "R9C10",
+                    "R8C10",
+                    "R7C11"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R1C10"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R4C10",
+                    "R5C10",
+                    "R6C10",
+                    "R6C11",
+                    "R5C11"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R3C6",
+                    "R2C6",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R5C4",
+                    "R5C3",
+                    "R5C2",
+                    "R6C1",
+                    "R7C2",
+                    "R7C3"
+                ]
+            }
+        ],
+        "X-Index": [
+            {
+                "cell": "R6C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R8C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R9C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R10C1",
+                "direction": "E",
+                "value": ""
+            },
+            {
+                "cell": "R11C6",
+                "direction": "N",
+                "value": ""
+            },
+            {
+                "cell": "R1C6",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R1C10",
+                "direction": "S",
+                "value": ""
+            },
+            {
+                "cell": "R5C11",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R6C11",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R7C11",
+                "direction": "W",
+                "value": ""
+            },
+            {
+                "cell": "R11C10",
+                "direction": "N",
+                "value": ""
+            }
+        ]
+    }
+}

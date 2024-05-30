@@ -1,0 +1,235 @@
+{
+    "puzzleInfo": {
+        "title": "Dutch Diamond",
+        "authors": [
+            "Bonehead"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Positive Diagonal:** Numbers must not repeat on the positive diagonal.\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**Killer Cage:** Numbers must not repeat in a killer cage. The numbers in the cage must sum to the given total in the top left (if one exists).\n\n**Dutch Whispers:** Adjacent numbers along a orange line must have a difference of at least 4.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/7HdFPr9MG7",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=h1oapo4zIBc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Positive Diagonal": true
+    },
+    "local_constraints": {
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C4",
+                    "R5C3",
+                    "R6C4",
+                    "R7C5",
+                    "R6C6",
+                    "R5C7",
+                    "R4C6"
+                ],
+                "value": "4"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R4C6"
+                ],
+                "value": "4"
+            }
+        ],
+        "Renban Line": [
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C2",
+                    "R6C2",
+                    "R7C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C5",
+                    "R8C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9",
+                    "R4C8",
+                    "R4C7"
+                ]
+            }
+        ],
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R4C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C3",
+                    "R3C4",
+                    "R4C4"
+                ],
+                "value": "19"
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C5",
+                    "R6C5"
+                ],
+                "value": "9"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C7",
+                    "R5C8"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C8",
+                    "R8C9"
+                ],
+                "value": "8"
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C3"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R3C7"
+                ],
+                "value": "13"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9"
+                ],
+                "value": "12"
+            }
+        ]
+    }
+}

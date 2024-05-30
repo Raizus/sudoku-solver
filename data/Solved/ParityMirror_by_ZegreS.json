@@ -1,0 +1,241 @@
+{
+    "puzzleInfo": {
+        "title": "Parity Mirror",
+        "authors": [
+            "ZegreS"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Negative Diagonal:** Numbers must not repeat on the negative diagonal.\n\n**Odd/Even Parity Mirror Along Negative Diagonal:** Odd/Even parity is reflected across the purple negative diagonal\n\n**Renban Line:** Number along a purple line form a set of non-repeating consecutive digits (which can be in any order).\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/gTQ3fMq6nM",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=s-LYqmY_Hrs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Negative Diagonal": true,
+        "Odd/Even Parity Mirror Along Negative Diagonal": true
+    },
+    "local_constraints": {
+        "Renban Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C2",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R1C8",
+                    "R2C9",
+                    "R3C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C7",
+                    "R8C8",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R2C4"
+                ],
+                "lines": [
+                    [
+                        "R2C4",
+                        "R2C5",
+                        "R1C5"
+                    ],
+                    [
+                        "R2C4",
+                        "R2C3",
+                        "R2C2",
+                        "R1C2"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R8C2"
+                ],
+                "lines": [
+                    [
+                        "R8C2",
+                        "R7C2",
+                        "R6C2"
+                    ],
+                    [
+                        "R8C2",
+                        "R8C3",
+                        "R8C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C8"
+                ],
+                "lines": [
+                    [
+                        "R6C8",
+                        "R7C8",
+                        "R8C8",
+                        "R8C9"
+                    ],
+                    [
+                        "R6C8",
+                        "R5C8",
+                        "R4C8"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R7C3"
+                ],
+                "lines": [
+                    [
+                        "R7C3",
+                        "R6C4",
+                        "R5C5"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R2C8"
+                ],
+                "lines": [
+                    [
+                        "R2C8",
+                        "R3C7",
+                        "R4C6",
+                        "R5C5"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

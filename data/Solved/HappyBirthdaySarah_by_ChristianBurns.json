@@ -1,0 +1,215 @@
+{
+    "puzzleInfo": {
+        "title": "Happy Birthday Sarah!",
+        "authors": [
+            "Christian Burns"
+        ],
+        "ruleset": "Normal Sudoku rules apply. Number increase along thermometers starting at the bulb.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QAkBDAB2IE8ACAIQgCc0ALAE0MoGVDbCGBCEVQgFdGAe1oIQAYQa0IYDIQB21QbUVh%2BIWoJxgYaCQDkxAW0JYKbQUxEBrQRW26KJYljIA6CocEmARjC0FBCKAMa0MIR6LlgiigDmFIyBJiIm%2BoFgFPKcGAkuaEkMMBR%2BOn4emvGyTAgA2nXAAL7Iza0toABu5oK4KCDxEJ0wigho2jAdU%2B2tIN1YvQgATKiDw6Pw470dcz24AGyrQyNjE00AusiN0223N7sLuACMR%2Bun2zPNl9efIKESAGIAGJAgAiAAYISAdv88MCwZDwdDfvNFvAXgNjhstjBULCQPCIVCYYCQUSkTcLldbn9SQjibN8YTEcjQEyySySXCOQy2XTyazadz6RTGfzOe1vjT2SLBTKBVyCTzRXzhQqxWqJaqlbLFczeVSftLxbyhTr1dr9SqzVa5SaVVMpZSNeatTblXbNQbPoa7j6XbbnV09gh%2BmsTpszpLqQ80StMW9Ix9g48EIcExGcUGg7HcABWV6ZqNfS7oYq0VLpNCBeqgLAhGAaeANEAAJQAzJIACyaDuSdu9ruSJaD%2FujnuoVt5seT6cj87nHb1xSN%2Bp1Nud%2FajrezyQ7tvTgDsvenAA5R8fJ0Pz5PO8eF0uG02W63T5I873D3ve%2FtJPfF7My6rs266tl%2BH6Tr%2BW4PoBT5rge74%2Ft2IAwXWcEgW2Q4QQhPaoSAQHPqBv7YWByGQWOeEEfBraIJITy9rRI6TrRA6UehL5PJIN5tpxiC9kskh8Q%2Bi5AA%3D%3D%3D",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=M1vpIl65hu0"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 1,
+                "given": true
+            },
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R3C4",
+                    "R3C3",
+                    "R4C2",
+                    "R4C3",
+                    "R4C4",
+                    "R5C3",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C5",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C6",
+                    "R4C6",
+                    "R5C6",
+                    "R5C7",
+                    "R5C8",
+                    "R4C7",
+                    "R4C8",
+                    "R3C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C4",
+                    "R6C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C5",
+                    "R7C6",
+                    "R6C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R9C2",
+                    "R9C3"
+                ]
+            }
+        ]
+    }
+}

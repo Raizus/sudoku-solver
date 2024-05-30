@@ -1,0 +1,324 @@
+{
+    "puzzleInfo": {
+        "title": "Desert Mirage Double Vision",
+        "authors": [
+            "TheKingofApples"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a grey thermometer must increase from the bulb end. Orange lines are palindromes, reading the same when reversed. eg 12321 or 4554. (All thermometers have palindromes above them and all Palindromes have thermometers under them.)",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/g9mprpmd3g",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=wIAkfaSRZqE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C2",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C4",
+                    "R5C3",
+                    "R6C2",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R2C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C6",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R7C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C7",
+                    "R4C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R7C5",
+                    "R8C4",
+                    "R9C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R8C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C8",
+                    "R8C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R7C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C5"
+                ]
+            }
+        ],
+        "Palindrome": [
+            {
+                "cells": [
+                    "R3C2",
+                    "R2C3",
+                    "R1C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R4C2",
+                    "R3C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C1",
+                    "R6C2",
+                    "R5C3",
+                    "R4C4",
+                    "R3C5",
+                    "R2C6",
+                    "R1C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C5",
+                    "R4C6",
+                    "R3C7",
+                    "R2C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C3",
+                    "R8C4",
+                    "R7C5",
+                    "R6C6",
+                    "R5C7",
+                    "R4C8",
+                    "R3C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R7C8",
+                    "R6C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C4",
+                    "R6C5",
+                    "R5C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C2",
+                    "R7C3",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C6",
+                    "R7C7"
+                ]
+            }
+        ]
+    }
+}

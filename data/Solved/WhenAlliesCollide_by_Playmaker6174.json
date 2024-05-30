@@ -1,0 +1,238 @@
+{
+    "puzzleInfo": {
+        "title": "When Allies Collide",
+        "authors": [
+            "Playmaker6174"
+        ],
+        "ruleset": "Normal Sudoku rules apply.\n\nDigits along an arrow must sum to the digit in the circle cell attached to that arrow, digits can repeat if allowed by other rules.\n\nFor each blue line in the grid, digits on the line have an equal sum N within each box it passes through.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QHUALGAOwAIBBLLCGMMgYQHtqIATOVAQwFc1CmAJwQgACli4BPALZcA1jEEA2AIwB2ACwhUgnjjAw0IgHJDZWMgGUebJnJ5ld%2BslwAOrrJIB0AHRJ%2BAEQgAc0x6LiwmEmCXci5BQSYAdzJpHjA0MjAeaTI0JjziMjYQzDIIcn4YMgBjCEEanFqYahc0NC4a4jY8gv4uTPjEpORi0rR6Gq5yQRhXGAHygDMXamSYHoAjSTImKsFHPTpffxIAMSEyBa6yTaweapoSaorC6uDBdlGS0IndyqKT2qhC4ADdqtMrgBHHgRLI5MjGMhJTCEV7XQi3JgAD3KmVcXDABno%2FESPGChC82hAH3YCAA2vTQKFwSRRKQ6lgALLxORgBAkPRYAC%2ByGZEFZ7JInJ5gj5AqFovFko5EG5vP58EF1CVNIlpClMo1Cp1Yr1Kulatl8q1irNLINqvVcs12pF9v1bKd1tdduVjstzptbt1Dq9gZ9JpFAF1kEzzQGjS6o6HPYarcbbab%2FeGk8G%2FQncxnk1n3Tn00HfdnCxXI6XUxa81WyzXvZmQx7G8X8zrY%2FGw7X2wWB22Sx3y6Oey2RxGh9WZ02U53E93mw2V5WlxPZ2Ph2nJ2u%2B9vF%2FXl0XN6fj6ut62d1P1%2Be6%2BPbyfnwvr5eXx%2B3%2Fu74e41eF4%2Fl2QF7iBT5gRuEHzr%2Br6QY%2Bc7TrB37wYOu4weBiHCkeX6gRhUFYWeaH3kRB43u%2BeFIZh6FUQRNEPsRa6kX%2BKY4RR0G0Qh9HMXB%2BFcSRgEcQxZGfuxhGCeJuFCWxyGUcJLGibJQk8ShfGMeRSmSWJ3ESTpUlYTJ1ECfpenacZZlMbp5maaZNnWUZlkmfe0axiAQzJAyoBApqjIgAASioDAAEzUgFDAAMyhYFWioH5QURSALmoDULRYD5%2FmBSF0a6t5DL0v5GgMAArKF4UMDF%2FnxVofYFcVpUMEooXxY1SUgCl1DpX5hUldlZq5fAvlhQAHFFDBqKNjWxfF42te1aUMhlDAjb1XkVHQeX%2BUoDAqKFRXBbtCWxYVkWzalnVbTtK0gP1g2IPtsV3ZFD3lYlrlzZ1d1ZdhqBAp511rT5%2BV%2BVtIWxVtT3%2BWoL2xUN0P%2BXd1WuUwfBAgwIgAMQAAyYxQFBnGc1Iomw%2FAIJjXjhTlAMbcDS2hVt42xVDk3%2BbDLVIyja1o3gWM43jBOoETJPwGTFN9VTA1A3dI3PQz8MNaFd0lTDdWM3VrXI9gnMY9juP44T7BCyLlPPID%2Fl7TtYPbaFUOg5DCXqxzzxcyAPO6%2FzICC4QpPk8b60S7ViAHYHlvB3bod%2BbDgcO5rTva7zesCwbXvCz7rklGAXB3BskShDUC01FEaCCFwJQ1BgUT8q5RcPFMJAlGwAx0EwrjlyQPnZUAA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=7fCXSRXKFgE"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Region Sum Line": [
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1",
+                    "R7C2",
+                    "R7C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R6C3",
+                    "R7C4",
+                    "R8C4",
+                    "R9C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C5",
+                    "R8C5",
+                    "R9C5",
+                    "R9C6",
+                    "R9C7",
+                    "R9C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R7C6",
+                    "R6C7",
+                    "R6C8"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9",
+                    "R6C9",
+                    "R7C9",
+                    "R8C9"
+                ]
+            }
+        ],
+        "Arrow": [
+            {
+                "cells": [
+                    "R1C2"
+                ],
+                "lines": [
+                    [
+                        "R1C2",
+                        "R1C3",
+                        "R1C4",
+                        "R2C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R1C8"
+                ],
+                "lines": [
+                    [
+                        "R1C8",
+                        "R1C7",
+                        "R1C6",
+                        "R2C7"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R4C5"
+                ],
+                "lines": [
+                    [
+                        "R4C5",
+                        "R3C6",
+                        "R2C6"
+                    ],
+                    [
+                        "R4C5",
+                        "R3C4",
+                        "R2C4"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R6C1"
+                ],
+                "lines": [
+                    [
+                        "R6C1",
+                        "R5C2",
+                        "R5C3",
+                        "R4C3"
+                    ]
+                ],
+                "value": ""
+            },
+            {
+                "cells": [
+                    "R9C2"
+                ],
+                "lines": [
+                    [
+                        "R9C2",
+                        "R9C3",
+                        "R9C4"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

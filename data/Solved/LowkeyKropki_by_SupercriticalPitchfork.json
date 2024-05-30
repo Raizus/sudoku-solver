@@ -1,0 +1,143 @@
+{
+    "puzzleInfo": {
+        "title": "Low-key Kropki",
+        "authors": [
+            "Supercritical Pitchfork"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**All Ratios Given:** All ratios are given.\n\n**All Differences Given:** All differences are given.\n\n**Maximum:** A number in a gray cell pointing outwards must be greater than all of the orthogonally adjacent cells.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/f3m6QN7Gj2",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=GGS764OA5jM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {
+                "value": 2,
+                "given": true
+            },
+            {},
+            {
+                "value": 5,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 4,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "All Ratios Given": true,
+        "All Differences Given": true
+    },
+    "local_constraints": {
+        "Maximum": [
+            {
+                "cell": "R1C9"
+            }
+        ]
+    }
+}

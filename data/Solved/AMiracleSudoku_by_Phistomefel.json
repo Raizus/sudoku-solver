@@ -1,0 +1,224 @@
+{
+    "puzzleInfo": {
+        "title": "A Miracle Sudoku",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "In every row, column and every bold-bordered area, each digit from 1 to 9 occurs exactly once. The digits in two orthogonally adjacent cells may not be consecutive, nor may they be in a ratio of 2:1.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/tqq9HTQB9M",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=vDmrvWpPPOc"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {}
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {
+                "region": 6
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 7,
+                "value": 4,
+                "given": true
+            },
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {
+                "region": 7
+            },
+            {
+                "region": 7
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {
+                "region": 2
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {},
+            {},
+            {
+                "region": 7
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "value": 7,
+                "given": true
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {
+                "region": 8
+            },
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true,
+        "Nonratio": true
+    },
+    "local_constraints": {}
+}

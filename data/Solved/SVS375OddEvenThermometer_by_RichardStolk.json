@@ -1,0 +1,330 @@
+{
+    "puzzleInfo": {
+        "title": "SVS 375: Odd-Even Thermometer",
+        "authors": [
+            "Richard Stolk"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a thermometer increase from the bulb to the end. Digits in a thermometer are either all even, or all odd.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MhJfjH7nLr",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=bM2cjAxj86Y"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R1C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R1C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C6",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R4C3",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C6",
+                    "R4C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C6",
+                    "R7C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ]
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C3",
+                    "R9C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C1",
+                    "R7C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C6"
+                ]
+            }
+        ],
+        "Unimodular Line": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R2C7",
+                    "R1C6"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R2C8",
+                    "R1C9"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R3C9",
+                    "R4C9"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C6",
+                    "R4C5"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R3C1",
+                    "R4C2",
+                    "R4C3",
+                    "R5C4"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R6C5",
+                    "R5C5"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C6",
+                    "R4C7"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R8C7",
+                    "R8C6",
+                    "R7C6"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R8C4",
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R9C1",
+                    "R8C1",
+                    "R7C1"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R6C2",
+                    "R5C2"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C3"
+                ],
+                "value": "2"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C6"
+                ],
+                "value": "2"
+            }
+        ]
+    }
+}

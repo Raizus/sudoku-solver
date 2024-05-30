@@ -1,0 +1,227 @@
+{
+  "puzzleInfo": {
+    "title": "S(even)",
+    "authors": ["Nordy"],
+    "ruleset": "1 to 9 must appear in each row, column, and 9-cell region. The grey square indicates an even digit. Any two orthogonally adjacent digits must have a difference of two or less.",
+    "ctcUrl": "https://app.crackingthecryptic.com/sudoku/MhrLmh7MQG",
+    "ctcYoutubeUrl": "https://www.youtube.com/watch?v=y-m_h0hmHJw"
+  },
+  "nRows": 9,
+  "nCols": 9,
+  "grid": [
+    [
+      {},
+      {},
+      {},
+      {
+        "region": 0
+      },
+      {
+        "region": 0
+      },
+      {
+        "region": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    [
+      {
+        "region": 4
+      },
+      {
+        "region": 4
+      },
+      {
+        "region": 1,
+        "value": 7,
+        "given": true
+      },
+      {},
+      {},
+      {
+        "region": 0
+      },
+      {
+        "region": 0
+      },
+      {
+        "region": 0
+      },
+      {}
+    ],
+    [
+      {
+        "region": 3
+      },
+      {
+        "region": 4
+      },
+      {
+        "region": 4
+      },
+      {
+        "region": 4
+      },
+      {},
+      {},
+      {
+        "region": 1
+      },
+      {
+        "region": 1
+      },
+      {}
+    ],
+    [
+      {},
+      {
+        "region": 5
+      },
+      {
+        "region": 5
+      },
+      {},
+      {},
+      {},
+      {
+        "region": 4
+      },
+      {
+        "region": 1
+      },
+      {
+        "region": 2
+      }
+    ],
+    [
+      {},
+      {
+        "region": 6
+      },
+      {
+        "region": 5
+      },
+      {
+        "region": 5
+      },
+      {
+        "region": 5
+      },
+      {
+        "region": 5
+      },
+      {},
+      {
+        "region": 1
+      },
+      {
+        "region": 2
+      }
+    ],
+    [
+      {},
+      {
+        "region": 6
+      },
+      {
+        "region": 8
+      },
+      {
+        "region": 8
+      },
+      {
+        "region": 8
+      },
+      {
+        "region": 8
+      },
+      {},
+      {},
+      {
+        "region": 2
+      }
+    ],
+    [
+      {
+        "region": 3
+      },
+      {},
+      {},
+      {
+        "region": 6
+      },
+      {
+        "region": 6
+      },
+      {
+        "region": 8
+      },
+      {},
+      {},
+      {
+        "region": 2
+      }
+    ],
+    [
+      {
+        "region": 3
+      },
+      {
+        "region": 7
+      },
+      {
+        "region": 7
+      },
+      {},
+      {
+        "region": 6
+      },
+      {
+        "region": 6
+      },
+      {
+        "region": 6
+      },
+      {},
+      {}
+    ],
+    [
+      {
+        "region": 3
+      },
+      {
+        "region": 3
+      },
+      {
+        "region": 3
+      },
+      {},
+      {},
+      {},
+      {
+        "region": 7
+      },
+      {
+        "region": 7
+      },
+      {
+        "region": 7
+      }
+    ]
+  ],
+  "bool_constraints": {},
+  "local_constraints": {
+    "Even": [
+      {
+        "cell": "R7C5"
+      }
+    ],
+    "Maximum Orthogonally Adjacent Difference": [
+      {
+        "value": "2"
+      }
+    ]
+  }
+}

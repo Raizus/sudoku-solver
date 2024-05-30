@@ -1,0 +1,186 @@
+{
+    "puzzleInfo": {
+        "title": "Dandelion",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits along a thermometer must increase from the bulb end. Cells separated by a knight's move (in chess) cannot contain the same digit.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/GBggt6pP6b",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=JTV9eLpO1Bs"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Thermometer": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R2C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R3C4",
+                    "R2C5",
+                    "R3C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C7",
+                    "R5C6",
+                    "R6C6"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C8",
+                    "R5C7"
+                ]
+            },
+            {
+                "cells": [
+                    "R4C3",
+                    "R4C4",
+                    "R4C5"
+                ]
+            },
+            {
+                "cells": [
+                    "R5C2",
+                    "R5C1"
+                ]
+            },
+            {
+                "cells": [
+                    "R6C3",
+                    "R5C3"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C6",
+                    "R6C5",
+                    "R5C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R7C3",
+                    "R6C4"
+                ]
+            },
+            {
+                "cells": [
+                    "R9C4",
+                    "R8C5",
+                    "R7C5"
+                ]
+            }
+        ]
+    }
+}

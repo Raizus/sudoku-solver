@@ -1,0 +1,158 @@
+{
+    "puzzleInfo": {
+        "title": "I'm A Poor Lonesome Arrow...",
+        "authors": [
+            "Phistomefel"
+        ],
+        "ruleset": "**Normal Sudoku Rules Apply.**\n\n**Nonconsecutive:** Orthogonally adjacent cells must not contain consecutive numbers.\n\n**Arrow:** The digits along an arrow must sum to the number in the connecting pill (read left-to right or downwards) or circle. Digits may repeat on a arrow if allowed by other rules.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/Dt6DbPFq4h",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=hacszh2vhUs"
+    },
+    "nRows": 7,
+    "nCols": 7,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "region": 1
+            },
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 0
+            },
+            {
+                "region": 0
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {},
+            {}
+        ],
+        [
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 5
+            },
+            {
+                "region": 2
+            },
+            {
+                "region": 2
+            },
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 1
+            }
+        ],
+        [
+            {
+                "region": 5
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {
+                "region": 3
+            },
+            {},
+            {},
+            {
+                "region": 1
+            }
+        ],
+        [
+            {},
+            {},
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 4
+            },
+            {
+                "region": 6
+            },
+            {
+                "region": 6
+            }
+        ],
+        [
+            {
+                "region": 5
+            },
+            {
+                "region": 5
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Nonconsecutive": true
+    },
+    "local_constraints": {
+        "Arrow": [
+            {
+                "cells": [
+                    "R3C3"
+                ],
+                "lines": [
+                    [
+                        "R3C3",
+                        "R3C2",
+                        "R2C2"
+                    ]
+                ],
+                "value": ""
+            }
+        ]
+    }
+}

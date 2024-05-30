@@ -1,0 +1,240 @@
+{
+    "puzzleInfo": {
+        "title": " Gossip Circle",
+        "authors": [
+            "Mormagli"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits next to each other along green lines must differ by at least 5. Digits separated by a 'V' must sum to 5. Not all possible Vs are given.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/t378bRqqgR",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=iu2t0z8wH7I"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {},
+    "local_constraints": {
+        "XV": [
+            {
+                "cells": [
+                    "R1C3",
+                    "R1C4"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R3C7",
+                    "R4C7"
+                ],
+                "value": "V"
+            },
+            {
+                "cells": [
+                    "R8C9",
+                    "R9C9"
+                ],
+                "value": "V"
+            }
+        ],
+        "Whispers Line": [
+            {
+                "cells": [
+                    "R2C3",
+                    "R3C3",
+                    "R3C2",
+                    "R2C2"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C2",
+                    "R2C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R2C6",
+                    "R3C6",
+                    "R3C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R3C5",
+                    "R2C5"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R2C9",
+                    "R2C8",
+                    "R3C8",
+                    "R3C9"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C9",
+                    "R5C8",
+                    "R6C8"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C6",
+                    "R5C5",
+                    "R6C5",
+                    "R6C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R6C6",
+                    "R5C6"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R5C2",
+                    "R6C2",
+                    "R6C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R5C3",
+                    "R6C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C2",
+                    "R8C2",
+                    "R8C3",
+                    "R9C3"
+                ],
+                "value": "5"
+            },
+            {
+                "cells": [
+                    "R9C5",
+                    "R8C5",
+                    "R8C6"
+                ],
+                "value": "5"
+            }
+        ]
+    }
+}

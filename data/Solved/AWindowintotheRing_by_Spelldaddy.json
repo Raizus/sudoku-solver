@@ -1,0 +1,201 @@
+{
+    "puzzleInfo": {
+        "title": "A Window into the Ring",
+        "authors": [
+            "Spelldaddy"
+        ],
+        "ruleset": "Normal sudoku rules apply. Digits in cages must sum to the small number in the top left corner of the cage. Additionally, digits that are a knight's move apart (in chess) may not repeat.",
+        "ctcUrl": "https://app.crackingthecryptic.com/sudoku/?puzzleid=fpuzzlesN4IgzglgXgpiBcBOANCALhNAbO8QEEACAdQgDsATAewHdDy0rC0ALGQgJXIHMRUBDAK6sqAJwQgAygAcYWLBX4UKATz4hRgnGBhoJAOTEBbflkJhB1ANaDCm7YX7TpWFQDpCAEQjdMYemSEAMb83DD%2BRoJgaOaCRsxMrOxgJvKEZHEARjCiAcxsCdKEOABmMUFiZDmEVCX57CFhHvjKmBBUZKauyIQUPn75%2FDH8ouz8hFZkPixoAOQRVABuY9IjMQAU5MFsYGAAlIQmKulUMaOyQ27q3KIQFAgA2g%2FAAL7Ir%2B9vH99fv58Aushnn8fp8waDXoDgeCQSCQItTIJcCgQL5lmQEGhNDBYVCIbCYTC8QT8YTIUDSZTcRS4QisEiEAA2VBomAY%2BBYpEk7nEsnc8HwxG4AAcLIg6Mx2JevKpfIBgJA%2FDIGEm0z0HOxqCsEHkOUauGeICCciwYEeIA4AEYAMKW9RW60AJntjttLqdIAVdIZeEdzq%2BRpNZvgDwtwrdqA44edkcQEYtcedXqFEkdiBAAeN8mDoaj1uF9vD6dj%2BftcfTyfpuBAAGYAAwZ96B7Pmh0FyM24sW13t7vWiuob3Vx0AVkboCzptbrrHkZr1rHlZ9IEtY8zQdbABZ%2B%2FaRzul9XLf6m5Ocxa93bI4y3QeJAX1y2QxbrwB2e3Xgu3vCWhsPqdPvNGTLa0gK%2FEA32lF4gA",
+        "ctcYoutubeUrl": "https://www.youtube.com/watch?v=7JPOaaNa5NM"
+    },
+    "nRows": 9,
+    "nCols": 9,
+    "grid": [
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 9,
+                "given": true
+            },
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {
+                "value": 6,
+                "given": true
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "value": 8,
+                "given": true
+            }
+        ],
+        [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    ],
+    "bool_constraints": {
+        "Antiknight": true
+    },
+    "local_constraints": {
+        "Killer Cage": [
+            {
+                "cells": [
+                    "R1C1",
+                    "R1C2",
+                    "R2C1",
+                    "R2C2"
+                ],
+                "value": "22"
+            },
+            {
+                "cells": [
+                    "R1C8",
+                    "R1C9",
+                    "R2C8",
+                    "R2C9"
+                ],
+                "value": "25"
+            },
+            {
+                "cells": [
+                    "R2C5",
+                    "R3C5"
+                ],
+                "value": "15"
+            },
+            {
+                "cells": [
+                    "R4C9",
+                    "R5C9"
+                ],
+                "value": "12"
+            },
+            {
+                "cells": [
+                    "R6C7",
+                    "R6C8"
+                ],
+                "value": "10"
+            },
+            {
+                "cells": [
+                    "R8C8",
+                    "R8C9",
+                    "R9C8",
+                    "R9C9"
+                ],
+                "value": "30"
+            },
+            {
+                "cells": [
+                    "R8C6",
+                    "R9C6"
+                ],
+                "value": "7"
+            },
+            {
+                "cells": [
+                    "R8C1",
+                    "R8C2",
+                    "R9C1",
+                    "R9C2"
+                ],
+                "value": "29"
+            },
+            {
+                "cells": [
+                    "R5C1",
+                    "R6C1"
+                ],
+                "value": "8"
+            }
+        ]
+    }
+}
