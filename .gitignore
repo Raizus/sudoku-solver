@@ -3,4 +3,5 @@ images/
 **/__pycache__/
 stuff.txt
 data/OldFormatBackup/
+data/Notes.txt
 puzzlesolver.egg-info/
