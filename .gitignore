@@ -1,3 +1,6 @@
 Logs/*
 images/
 **/__pycache__/
+stuff.txt
+data/OldFormatBackup/
+puzzlesolver.egg-info/
